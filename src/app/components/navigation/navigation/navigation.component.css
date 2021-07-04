@@ -1,31 +1,30 @@
-nav {
-  max-width: 100%;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-  padding: 5px 0;
-}
-
-nav ul {
+.navigation {
+  width: 100%;
+  margin-top: 15px;
   text-align: center;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  padding: 0;
 }
 
-nav ul li {
-  display: inline-block;
+.navigation-list {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
 }
 
-nav ul li a {
-  padding: 18px;
+.navigation-list-item {
+  /*font-family: 'Noto Serif', serif;*/
+}
+
+.navigation-list-link {
+  padding: 15px;
   color: white;
   font-size: 18px;
   text-decoration: none;
-  display: block;
+  text-transform: uppercase;
 }
 
-nav ul li a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+.navigation-list-link:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: white;
 }

@@ -1,4 +1,11 @@
-/* home and index background*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .background {
   background-position: center center;
   background-repeat: no-repeat;
@@ -8,7 +15,6 @@
   background-image: url('https://res.cloudinary.com/dyhmxus4n/image/upload/v1598801186/Angular%20Project/17074790_101_trqoyh.jpg');
 }
 
-/*main background- obscure*/
 .background:after {
   content: '';
   display: block;
