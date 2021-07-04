@@ -1,12 +1,24 @@
 .home-page-wrapper {
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*width: 90%;*/
+}
+
+.home-card-container {
   display: flex;
-  width: 90%;
+  justify-content: center;
+  width: 95%;
+  margin: 5% auto;
 }
 
 .home-card {
-  width: 280px;
-  height: 400px;
+  width: 300px;
+  height: 380px;
   background-size: 100% 100%;
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .home-card:nth-child(1) {
@@ -14,21 +26,33 @@
 }
 
 .home-card:nth-child(2) {
-  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/pen_ifqhf9.jpg);
+  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625427985/Angular%20Project/sand_clock_lbu3tv.jpg);
 }
 
 .home-card:nth-child(3) {
-  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/bulb_kz6xaw.jpg);
+  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425038/Angular%20Project/album_vziubw.jpg);
 }
 
 .home-card:nth-child(4) {
-  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/clock_sbgnuc.jpg);
-}
-
-.home-card:nth-child(5){
   background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425038/Angular%20Project/jar_rcz5sv.jpg);
 }
 
+.home-card:nth-child(5){
+  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/pen_ifqhf9.jpg);
+}
+
 .home-card:nth-child(6) {
-  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425038/Angular%20Project/album_vziubw.jpg);
+  background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625429327/Angular%20Project/bulb_wmrkjt.jpg);
+}
+
+.home-title-container {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.home-title {
+  color: white;
+  font-style: italic;
+  padding: 10px 0;
 }
