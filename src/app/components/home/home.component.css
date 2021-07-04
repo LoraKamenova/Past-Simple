@@ -1,35 +1,48 @@
 .home-page-wrapper {
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*width: 90%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-title-container {
+  margin-top: 2%;
+}
+
+.home-title, .home-subtitle {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+}
+
+.home-title {
+  font-size: 40px;
 }
 
 .home-card-container {
   display: flex;
   justify-content: center;
   width: 95%;
-  margin: 5% auto;
+  margin: 1% auto;
 }
 
 .home-card {
-  width: 300px;
-  height: 380px;
-  background-size: 100% 100%;
-  margin: 7px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-size: 100% 100%;
+  margin: 7px;
+  width: 300px;
+  height: 380px;
 }
 
-.home-title-container {
+.home-card-title-container {
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   margin-bottom: 10px;
 }
 
-.home-title {
+.home-card-title {
   color: white;
-  font-style: italic;
   padding: 10px 0;
 }
 
@@ -56,5 +69,3 @@
 .home-card:nth-child(6) {
   background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625429327/Angular%20Project/bulb_wmrkjt.jpg);
 }
-
-
