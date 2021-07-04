@@ -21,6 +21,18 @@
   justify-content: flex-end;
 }
 
+.home-title-container {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.home-title {
+  color: white;
+  font-style: italic;
+  padding: 10px 0;
+}
+
 .home-card:nth-child(1) {
   background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/suitcase_tgawms.jpg);
 }
@@ -45,14 +57,4 @@
   background-image: url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625429327/Angular%20Project/bulb_wmrkjt.jpg);
 }
 
-.home-title-container {
-  background: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  margin-bottom: 10px;
-}
 
-.home-title {
-  color: white;
-  font-style: italic;
-  padding: 10px 0;
-}
