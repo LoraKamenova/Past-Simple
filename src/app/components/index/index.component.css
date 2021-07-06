@@ -1,0 +1,34 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 3% auto;
+}
+
+.intro-para-one, .intro-heading, .intro-para-two {
+  text-align: center;
+  color: white;
+}
+
+.intro-para-one {
+  font-size: 22px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+.intro-para-two {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+.intro-heading {
+  font-size: 65px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
