@@ -1,4 +1,4 @@
-.login-wrap {
+.login-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,18 +8,21 @@
 .login-set{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
-  padding: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
 }
 
 .legend {
   font-weight: bold;
-  border-bottom: 3px solid #1161ee;
+  text-decoration: underline solid #1161ee;
+  text-underline-offset: 10px;
   color: lightgrey;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 26px;
+  padding: 0 10px;
 }
 
 .group{
@@ -45,13 +48,15 @@
 .button {
   background: #1161ee;
   padding: 15px;
-  border-radius: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
   color: lightgrey;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
   outline: none;
+  border: none;
 }
 
 .button:hover {
