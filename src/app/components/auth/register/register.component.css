@@ -1,0 +1,61 @@
+.registration-wrap {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin: 2%;
+}
+
+.registration-set{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.legend {
+  font-weight: bold;
+  border-bottom: 3px solid #1161ee;
+  color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.input {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .1);
+  margin-top: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.button {
+  background: #1161ee;
+  padding: 15px;
+  border-radius: 5px;
+  color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+}
+
+.button:hover {
+  background: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
