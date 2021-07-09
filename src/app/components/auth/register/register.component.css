@@ -1,4 +1,4 @@
-.registration-wrap {
+.registration-wrapper {
   display: flex;
   align-items: center;
   vertical-align: center;
@@ -8,9 +8,10 @@
 .registration-set{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   padding: 15px;
+  backdrop-filter: blur(15px);
 }
 
 .legend {
