@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   vertical-align: center;
-  margin: 2%;
+  margin: 3% auto;
 }
 
 .registration-set{
@@ -10,17 +10,19 @@
   flex-direction: column;
   width: 50%;
   margin: 0 auto;
-  padding: 15px;
-  backdrop-filter: blur(15px);
+  padding: 20px;
+  backdrop-filter: blur(10px);
 }
 
 .legend {
   font-weight: bold;
-  border-bottom: 3px solid #1161ee;
+  text-decoration: underline solid #1161ee;
+  text-underline-offset: 10px;
   color: lightgrey;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 26px;
+  padding: 0 10px;
 }
 
 .group{
@@ -35,7 +37,7 @@
 
 .input {
   border: none;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border-radius: 5px;
   background: rgba(255, 255, 255, .1);
   margin-top: 5px;
@@ -45,7 +47,8 @@
 
 .button {
   background: #1161ee;
-  padding: 15px;
+  padding: 10px;
+  margin-top: 10px;
   border-radius: 5px;
   color: lightgrey;
   font-family: 'Open Sans', sans-serif;
@@ -53,6 +56,7 @@
   font-size: 16px;
   font-weight: bold;
   outline: none;
+  border: none;
 }
 
 .button:hover {
