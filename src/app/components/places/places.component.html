@@ -2,21 +2,25 @@
 
   <section class="notebook">
     <h1 class="notebook-heading">Места</h1>
-    <p class="notebook-content">В тази секция ви показваме къде в България са пътували хората по време на почивките си, как са изглеждали заведенията по онова време и като цяло какви са били някогашните забавления.</p>
+    <p class="notebook-content">В тази секция ви разказваме къде в България са пътували хората(най-вече средната класа) по време на почивките си. Също така ви показваме как са изглеждали заведенията по онова време и като цяло какви са били някогашните забавления.</p>
   </section>
 
   <section class="categories">
+
     <a class="category-card" [routerLink]="['/all-travel-categories']">
-      <img class="category-card-image" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625913433/Angular%20Project/travel_hrg5vv.jpg"/>
+      <img class="category-card-image" alt="travel" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922171/Angular%20Project/suitcase2_egwgps.jpg"/>
       <p class="category-card-title">албум Пътуване</p>
     </a>
-    <a class="category-card" [routerLink]="['/all-entertainment-categories']">
-      <img class="category-card-image" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625913433/Angular%20Project/ticket_skfzq3.jpg"/>
-      <p class="category-card-title">албум Развлечения</p>
-    </a>
+
     <a class="category-card" [routerLink]="['/all-venue-categories']">
-      <img class="category-card-image" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625913433/Angular%20Project/food_pxd9nw.jpg"/>
+      <img class="category-card-image" alt="venues" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625913433/Angular%20Project/food_pxd9nw.jpg"/>
       <p class="category-card-title">албум Заведения</p>
     </a>
+
+    <a class="category-card" [routerLink]="['/all-entertainment-categories']">
+      <img class="category-card-image" alt="entertainment" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625913433/Angular%20Project/ticket_skfzq3.jpg"/>
+      <p class="category-card-title">албум Развлечения</p>
+    </a>
+
   </section>
 </div>

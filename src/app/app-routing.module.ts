@@ -11,6 +11,9 @@ import {MyProfileComponent} from "./components/profile/my-profile/my-profile.com
 import {QuizComponent} from "./components/quiz/quiz/quiz.component";
 import {PlacesComponent} from "./components/places/places.component";
 import {AllComparisonsComponent} from "./components/comparison/all-comparisons/all-comparisons.component";
+import {TravelCategoriesComponent} from "./components/travel/travel-categories/travel-categories.component";
+import {EntertainmentCategoriesComponent} from "./components/entertainment/entertainment-categories/entertainment-categories.component";
+import {VenueCategoriesComponent} from "./components/venue/venue-categories/venue-categories.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -24,6 +27,9 @@ const routes: Routes = [
   {path: 'quiz', component: QuizComponent},
   {path: 'places', component: PlacesComponent},
   {path: 'all-comparisons', component: AllComparisonsComponent},
+  {path: 'all-travel-categories', component: TravelCategoriesComponent},
+  {path: 'all-entertainment-categories', component: EntertainmentCategoriesComponent},
+  {path: 'all-venue-categories', component: VenueCategoriesComponent},
 ];
 
 @NgModule({
