@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blog-article {
+  background-image: url("https://p0.pikist.com/photos/418/864/paper-texture-butter-raw-yellow-light-brush-book-blank-thumbnail.jpg");
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.article-heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.article-sub-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.paragraph-one {
+  padding: 30px;
+  text-align: justify;
+  text-indent: 15px;
+}
+
+.image-one {
+  width: 350px;
+  height: 300px;
+  float: left;
+  margin: 30px 20px 10px 30px;
+}
