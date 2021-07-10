@@ -41,7 +41,7 @@
 }
 
 .home-card-title-container {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
   text-align: center;
   margin-bottom: 10px;
 }
@@ -60,7 +60,7 @@
 }
 
 .home-card:nth-child(1):hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/suitcase_tgawms.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/suitcase_tgawms.jpg);
 }
 
 .home-card:nth-child(2) {
@@ -68,7 +68,7 @@
 }
 
 .home-card:nth-child(2):hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625427985/Angular%20Project/sand_clock_lbu3tv.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625427985/Angular%20Project/sand_clock_lbu3tv.jpg);
 }
 
 .home-card:nth-child(3) {
@@ -76,7 +76,7 @@
 }
 
 .home-card:nth-child(3):hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425038/Angular%20Project/album_vziubw.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425038/Angular%20Project/album_vziubw.jpg);
 }
 
 .home-card:nth-child(4) {
@@ -84,7 +84,7 @@
 }
 
 .home-card:nth-child(4):hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425038/Angular%20Project/jar_rcz5sv.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425038/Angular%20Project/jar_rcz5sv.jpg);
 }
 
 .home-card:nth-child(5){
@@ -92,7 +92,7 @@
 }
 
 .home-card:nth-child(5):hover{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/pen_ifqhf9.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625425039/Angular%20Project/pen_ifqhf9.jpg);
 }
 
 .home-card:nth-child(6) {
@@ -100,5 +100,5 @@
 }
 
 .home-card:nth-child(6):hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625429327/Angular%20Project/bulb_wmrkjt.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625429327/Angular%20Project/bulb_wmrkjt.jpg);
 }
