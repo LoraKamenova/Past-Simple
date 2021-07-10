@@ -1,66 +1,27 @@
-<div class="wrapper">
-  <div id="notebook">
-    <div id="notebook-paper">
-      <header>
-        <h1>Заведения</h1>
-      </header>
-      <div id="content">
-        <div class="hipsum"><p>Пренасяме се назад във времето, за да направим тур по най-известните сладкарници, ханчета
-          и ресторанти в страната.
-        </p>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="places-wrapper">
 
-  <div class="album-wrapper">
-    <div class="containerCards">
-      <div class="card">
-        <a href="#">
-          <div class="card-type-2">
-            <div class="img-c">
-              <img class="imgAlbum"
-                   src="https://us.123rf.com/450wm/birinci/birinci1806/birinci180600029/102628932-stock-vector-cake-icon-flat-vector-illustration-in-black-on-white-background-eps-10.jpg?ver=6"
-                   width="800" height="800"/></div>
-            <div class="clear-line"></div>
-            <div>
-              <p class="caption">албум Сладкарници</p>
-            </div>
-          </div>
-        </a>
-      </div>
+  <section class="notebook">
+    <h1 class="notebook-heading">Заведения</h1>
+    <p class="notebook-content">Пренасяме се назад във времето, за да направим тур по най-известните сладкарници, ханчета
+      и ресторанти в страната.</p>
+  </section>
 
-      <div class="card">
-        <a href="#">
-          <div class="card-type-2">
-            <div class="img-c">
-              <img class="imgAlbum"
-                   src="https://images.assetsdelivery.com/compings_v2/yupiramos/yupiramos1703/yupiramos170307534.jpg"
-                   width="400" height="400"/></div>
-            <div class="clear-line"></div>
-            <div>
-              <p class="caption">албум Ханчета</p>
-            </div>
-          </div>
-        </a>
-      </div>
+  <section class="categories">
 
-      <div class="card">
-        <a href="#">
-          <div class="card-type-2">
-            <div class="img-c">
-              <img class="imgAlbum"
-                   src="https://images.cdn1.stockunlimited.net/clipart/dining-table_1529447.jpg"
-                   width="400" height="400"/></div>
-            <div class="clear-line"></div>
-            <div>
-              <p class="caption">албум Ресторанти</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
+    <a class="category-card" [routerLink]="['/album-cafe']">
+      <img class="category-card-image" alt="venues" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625924540/Angular%20Project/cafe_vatydy.jpg"/>
+      <p class="category-card-title">албум Сладкарници</p>
+    </a>
 
-  </div>
+    <a class="category-card" [routerLink]="['/album-pub']">
+      <img class="category-card-image" alt="venues" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625924540/Angular%20Project/wine_u8nvfq.jpg"/>
+      <p class="category-card-title">албум Ханчета</p>
+    </a>
+
+    <a class="category-card" [routerLink]="['/album-restaurant']">
+      <img class="category-card-image" alt="venues" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625924540/Angular%20Project/restaurant_xq0cp5.jpg"/>
+      <p class="category-card-title">албум Ресторанти</p>
+    </a>
+
+  </section>
 </div>
-
