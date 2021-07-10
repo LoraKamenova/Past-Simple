@@ -10,6 +10,8 @@ import { HomeComponent } from "./components/home/home.component";
 import { SloganModule } from "./components/slogan/slogan.module";
 import {BlogModule} from "./components/blog/blog.module";
 import {MemoryModule} from "./components/memory/memory.module";
+import {ProfileModule} from "./components/profile/profile.module";
+import {QuizModule} from "./components/quiz/quiz.module";
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import {MemoryModule} from "./components/memory/memory.module";
     AuthModule,
     SloganModule,
     BlogModule,
-    MemoryModule
+    MemoryModule,
+    ProfileModule,
+    QuizModule
   ],
   providers: [],
   bootstrap: [AppComponent]

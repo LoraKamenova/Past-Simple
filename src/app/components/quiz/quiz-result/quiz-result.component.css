@@ -1,0 +1,68 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+.main-wrapper {
+  background: antiquewhite;
+  max-width: 30%;
+  margin: 5% auto;
+  padding: 5px;
+}
+.middle-wrapper {
+  border: 5px dotted crimson;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 95%;
+  align-items: center;
+  border: 5px solid crimson;
+  color: black;
+  font-size: 22px;
+}
+
+.result {
+  text-decoration: underline;
+}
+
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.nomination {
+  margin-bottom: 30px;
+}
+
+.ribbon-one {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  margin: 15px;
+}
+
+.ribbon-two {
+  color: red;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  margin: 15px;
+}
+
+.ribbon-three {
+  color: goldenrod;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  margin: 15px;
+}
+
+.title-one {
+  padding: 10px;
+}

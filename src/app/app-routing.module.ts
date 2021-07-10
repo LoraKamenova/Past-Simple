@@ -7,6 +7,8 @@ import { LoginComponent } from "./components/auth/login/login.component";
 import { AllSlogansComponent } from "./components/slogan/all-slogans/all-slogans.component";
 import {BlogPostsComponent} from "./components/blog/blog-posts/blog-posts.component";
 import {AllMemoriesComponent} from "./components/memory/all-memories/all-memories.component";
+import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
+import {QuizComponent} from "./components/quiz/quiz/quiz.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: 'all-slogans', component: AllSlogansComponent },
   { path: 'blog-posts', component: BlogPostsComponent },
   { path: 'all-memories', component: AllMemoriesComponent },
+  { path: 'my-profile', component: MyProfileComponent },
+  { path: 'quiz', component: QuizComponent },
 ];
 
 @NgModule({

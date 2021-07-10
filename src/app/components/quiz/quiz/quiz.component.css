@@ -1,0 +1,46 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+.test-wrap {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+}
+
+.test-set {
+  width: 65%;
+}
+
+.radio-button {
+  display: block;
+  margin: 2px;
+}
+
+.question {
+  padding: 10px;
+}
+
+.quiz-button-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-button {
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  outline: none;
+  background: green;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+
+.quiz-button:hover {
+  cursor: pointer;
+  background: forestgreen;
+}

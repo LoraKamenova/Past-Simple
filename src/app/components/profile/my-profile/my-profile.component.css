@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.profile-container {
+  display: flex;
+  width: 90%;
+  margin: 2% auto;
+  color: white;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.main-heading {
+  color: white;
+  text-align: left;
+  font-size: 45px;
+  margin: 0 10px 30px 10px;
+  text-decoration: underline;
+}
+
+.info-item {
+  margin: 10px;
+  font-size: 22px;
+}
+
+.user-memories {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 20px;
+}
+
+.memory-container {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Poor Story', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.polaroid {
+  margin: 20px;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+#first-polaroid {
+  background: antiquewhite;
+}
+
+.polaroid-content-image {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.polaroid-content-image > img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.polaroid-para {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.polaroid-content-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-memory {
+  width: 200px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #55158d;
+  color: white;
+  outline: none;
+  font-weight: bold;
+  margin: 80px 0;
+  border: none;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.91);
+}
+
+.create-memory:hover {
+  cursor: pointer;
+  background: rebeccapurple;
+}
