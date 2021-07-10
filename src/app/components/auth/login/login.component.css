@@ -8,7 +8,7 @@
 .login-set{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   padding: 20px;
   backdrop-filter: blur(10px);

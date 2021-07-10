@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.memory-heading {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.polaroid-para {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container-polaroid {
+  width: 90%;
+  box-sizing: border-box;
+  font-family: 'Poor Story', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.polaroid {
+  margin: 20px;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-content-image {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.polaroid-content-image > img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.polaroid-content-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

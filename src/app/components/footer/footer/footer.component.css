@@ -2,7 +2,7 @@ footer {
   text-align: center;
   color: white;
   font-style: oblique;
-  position:fixed;
+  margin-top:auto;
   bottom:5px;
   width: 100%;
 }
