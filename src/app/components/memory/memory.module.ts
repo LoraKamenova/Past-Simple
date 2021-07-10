@@ -2,13 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AllMemoriesComponent } from './all-memories/all-memories.component';
 import { AddMemoryComponent } from './add-memory/add-memory.component';
+import {RouterModule} from "@angular/router";
+import { MemoryComponent } from './memory/memory.component';
 
 
 
 @NgModule({
-  declarations: [AllMemoriesComponent, AddMemoryComponent],
-  imports: [
-    CommonModule
-  ]
+  declarations: [AllMemoriesComponent, AddMemoryComponent, MemoryComponent],
+    imports: [
+        CommonModule,
+        RouterModule
+    ]
 })
 export class MemoryModule { }

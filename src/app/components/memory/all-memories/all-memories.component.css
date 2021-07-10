@@ -1,59 +1,60 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.memory-heading {
-  color: white;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 40px;
-}
-
-.polaroid-para {
-  padding: 0;
-  margin: 0;
-  color: black;
-  font-size: 18px;
-  text-align: center;
-}
-
-.container-polaroid {
-  width: 90%;
-  box-sizing: border-box;
-  font-family: 'Poor Story', cursive;
+.all-memories-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  width: 90%;
+  margin: 2% auto;
+}
+
+.all-memories-heading {
+  text-align: center;
+  color: white;
+}
+
+.memory-cards-container {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
 }
 
-.polaroid {
-  margin: 20px;
-  width: 400px;
-  height: 450px;
+.memory-card {
+  width: 320px;
+  height: 400px;
   background-color: white;
-  padding: 1rem;
-  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px 20px 40px 20px;
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.73);
 }
 
-.polaroid-content-image {
-  height: 350px;
-  width: 100%;
-  overflow: hidden;
+.memory-card-image {
+  width: 280px;
+  height: 260px;
+  margin: 0 auto;
 }
 
-.polaroid-content-image > img {
-  height: 100%;
-  width: 100%;
-  display: block;
-  object-fit: cover;
+.memory-card-subtitle {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 14px;
 }
 
-.polaroid-content-caption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.memory-card-title {
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+.memory-cards-container > a:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+.memory-cards-container > a:nth-child(odd) {
+  transform: rotate(-1deg);
+}
+
+.memory-cards-container > a {
+  text-decoration: none;
+  color: black;
 }

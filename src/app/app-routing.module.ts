@@ -14,6 +14,8 @@ import {AllComparisonsComponent} from "./components/comparison/all-comparisons/a
 import {TravelCategoriesComponent} from "./components/travel/travel-categories/travel-categories.component";
 import {EntertainmentCategoriesComponent} from "./components/entertainment/entertainment-categories/entertainment-categories.component";
 import {VenueCategoriesComponent} from "./components/venue/venue-categories/venue-categories.component";
+import {MemoryModule} from "./components/memory/memory.module";
+import {MemoryComponent} from "./components/memory/memory/memory.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -23,6 +25,7 @@ const routes: Routes = [
   {path: 'all-slogans', component: AllSlogansComponent},
   {path: 'blog-posts', component: BlogPostsComponent},
   {path: 'all-memories', component: AllMemoriesComponent},
+  {path: 'memory', component: MemoryComponent},
   {path: 'my-profile', component: MyProfileComponent},
   {path: 'quiz', component: QuizComponent},
   {path: 'places', component: PlacesComponent},
