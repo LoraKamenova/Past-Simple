@@ -1,0 +1,69 @@
+.my-memories-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 2% auto;
+  align-items: center;
+}
+
+.my-memories-heading {
+  text-align: center;
+  color: white;
+}
+
+.memory-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.memory-card {
+  width: 320px;
+  height: 400px;
+  background-color: white;
+  margin: 10px;
+  padding: 20px 20px 40px 20px;
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.73);
+  text-decoration: none;
+  color: black;
+}
+
+.memory-card-image {
+  width: 280px;
+  height: 260px;
+  margin: 0 auto;
+}
+
+.memory-card-subtitle {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.memory-card-title {
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+}
+
+.add-memory-button {
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  outline: none;
+  border: none;
+  background-color: #006B3C;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.add-memory-button:hover {
+ cursor: pointer;
+  background-color: #00B565;
+}

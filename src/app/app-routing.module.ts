@@ -17,6 +17,8 @@ import {VenueCategoriesComponent} from "./components/venue/venue-categories/venu
 import {MemoryModule} from "./components/memory/memory.module";
 import {MemoryComponent} from "./components/memory/memory/memory.component";
 import {PostComponent} from "./components/blog/post/post.component";
+import {MyMemoriesComponent} from "./components/profile/my-memories/my-memories.component";
+import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -29,7 +31,9 @@ const routes: Routes = [
   {path: 'all-memories', component: AllMemoriesComponent},
   {path: 'memory', component: MemoryComponent},
   {path: 'my-profile', component: MyProfileComponent},
+  {path: 'my-memories', component: MyMemoriesComponent},
   {path: 'quiz', component: QuizComponent},
+  {path: 'quiz-result', component: QuizResultComponent},
   {path: 'places', component: PlacesComponent},
   {path: 'all-comparisons', component: AllComparisonsComponent},
   {path: 'all-travel-categories', component: TravelCategoriesComponent},

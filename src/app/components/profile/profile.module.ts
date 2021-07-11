@@ -5,12 +5,11 @@ import { MyMemoriesComponent } from './my-memories/my-memories.component';
 import {RouterModule} from "@angular/router";
 
 
-
 @NgModule({
   declarations: [MyProfileComponent, MyMemoriesComponent],
-    imports: [
-        CommonModule,
-        RouterModule
-    ]
+  imports: [
+    CommonModule,
+    RouterModule
+  ]
 })
 export class ProfileModule { }
