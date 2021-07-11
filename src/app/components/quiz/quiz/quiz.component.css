@@ -21,7 +21,7 @@
   flex-direction: column;
   width: 65%;
   font-family: 'Philosopher', sans-serif;
-  padding: 20px 40px;
+  padding: 20px 20px 0px 40px;
   background-color: snow;
   overflow: scroll;
 }
@@ -63,6 +63,10 @@
   margin: 5px 0;
 }
 
+.radio-button > label:hover {
+  cursor: pointer;
+}
+
 .quiz-button-holder {
   display: flex;
   justify-content: flex-end;
@@ -81,7 +85,7 @@
 
 .quiz-button:hover {
   cursor: pointer;
-  background-color: #006B3C;
+  background-color: #00B565;
 }
 
 ::-webkit-scrollbar{
@@ -96,7 +100,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  cursor: pointer;
+  background-color: #00B565;
 }
 
 ::-webkit-scrollbar-track{
