@@ -17,6 +17,7 @@ import {EntertainmentModule} from "./components/entertainment/entertainment.modu
 import {TravelModule} from "./components/travel/travel.module";
 import {VenueModule} from "./components/venue/venue.module";
 import {PlacesComponent} from "./components/places/places.component";
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {PlacesComponent} from "./components/places/places.component";
     NavigationComponent,
     FooterComponent,
     HomeComponent,
-    PlacesComponent
+    PlacesComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

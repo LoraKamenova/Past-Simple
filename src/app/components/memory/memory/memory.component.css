@@ -35,16 +35,19 @@
   display: flex;
   flex-grow: 1;
   text-align: justify;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .memory-legend {
   font-size: 14px;
   font-style: italic;
   text-align: right;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .memory-sub-heading {
   font-size: 16px;
   font-style: italic;
   text-align: center;
+  font-family: 'Philosopher', sans-serif;
 }

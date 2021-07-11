@@ -19,6 +19,7 @@ import {MemoryComponent} from "./components/memory/memory/memory.component";
 import {PostComponent} from "./components/blog/post/post.component";
 import {MyMemoriesComponent} from "./components/profile/my-memories/my-memories.component";
 import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
+import {AboutComponent} from "./components/about/about.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -39,6 +40,7 @@ const routes: Routes = [
   {path: 'all-travel-categories', component: TravelCategoriesComponent},
   {path: 'all-entertainment-categories', component: EntertainmentCategoriesComponent},
   {path: 'all-venue-categories', component: VenueCategoriesComponent},
+  {path: 'about', component: AboutComponent},
 ];
 
 @NgModule({

@@ -9,6 +9,7 @@
 .all-memories-heading {
   text-align: center;
   color: white;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .memory-cards-container {
@@ -35,6 +36,7 @@
 
 .memory-card-subtitle {
   font-style: italic;
+  font-family: 'Philosopher', sans-serif;
   text-align: center;
   margin-bottom: 5px;
   font-size: 14px;

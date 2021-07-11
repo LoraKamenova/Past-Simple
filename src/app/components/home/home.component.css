@@ -8,10 +8,11 @@
   margin-top: 2%;
 }
 
-.home-title, .home-subtitle {
+.home-title {
   text-align: center;
   color: white;
-  font-style: oblique;
+  /*font-style: oblique;*/
+  font-family: 'Philosopher', sans-serif;
 }
 
 .home-title {
@@ -44,6 +45,7 @@
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
   margin-bottom: 10px;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .home-card:hover .home-card-title-container {
