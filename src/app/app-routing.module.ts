@@ -16,6 +16,7 @@ import {EntertainmentCategoriesComponent} from "./components/entertainment/enter
 import {VenueCategoriesComponent} from "./components/venue/venue-categories/venue-categories.component";
 import {MemoryModule} from "./components/memory/memory.module";
 import {MemoryComponent} from "./components/memory/memory/memory.component";
+import {PostComponent} from "./components/blog/post/post.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'all-slogans', component: AllSlogansComponent},
   {path: 'blog-posts', component: BlogPostsComponent},
+  {path: 'post', component: PostComponent},
   {path: 'all-memories', component: AllMemoriesComponent},
   {path: 'memory', component: MemoryComponent},
   {path: 'my-profile', component: MyProfileComponent},
