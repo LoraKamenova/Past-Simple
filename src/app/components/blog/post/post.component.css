@@ -1,7 +1,7 @@
 .post-wrapper {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 80%;
   margin: 2% auto;
   justify-content: center;
 }
@@ -47,7 +47,7 @@
 
 .post-heading-delimiter {
   width: 100px;
-  border: 2px solid black;
+  border: 2px solid darkslategray;
 }
 
 .post-sub-heading {
