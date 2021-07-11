@@ -1,107 +1,74 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.profile-container {
+.profile-wrapper {
   display: flex;
-  width: 90%;
-  margin: 2% auto;
-  color: white;
+  margin: 3% auto;
+  justify-content: center;
 }
 
-.user-info {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+.profile-card {
+  width: 350px;
+  height: 450px;
+  background-color: #FAFAD2;
+  margin: 5px;
+  justify-content: center;
+  font-family: 'Bad Script', cursive;
 }
 
-.main-heading {
-  color: white;
-  text-align: left;
-  font-size: 45px;
-  margin: 0 10px 30px 10px;
-  text-decoration: underline;
-}
-
-.info-item {
-  margin: 10px;
-  font-size: 22px;
-}
-
-.user-memories {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  margin: 20px;
-}
-
-.memory-container {
-  width: 100%;
-  box-sizing: border-box;
-  font-family: 'Poor Story', cursive;
+.profile-picture-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-heading {
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  font-size: 35px;
+}
+
+.profile-item-wrapper {
+  border-bottom: 1px solid black;
+  padding: 15px 20px 0 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-item.blue-ink {
+  color: #1A009C;
+}
+
+.my-album-card {
+  width: 350px;
+  height: 450px;
+  background-color: #FAFAD2;
+  margin: 5px;
+  padding: 20px 20px 40px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.my-album-card-image {
+  width: 310px;
+  height: 320px;
   margin: 0 auto;
 }
 
-.polaroid {
-  margin: 20px;
-  width: 400px;
-  height: 450px;
-  background-color: white;
-  padding: 1rem;
-  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
-}
-
-#first-polaroid {
-  background: antiquewhite;
-}
-
-.polaroid-content-image {
-  height: 350px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.polaroid-content-image > img {
-  height: 100%;
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
-
-.polaroid-para {
-  padding: 0;
-  margin: 0;
-  color: black;
-  font-size: 18px;
+.my-album-card-subtitle {
+  font-family: 'Bad Script', cursive;
+  font-style: italic;
   text-align: center;
-}
-
-.polaroid-content-caption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.create-memory {
-  width: 200px;
-  padding: 15px;
-  border-radius: 5px;
-  background: #55158d;
-  color: white;
-  outline: none;
+  font-size: 18px;
   font-weight: bold;
-  margin: 80px 0;
-  border: none;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.91);
 }
 
-.create-memory:hover {
-  cursor: pointer;
-  background: rebeccapurple;
+.my-album-card-title {
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  font-size: 25px;
 }
