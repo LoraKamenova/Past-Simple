@@ -16,43 +16,43 @@
   position: fixed;
 }
 
-.quiz-container {
+.questions-container {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
   font-family: 'Philosopher', sans-serif;
-  padding: 20px;
+  padding: 20px 40px;
   background-color: snow;
-  overflow: auto;
+  overflow: scroll;
 }
 
-.quiz-questions-title {
+.quiz-title {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.quiz-question {
+.question-wrapper {
   display: flex;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin-bottom: 5px;
 }
 
-.quiz-question-container {
+.question {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 20px;
 }
 
-.quiz-question-title {
+.question-title {
   font-family: 'Pattaya', sans-serif;
   font-size: 30px;
   margin-bottom: 5px;
 }
 
-.quiz-question-options {
+.question-options {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -63,50 +63,44 @@
   margin: 5px 0;
 }
 
+.quiz-button-holder {
+  display: flex;
+  justify-content: flex-end;
+}
 
-/*@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");*/
+.quiz-button {
+  padding: 10px 30px;
+  background-color: #008A4D;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+}
 
-/*.test-wrap {*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  width: 90%;*/
-/*  margin: 0 auto;*/
-/*  color: white;*/
-/*  font-size: 20px;*/
-/*}*/
+.quiz-button:hover {
+  cursor: pointer;
+  background-color: #006B3C;
+}
 
-/*.test-set {*/
-/*  width: 65%;*/
-/*}*/
+::-webkit-scrollbar{
+  width: 20px;
+  height: 13px;
+}
+::-webkit-scrollbar-thumb{
+  background: #008A4D;
+  border-right: 5px white solid;
+  border-left: 5px white solid;
+  background-clip: padding-box;
+}
 
-/*.radio-button {*/
-/*  display: block;*/
-/*  margin: 2px;*/
-/*}*/
+::-webkit-scrollbar-thumb:hover{
+  cursor: pointer;
+}
 
-/*.question {*/
-/*  padding: 10px;*/
-/*}*/
-
-/*.quiz-button-holder {*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*}*/
-
-/*.quiz-button {*/
-/*  width: 200px;*/
-/*  color: white;*/
-/*  font-size: 20px;*/
-/*  border-radius: 5px;*/
-/*  padding: 20px;*/
-/*  outline: none;*/
-/*  background: green;*/
-/*  font-weight: bold;*/
-/*  text-transform: uppercase;*/
-/*  border: none;*/
-/*}*/
-
-/*.quiz-button:hover {*/
-/*  cursor: pointer;*/
-/*  background: forestgreen;*/
-/*}*/
+::-webkit-scrollbar-track{
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
