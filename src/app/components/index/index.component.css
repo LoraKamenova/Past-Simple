@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 60%;
   margin: 5% auto;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .index-subtitle, .index-heading, .index-paragraph {

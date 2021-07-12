@@ -1,14 +1,12 @@
 @import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
 
-/*nav, almost all*/
+/*main fonts + nav*/
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
-/*notebook, quiz questions heading*/
+/*notebook heading, quiz questions heading*/
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-/*album-heading*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,300&display=swap');
 /*slogans*/
 @import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
-/*memories*/
+/*memory cards heading*/
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 * {
