@@ -39,11 +39,13 @@
   text-align: center;
   text-transform: uppercase;
   margin: 10px 0;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .post-heading-delimiter {
   width: 100px;
   border: 2px solid darkslategray;
+
 }
 
 .post-sub-heading {
@@ -51,6 +53,7 @@
   text-align: center;
   font-weight: bold;
   font-style: italic;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .post-image-wrapper:nth-child(2) {
@@ -65,4 +68,7 @@
 .post-text {
   padding: 0 30px;
   font-size: 16px;
+  font-family: 'Philosopher', sans-serif;
+  line-height: 1.2;
+  text-align: center;
 }

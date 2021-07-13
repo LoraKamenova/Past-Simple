@@ -68,3 +68,11 @@
  cursor: pointer;
   background-color: #00B565;
 }
+
+.memory-cards-container > a:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+.memory-cards-container > a:nth-child(odd) {
+  transform: rotate(-1deg);
+}

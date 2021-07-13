@@ -13,6 +13,7 @@
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   margin-bottom: 10px;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .blog-posts-container {
@@ -53,16 +54,19 @@
 .blog-card-heading {
   margin-bottom: 10px;
   text-align: center;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .blog-card-short-text {
   font-size: 16px;
   text-align: center;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .blog-card-continue-reading {
   font-weight: bold;
   margin: 15px 0;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .blog-card-date-wrapper {

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BlogPostsComponent } from './blog-posts/blog-posts.component';
+import { BlogPostsComponent } from './all-posts/blog-posts.component';
 import { AddPostComponent } from './add-post/add-post.component';
 import { DeletePostComponent } from './delete-post/delete-post.component';
 import { EditPostComponent } from './edit-post/edit-post.component';

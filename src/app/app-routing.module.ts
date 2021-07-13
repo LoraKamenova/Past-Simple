@@ -5,7 +5,7 @@ import {IndexComponent} from "./components/index/index.component";
 import {RegisterComponent} from "./components/auth/register/register.component";
 import {LoginComponent} from "./components/auth/login/login.component";
 import {AllSlogansComponent} from "./components/slogan/all-slogans/all-slogans.component";
-import {BlogPostsComponent} from "./components/blog/blog-posts/blog-posts.component";
+import {BlogPostsComponent} from "./components/blog/all-posts/blog-posts.component";
 import {AllMemoriesComponent} from "./components/memory/all-memories/all-memories.component";
 import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
 import {QuizComponent} from "./components/quiz/quiz/quiz.component";
@@ -17,7 +17,7 @@ import {VenueCategoriesComponent} from "./components/venue/venue-categories/venu
 import {MemoryModule} from "./components/memory/memory.module";
 import {MemoryComponent} from "./components/memory/memory/memory.component";
 import {PostComponent} from "./components/blog/post/post.component";
-import {MyMemoriesComponent} from "./components/profile/my-memories/my-memories.component";
+import {MyMemoriesComponent} from "./components/memory/my-memories/my-memories.component";
 import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
 import {AboutComponent} from "./components/about/about.component";
 
@@ -27,7 +27,7 @@ const routes: Routes = [
   {path: 'register', component: RegisterComponent},
   {path: 'login', component: LoginComponent},
   {path: 'all-slogans', component: AllSlogansComponent},
-  {path: 'blog-posts', component: BlogPostsComponent},
+  {path: 'all-posts', component: BlogPostsComponent},
   {path: 'post', component: PostComponent},
   {path: 'all-memories', component: AllMemoriesComponent},
   {path: 'memory', component: MemoryComponent},
