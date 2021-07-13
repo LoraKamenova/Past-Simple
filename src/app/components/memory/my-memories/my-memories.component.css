@@ -7,10 +7,15 @@
   align-items: center;
 }
 
+.my-memories-header {
+  margin: 10px 0 20px 0;
+}
+
 .my-memories-heading {
   text-align: center;
   color: white;
   font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
 }
 
 .memory-cards-container {
@@ -52,16 +57,18 @@
 }
 
 .add-memory-button {
-  padding: 10px;
-  border-radius: 5px;
-  width: 50%;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 5px 15px;
   outline: none;
   border: none;
+  font-size: 30px;
+  font-weight: bold;
   background-color: #006B3C;
   color: white;
   font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .add-memory-button:hover {
