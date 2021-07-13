@@ -58,7 +58,7 @@
   margin-left: 130px;
   padding-left: 10px;
   position: relative;
-  top: -30px;
+  top: -35px;
   display: flex;
   justify-content: flex-start;
 }
@@ -67,5 +67,6 @@
   color: white;
   padding: 5px;
   font-family: 'Philosopher', sans-serif;
+  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
 }
