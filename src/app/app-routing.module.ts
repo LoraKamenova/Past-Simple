@@ -14,12 +14,12 @@ import {AllComparisonsComponent} from "./components/comparison/all-comparisons/a
 import {TravelCategoriesComponent} from "./components/travel/travel-categories/travel-categories.component";
 import {EntertainmentCategoriesComponent} from "./components/entertainment/entertainment-categories/entertainment-categories.component";
 import {VenueCategoriesComponent} from "./components/venue/venue-categories/venue-categories.component";
-import {MemoryModule} from "./components/memory/memory.module";
 import {MemoryComponent} from "./components/memory/memory/memory.component";
 import {PostComponent} from "./components/blog/post/post.component";
 import {MyMemoriesComponent} from "./components/memory/my-memories/my-memories.component";
 import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
 import {AboutComponent} from "./components/about/about.component";
+import {CafeAlbumComponent} from "./components/venue/cafe-album/cafe-album.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -41,6 +41,7 @@ const routes: Routes = [
   {path: 'all-entertainment-categories', component: EntertainmentCategoriesComponent},
   {path: 'all-venue-categories', component: VenueCategoriesComponent},
   {path: 'about', component: AboutComponent},
+  {path: 'cafe-album', component: CafeAlbumComponent},
 ];
 
 @NgModule({

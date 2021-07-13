@@ -1,0 +1,19 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-picture-container {
+  display: flex;
+  width: 80%;
+}
+
+.album-sub-title-container, .album-title-container {
+  width: 10%;
+}
+
+
+.album-sub-title, .album-title {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
