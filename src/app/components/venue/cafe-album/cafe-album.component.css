@@ -1,19 +1,62 @@
 .gallery-container {
   display: flex;
   flex-direction: column;
+  margin: 3% auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-picture-container {
   display: flex;
-  width: 80%;
+  width: 90%;
+  height: 460px;
 }
 
-.album-sub-title-container, .album-title-container {
+.album-title-container {
+  display: flex;
   width: 10%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.album-sub-title, .album-title {
+.album-title, .album-sub-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 25px;
   writing-mode: vertical-lr;
   text-orientation: upright;
+}
+
+.album-sub-title {
+  font-size: 20px;
+}
+
+.album-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.gallery-picture-wrapper {
+  width: 70%;
+  height: 100%;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-text-wrapper {
+  width: 20%;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-text {
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  padding: 50px;
+  text-align: center;
 }
