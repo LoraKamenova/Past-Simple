@@ -6,10 +6,11 @@
   align-items: center;
 }
 
-.gallery-item-container {
+.gallery-item {
   display: flex;
   flex-direction: column;
   width: 75%;
+  border-bottom: 2px solid white;
 }
 
 .gallery-picture-container {
@@ -54,19 +55,24 @@
   height: 100%;
 }
 
-.gallery-text {
+.gallery-text-container {
   margin-left: 130px;
   padding-left: 10px;
   position: relative;
-  top: -35px;
   display: flex;
   justify-content: flex-start;
+
 }
 
-.gallery-text2 {
+.gallery-text {
   color: white;
   padding: 5px;
+  font-size: 16px;
   font-family: 'Philosopher', sans-serif;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(5px);
+  margin: 10px 0 10px 0;
+}
+
+.hr {
+  width: 100%;
+  color: white;
 }
