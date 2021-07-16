@@ -20,6 +20,7 @@ import {MyMemoriesComponent} from "./components/memory/my-memories/my-memories.c
 import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
 import {AboutComponent} from "./components/about/about.component";
 import {CafeAlbumComponent} from "./components/venue/cafe-album/cafe-album.component";
+import {ComparisonModule} from "./components/comparison/comparison.module";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -42,6 +43,7 @@ const routes: Routes = [
   {path: 'all-venue-categories', component: VenueCategoriesComponent},
   {path: 'about', component: AboutComponent},
   {path: 'cafe-album', component: CafeAlbumComponent},
+  {path: 'comparisons', component: ComparisonModule},
 ];
 
 @NgModule({
