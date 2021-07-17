@@ -1,7 +1,7 @@
 .gallery-container {
   display: flex;
   flex-direction: column;
-  margin: 5% auto;
+  margin: 4% auto;
   align-items: center;
 }
 
