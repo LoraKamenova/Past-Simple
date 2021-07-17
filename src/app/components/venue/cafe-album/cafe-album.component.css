@@ -1,13 +1,13 @@
 .gallery-container {
   display: flex;
   flex-direction: column;
-  margin: 4% auto;
+  margin: 3% auto;
   align-items: center;
 }
 
 .gallery-item-wrapper {
   display: flex;
-  width: 75%;
+  width: 65%;
   justify-content: center;
   background-color: white;
 }
@@ -25,23 +25,20 @@
   top: -20px
 }
 
-.album-title, .album-sub-title {
-  font-family: 'Philosopher', sans-serif;
-  font-size: 25px;
-}
-
 .album-title-container {
   width: 100%;
   border-bottom: 2px solid white;
 }
 
-.album-sub-title {
-  font-size: 20px;
-}
-
 .album-title {
+  font-family: 'Philosopher', sans-serif;
   font-size: 30px;
   text-transform: uppercase;
+}
+
+.album-sub-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
 }
 
 .gallery-text-container {
