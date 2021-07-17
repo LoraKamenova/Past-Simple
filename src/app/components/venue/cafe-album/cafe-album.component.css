@@ -1,7 +1,7 @@
 .gallery-container {
   display: flex;
   flex-direction: column;
-  margin: 2% auto;
+  margin: 5% auto;
   align-items: center;
 }
 
@@ -16,11 +16,13 @@
   color: white;
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 25%;
   background-color: #006B3C;
   margin-left: 50px;
   padding: 20px;
   height: 200px;
+  position: relative;
+  top: -20px
 }
 
 .album-title, .album-sub-title {
@@ -42,6 +44,10 @@
   text-transform: uppercase;
 }
 
+.gallery-text-container {
+  margin-top: 20px;
+}
+
 .gallery-text {
   font-size: 18px;
   font-family: 'Philosopher', sans-serif;
@@ -51,11 +57,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 65%;
+  width: 70%;
   height: 75vh;
 }
 
 .gallery-image {
-  width: 400px;
-  height: 400px;
+  width: 85%;
+  height: 85%;
 }
