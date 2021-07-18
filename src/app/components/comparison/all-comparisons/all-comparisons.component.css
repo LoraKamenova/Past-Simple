@@ -1,9 +1,64 @@
-.comparisons-container {
+.comparison-container {
   display: flex;
   flex-direction: column;
+  margin: 3% auto;
+  align-items: center;
+}
+
+.comparison-item-wrapper {
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  background-color: white;
+}
+
+.comparison-content-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #006B3C;
+  margin-left: 50px;
+  padding: 20px;
+  height: 200px;
+  position: relative;
+  top: -20px
+}
+
+.album-title-container {
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+.album-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.album-sub-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+}
+
+.comparison-text-container {
+  margin-top: 20px;
+}
+
+.comparison-text {
+  font-size: 18px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.comparison-picture-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 75vh;
 }
 
 .comparison-image {
-  width: 500px;
-  height: 600px;
+  width: 85%;
+  height: 85%;
 }

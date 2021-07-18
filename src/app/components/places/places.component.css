@@ -44,9 +44,9 @@
   flex-direction: column;
   background-color: white;
   margin: 10px;
-  height: 250px;
-  padding: 10px;
   text-decoration: none;
+  justify-content: space-between;
+  padding: 30px;
 }
 
 .category-card:nth-child(1), .category-card:nth-child(3) {
@@ -57,9 +57,13 @@
   align-self: flex-end;
 }
 
+.category-card-image-container {
+  padding: 20px;
+}
+
 .category-card-image {
-  width: 220px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
 }
 
 .category-card-title {
