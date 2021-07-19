@@ -2,24 +2,34 @@
 
   <section class="notebook">
     <h1 class="notebook-heading">Заведения</h1>
-    <p class="notebook-content">Пренасяме се назад във времето, за да направим тур по най-известните сладкарници, ханчета
+    <p class="notebook-content">Пренасяме се назад във времето, за да направим тур по най-известните сладкарници,
+      ханчета
       и ресторанти в страната.</p>
   </section>
 
   <section class="categories">
 
     <a class="category-card" [routerLink]="['/cafe-album']">
-      <img class="category-card-image" alt="venues" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625924540/Angular%20Project/cafe_vatydy.jpg"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="venues"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1626677789/Angular%20Project/piece-of-cake_ja7qfs.png"/>
+      </div>
       <p class="category-card-title">албум Сладкарници</p>
     </a>
 
     <a class="category-card" [routerLink]="['/album-pub']">
-      <img class="category-card-image" alt="venues" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625924540/Angular%20Project/wine_u8nvfq.jpg"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="venues"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1626677789/Angular%20Project/barrel_m8ypgd.png"/>
+      </div>
       <p class="category-card-title">албум Ханчета</p>
     </a>
 
     <a class="category-card" [routerLink]="['/album-restaurant']">
-      <img class="category-card-image" alt="venues" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625924540/Angular%20Project/restaurant_xq0cp5.jpg"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="venues"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1626677789/Angular%20Project/tray_u9fb7q.png"/>
+      </div>
       <p class="category-card-title">албум Ресторанти</p>
     </a>
 
