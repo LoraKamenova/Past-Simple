@@ -45,8 +45,10 @@
   background-color: white;
   margin: 10px;
   text-decoration: none;
-  justify-content: space-between;
-  padding: 30px;
+  justify-content: space-around;
+  padding: 15px;
+  width: 230px;
+  height: 230px;
 }
 
 .category-card:nth-child(1), .category-card:nth-child(3) {
@@ -58,17 +60,20 @@
 }
 
 .category-card-image-container {
-  padding: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .category-card-image {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 .category-card-title {
-  color: #006B3C;
   text-align: center;
+  color: black;
   font-family: 'Philosopher', sans-serif;
   font-style: italic;
   font-size: 20px;

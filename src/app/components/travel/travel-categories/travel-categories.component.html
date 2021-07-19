@@ -2,34 +2,54 @@
 
   <section class="notebook">
     <h1 class="notebook-heading">Пътуване</h1>
-    <p class="notebook-content">Пренасяме се във времето, когато българите са ходили на нашето море вместо в Гърция, а по
+    <p class="notebook-content">Пренасяме се във времето, когато българите са ходили на нашето море вместо в Гърция, а
+      по
       морето е имало повече зеленина вместо бетон. Ще видим известните балнео курорти, които вместо СПА са се
-      нариачли просто минерални бани. Ще се разходим из планините, ще посетим градове, а може да отидем и на къмпинг.</p>
+      нариачли просто минерални бани. Ще се разходим из планините, ще посетим градове, а може да отидем и на
+      къмпинг.</p>
   </section>
 
   <section class="categories">
     <a class="category-card" [routerLink]="['/all-sea-categories']">
-      <img class="category-card-image" alt="sea" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625913433/Angular%20Project/travel_hrg5vv.jpg"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="sea"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625913433/Angular%20Project/travel_hrg5vv.jpg"/>
+      </div>
       <p class="category-card-title">албум Море</p>
     </a>
     <a class="category-card" [routerLink]="['/mountain-album']">
-      <img class="category-card-image" alt="mountain" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922550/Angular%20Project/mountain_p5qv8a.jpg"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="mountain"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922550/Angular%20Project/mountain_p5qv8a.jpg"/>
+      </div>
       <p class="category-card-title">албум Планини</p>
     </a>
     <a class="category-card" [routerLink]="['/spa-album']">
-      <img class="category-card-image" alt="spa" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922550/Angular%20Project/spa_rdapel.jpg"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="spa"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922550/Angular%20Project/spa_rdapel.jpg"/>
+      </div>
       <p class="category-card-title">албум Минерални бани</p>
     </a>
     <a class="category-card" [routerLink]="['/camping-album']">
-      <img class="category-card-image" alt="camping" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922549/Angular%20Project/camping_u32csz.jpg"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="camping"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922549/Angular%20Project/camping_u32csz.jpg"/>
+      </div>
       <p class="category-card-title">албум Къмпинг</p>
     </a>
     <a class="category-card" [routerLink]="['/hotel-album']">
-      <img class="category-card-image" alt="hotel" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922549/Angular%20Project/hotel_dqgnq1.png"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="hotel"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922549/Angular%20Project/hotel_dqgnq1.png"/>
+      </div>
       <p class="category-card-title">албум Хотели</p>
     </a>
     <a class="category-card" [routerLink]="['/city-album']">
-      <img class="category-card-image" alt="city" src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922549/Angular%20Project/city_cbzckv.png"/>
+      <div class="category-card-image-container">
+        <img class="category-card-image" alt="city"
+             src="https://res.cloudinary.com/dyhmxus4n/image/upload/v1625922549/Angular%20Project/city_cbzckv.png"/>
+      </div>
       <p class="category-card-title">албум Градове</p>
     </a>
   </section>
