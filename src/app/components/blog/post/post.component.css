@@ -28,6 +28,7 @@
   width: 40%;
   justify-content: center;
   align-items: center;
+  padding: 30px 20px;
 }
 
 .post-title {
@@ -35,11 +36,9 @@
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
   border: 3px solid black;
-  padding: 100px 30px 40px 30px;
+  padding: 40px 30px 40px 30px;
   font-size: 30px;
   font-weight: bolder;
-  position: relative;
-  top: -50px
 }
 
 .post-sub-title-container {
@@ -73,9 +72,18 @@
 
 .post-lower-section {
   display: flex;
+  padding: 20px;
+  height: 600px;
 }
 
 .post-image {
   width: 300px;
   height: 250px;
 }
+
+.post-image:last-child {
+  display: flex;
+  align-self: flex-start;
+}
+
+
