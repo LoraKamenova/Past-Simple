@@ -24,34 +24,43 @@
 }
 
 .post-title-container {
+  display: flex;
   width: 40%;
-  padding: 50px;
   justify-content: center;
+  align-items: center;
 }
 
 .post-title {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
-  justify-content: center;
-  align-items: center;
+  border: 3px solid black;
+  padding: 100px 30px 40px 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  top: -50px
 }
 
 .post-sub-title-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
 }
 
 .post-sub-title {
   font-family: 'Philosopher', sans-serif;
   justify-content: center;
   align-items: center;
+  padding-right: 50px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .post-content-section {
   width: 100%;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 
 .post-text {
