@@ -1,9 +1,10 @@
 .post-wrapper {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   margin: 2% auto;
   justify-content: center;
+  align-items: center;
   background-color: white;
 }
 
@@ -19,28 +20,46 @@
 
 .post-middle-section {
   display: flex;
-  width: 100%;
+  width: 70%;
 }
 
 .post-title-container {
   width: 50%;
+  padding: 50px;
+  justify-content: center;
 }
 
 .post-content {
   width: 50%;
+  padding: 50%;
 }
 
 .post-heading {
   text-align: center;
   text-transform: uppercase;
-  margin: 10px 0;
+  font-family: 'Philosopher', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-sub-title {
   font-family: 'Philosopher', sans-serif;
 }
+
 
 .post-text {
   padding: 0 30px;
   font-size: 16px;
   font-family: 'Philosopher', sans-serif;
   line-height: 1.2;
-  text-align: center;
+  text-align: justify;
+}
+
+.post-lower-section {
+  display: flex;
+}
+
+.post-image {
+  width: 300px;
+  height: 250px;
 }
