@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  padding-bottom: 30px;
 }
 
 .post-upper-section {
@@ -28,7 +29,7 @@
   width: 40%;
   justify-content: center;
   align-items: center;
-  padding: 30px 20px;
+  padding: 30px 20px 30px 30px;
 }
 
 .post-title {
@@ -73,17 +74,18 @@
 .post-lower-section {
   display: flex;
   padding: 20px;
-  height: 600px;
 }
 
 .post-image {
-  width: 300px;
+  width: 320px;
   height: 250px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 7px 0px #000000;
+  box-shadow: 0px 0px 7px 0px #000000;
 }
 
-.post-image:last-child {
-  display: flex;
-  align-self: flex-start;
+.post-image.lower {
+  position: relative;
+  bottom: -30px;
 }
-
 
