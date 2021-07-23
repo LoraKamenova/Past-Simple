@@ -44,7 +44,6 @@ const routes: Routes = [
   {path: 'all-venue-categories', component: VenueCategoriesComponent},
   {path: 'about', component: AboutComponent},
   {path: 'cafe-album', component: CafeAlbumComponent},
-  // {path: 'comparisons', component: Compar},
   {path: 'admin-panel', component: AdminPanelComponent},
 ];
 
