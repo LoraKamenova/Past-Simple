@@ -21,6 +21,7 @@ import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.com
 import {AboutComponent} from "./components/about/about.component";
 import {CafeAlbumComponent} from "./components/venue/cafe-album/cafe-album.component";
 import {ComparisonModule} from "./components/comparison/comparison.module";
+import {AdminPanelComponent} from "./components/admin-panel/admin-panel/admin-panel.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -43,7 +44,8 @@ const routes: Routes = [
   {path: 'all-venue-categories', component: VenueCategoriesComponent},
   {path: 'about', component: AboutComponent},
   {path: 'cafe-album', component: CafeAlbumComponent},
-  {path: 'comparisons', component: ComparisonModule},
+  // {path: 'comparisons', component: Compar},
+  {path: 'admin-panel', component: AdminPanelComponent},
 ];
 
 @NgModule({
