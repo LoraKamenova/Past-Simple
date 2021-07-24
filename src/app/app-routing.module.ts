@@ -20,7 +20,6 @@ import {MyMemoriesComponent} from "./components/memory/my-memories/my-memories.c
 import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
 import {AboutComponent} from "./components/about/about.component";
 import {CafeAlbumComponent} from "./components/venue/cafe-album/cafe-album.component";
-import {ComparisonModule} from "./components/comparison/comparison.module";
 import {AdminPanelComponent} from "./components/admin-panel/admin-panel/admin-panel.component";
 
 const routes: Routes = [
