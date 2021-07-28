@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   width: 90%;
-  margin: 2% auto;
   align-items: center;
+  margin: 2% auto;
 }
 
 .my-memories-header {
@@ -12,10 +12,10 @@
 }
 
 .my-memories-heading {
-  text-align: center;
-  color: white;
   font-family: 'Philosopher', sans-serif;
+  text-align: center;
   font-size: 30px;
+  color: white;
 }
 
 .memory-cards-container {
