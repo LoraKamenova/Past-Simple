@@ -72,7 +72,7 @@
 }
 
 .add-memory-button:hover {
- cursor: pointer;
+  cursor: pointer;
   background-color: #00B565;
 }
 
