@@ -4,7 +4,7 @@ const passport = require('passport')
 const localSignupStrategy = require('../passport/local-signup')
 const localLoginStrategy = require('../passport/local-login')
 const authRoutes = require('../routes/auth')
-const furnitureRoutes = require('../routes/memories')
+const memoryRoutes = require('../routes/memories')
 const statsRoutes = require('../routes/stats')
 
 module.exports = app => {
@@ -22,6 +22,6 @@ module.exports = app => {
 
   // routes
   app.use('/auth', authRoutes)
-  app.use('/memories', furnitureRoutes)
+  app.use('/memories', memoryRoutes)
   app.use('/stats', statsRoutes)
 }

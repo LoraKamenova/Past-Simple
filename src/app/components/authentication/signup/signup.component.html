@@ -30,6 +30,18 @@
         </div>
       </div>
       <div class="form-group">
+        <label for="profileImageUrl" class="label">Профилна снимка(линк)</label>
+        <input id="profileImageUrl"
+               type="text"
+               class="input"
+               ngModel
+               #profileImageUrl="ngModel"
+               name="profileImageUrl">
+<!--        <div *ngIf="profileImageUrl.invalid && profileImageUrl.touched" class="form-notification">-->
+<!--          Моля попълнете линк към профилна снимка!-->
+<!--        </div>-->
+      </div>
+      <div class="form-group">
         <label for="password" class="label">Парола</label>
         <input id="password"
                type="password"

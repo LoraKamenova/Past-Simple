@@ -30,6 +30,9 @@ export class SigninComponent implements OnInit {
         console.log(data)
         localStorage.setItem('token', data['token']);
         localStorage.setItem('name', data['user']['name']);
+        localStorage.setItem('role', data['user']['isAdmin']);
+        localStorage.setItem('email', data['user']['email']);
+        localStorage.setItem('profileImageUrl', data['user']['profileImageUrl']);
         this.router.navigate([ '/home' ])
       });
   }

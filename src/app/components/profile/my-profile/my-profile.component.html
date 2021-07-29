@@ -2,17 +2,25 @@
 
   <div class="profile-card">
     <div class="profile-picture-wrapper">
-      <img class="profile-picture" src="https://i.pinimg.com/originals/d6/a0/96/d6a0965b7ddc8a5c40edcfd38e2bc859.jpg"
+      <img class="profile-picture" *ngIf="profileImageUrl !== ''; else defaultPic" src="{{profileImageUrl}}"
            alt="profile pic">
     </div>
+
+    <ng-template #defaultPic>
+      <div class="profile-picture-wrapper">
+        <img class="profile-picture" src="https://i.pinimg.com/originals/d6/a0/96/d6a0965b7ddc8a5c40edcfd38e2bc859.jpg"
+             alt="profile pic">
+      </div>
+    </ng-template>
+
     <h1 class="profile-heading">Моят профил</h1>
     <div class="profile-item-wrapper">
       <span class="profile-item black-ink">Потребител: </span>
-      <span class="profile-item blue-ink">cruzeiro</span>
+      <span class="profile-item blue-ink">{{username}}</span>
     </div>
     <div class="profile-item-wrapper">
       <span class="profile-item black-ink">Имейл: </span>
-      <span class="profile-item blue-ink">cruzeiro@abv.bg</span>
+      <span class="profile-item blue-ink">{{email}}</span>
     </div>
     <div class="profile-item-wrapper">
       <span class="profile-item black-ink">Титла: </span>

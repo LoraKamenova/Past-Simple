@@ -8,6 +8,7 @@ import {Router} from "@angular/router";
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit {
+  role: string;
 
   constructor(
     public authService: AuthService,
@@ -15,11 +16,11 @@ export class NavigationComponent implements OnInit {
   ) {  }
 
   ngOnInit(): void {
+    this.role = localStorage.getItem('role');
   }
 
   logout() {
     this.authService.logout();
-
     this.router.navigate([ '/signin' ]);
   }
 }
