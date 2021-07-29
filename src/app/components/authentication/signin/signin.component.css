@@ -86,3 +86,9 @@
   border: 1px solid #008A4D;
   padding: 15px;
 }
+
+.form-notification {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
