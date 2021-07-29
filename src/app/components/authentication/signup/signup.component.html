@@ -11,8 +11,10 @@
                ngModel
                #name="ngModel"
                name="name">
-        <div *ngIf="name.invalid && name.touched" class="form-notification">
-          Моля попълнете потребителско име!
+        <div class="form-notification-container">
+          <div *ngIf="name.invalid && name.touched" class="form-notification">
+            Моля попълнете потребителско име!
+          </div>
         </div>
       </div>
       <div class="form-group">
@@ -25,8 +27,10 @@
                ngModel
                #email="ngModel"
                name="email">
-        <div *ngIf="email.invalid && email.touched" class="form-notification">
-          Моля попълнете коректен имейл адрес!
+        <div class="form-notification-container">
+          <div *ngIf="email.invalid && email.touched" class="form-notification">
+            Моля попълнете коректен имейл адрес!
+          </div>
         </div>
       </div>
       <div class="form-group">
@@ -37,9 +41,7 @@
                ngModel
                #profileImageUrl="ngModel"
                name="profileImageUrl">
-<!--        <div *ngIf="profileImageUrl.invalid && profileImageUrl.touched" class="form-notification">-->
-<!--          Моля попълнете линк към профилна снимка!-->
-<!--        </div>-->
+        <div class="form-notification-container"></div>
       </div>
       <div class="form-group">
         <label for="password" class="label">Парола</label>
@@ -51,8 +53,10 @@
                #password="ngModel"
                name="password"
                minlength="4">
-        <div *ngIf="password.invalid && password.touched" class="form-notification">
-          Паролата трябва да е с дължина минимум 4 символа!
+        <div class="form-notification-container">
+          <div *ngIf="password.invalid && password.touched" class="form-notification">
+            Паролата трябва да е с дължина минимум 4 символа!
+          </div>
         </div>
       </div>
       <!--    <div class="form-group">-->

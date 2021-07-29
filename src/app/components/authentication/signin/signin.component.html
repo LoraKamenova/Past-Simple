@@ -12,8 +12,10 @@
                email
                ngModel
                #email="ngModel">
-        <div *ngIf="email.invalid && email.touched" class="form-notification">
-          Моля попълнете коректен имейл адрес!
+        <div class="form-notification-container">
+          <div *ngIf="email.invalid && email.touched" class="form-notification">
+            Моля попълнете коректен имейл адрес!
+          </div>
         </div>
       </div>
       <div class="form-group">
@@ -26,8 +28,10 @@
                minlength="4"
                ngModel
                #password="ngModel">
-        <div *ngIf="password.invalid && password.touched" class="form-notification">
-          Паролата трябва да е с дължина минимум 4 символа!
+        <div class="form-notification-container">
+          <div *ngIf="password.invalid && password.touched" class="form-notification">
+            Паролата трябва да е с дължина минимум 4 символа!
+          </div>
         </div>
       </div>
       <div class="form-group">
