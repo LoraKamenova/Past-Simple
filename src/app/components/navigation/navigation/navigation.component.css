@@ -27,3 +27,7 @@
 .navigation-list-link:hover {
   background: rgba(255, 255, 255, 0.1);
 }
+
+.logout-link:hover {
+  cursor: pointer;
+}
