@@ -18,6 +18,11 @@ import {TravelModule} from "./components/travel/travel.module";
 import {VenueModule} from "./components/venue/venue.module";
 import {PlacesComponent} from "./components/places/places.component";
 import { AboutComponent } from './components/about/about.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ToastrModule} from 'ngx-toastr';
+import {HTTP_INTERCEPTORS} from "@angular/common/http";
+import {JwtInterceptorService} from "./interceptors/jwt-interceptor.service";
+import {ResponseHandlerInterceptorService} from "./interceptors/response-handler-interceptor.service";
 
 @NgModule({
   declarations: [
@@ -30,6 +35,8 @@ import { AboutComponent } from './components/about/about.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
     AppRoutingModule,
     AdminPanelModule,
     AuthModule,
@@ -42,7 +49,10 @@ import { AboutComponent } from './components/about/about.component';
     TravelModule,
     VenueModule
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptorService, multi: true},
+    {provide: HTTP_INTERCEPTORS, useClass: ResponseHandlerInterceptorService, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
