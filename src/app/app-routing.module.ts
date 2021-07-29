@@ -2,8 +2,6 @@ import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {HomeComponent} from './components/home/home.component';
 import {IndexComponent} from "./components/index/index.component";
-import {RegisterComponent} from "./components/auth/register/register.component";
-import {LoginComponent} from "./components/auth/login/login.component";
 import {AllSlogansComponent} from "./components/slogan/all-slogans/all-slogans.component";
 import {BlogPostsComponent} from "./components/blog/all-posts/blog-posts.component";
 import {AllMemoriesComponent} from "./components/memory/all-memories/all-memories.component";
@@ -21,12 +19,14 @@ import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.com
 import {AboutComponent} from "./components/about/about.component";
 import {CafeAlbumComponent} from "./components/venue/cafe-album/cafe-album.component";
 import {AdminPanelComponent} from "./components/admin-panel/admin-panel/admin-panel.component";
+import {SigninComponent} from "./components/authentication/signin/signin.component";
+import {SignupComponent} from "./components/authentication/signup/signup.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: '', component: IndexComponent},
-  {path: 'register', component: RegisterComponent},
-  {path: 'login', component: LoginComponent},
+  {path: 'signup', component: SignupComponent},
+  {path: 'signin', component: SigninComponent},
   {path: 'all-slogans', component: AllSlogansComponent},
   {path: 'all-posts', component: BlogPostsComponent},
   {path: 'post', component: PostComponent},

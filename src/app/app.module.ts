@@ -5,7 +5,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {NavigationComponent} from './components/navigation/navigation/navigation.component';
 import {FooterComponent} from './components/footer/footer/footer.component';
-import {AuthModule} from "./components/auth/auth.module";
 import {HomeComponent} from "./components/home/home.component";
 import {SloganModule} from "./components/slogan/slogan.module";
 import {BlogModule} from "./components/blog/blog.module";
@@ -23,6 +22,10 @@ import {ToastrModule} from 'ngx-toastr';
 import {HTTP_INTERCEPTORS} from "@angular/common/http";
 import {JwtInterceptorService} from "./interceptors/jwt-interceptor.service";
 import {ResponseHandlerInterceptorService} from "./interceptors/response-handler-interceptor.service";
+import {SignupComponent} from "./components/authentication/signup/signup.component";
+import {SigninComponent} from "./components/authentication/signin/signin.component";
+import {FormsModule} from "@angular/forms";
+import {AuthService} from "./components/authentication/auth.service";
 
 @NgModule({
   declarations: [
@@ -31,15 +34,17 @@ import {ResponseHandlerInterceptorService} from "./interceptors/response-handler
     FooterComponent,
     HomeComponent,
     PlacesComponent,
-    AboutComponent
+    AboutComponent,
+    SignupComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     ToastrModule.forRoot(),
     AppRoutingModule,
     AdminPanelModule,
-    AuthModule,
     BlogModule,
     EntertainmentModule,
     MemoryModule,
@@ -50,6 +55,7 @@ import {ResponseHandlerInterceptorService} from "./interceptors/response-handler
     VenueModule
   ],
   providers: [
+    AuthService,
     {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptorService, multi: true},
     {provide: HTTP_INTERCEPTORS, useClass: ResponseHandlerInterceptorService, multi: true}
   ],
