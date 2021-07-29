@@ -17,9 +17,9 @@ function validateMemoryForm (payload) {
     errors.title = 'Title must be more than 3 symbols.'
   }
 
-  if (!payload || typeof payload.text !== 'string' || payload.text.length < 10) {
+  if (!payload || typeof payload.description !== 'string' || payload.description.length < 10) {
     isFormValid = false
-    errors.text = 'Text must be more than 50 symbols.'
+    errors.description = 'Description must be more than 50 symbols.'
   }
 
 
@@ -85,7 +85,7 @@ router.get('/details/:id', authCheck, (req, res) => {
       let response = {
         id,
         title: memory.title,
-        text: memory.text,
+        description: memory.description,
         imageUrl: memory.imageUrl,
       }
 
@@ -116,7 +116,7 @@ router.delete('/delete/:id', authCheck, (req, res) => {
         })
       }
 
-      if ((memory.creator.toString() != user && !req.user.roles.includes("Admin"))) {
+      if ((memory.creator.toString() !== user && !req.user.roles.includes("Admin"))) {
          return res.status(401).json({
            success: false,
            message: 'Unauthorized!'
@@ -184,7 +184,7 @@ router.get('/:id', authCheck, (req, res) => {
       let response = {
         id,
         title: memory.title,
-        text: memory.text,
+        description: memory.description,
         imageUrl: memory.imageUrl
       }
 

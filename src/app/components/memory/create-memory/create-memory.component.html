@@ -1,13 +1,24 @@
 <h1 class="create-heading">Сподели спомен</h1>
 
-<form class="create-form" method="post" action="">
+<form class="create-form" [formGroup]="form" (submit)="createMemory()">
   <div class="form-element">
-    <input class="input-field" type="text" name="first_name" placeholder="URL" required>
+    <input class="input-field" type="text" formControlName="title" name="title" placeholder="Заглавие" required>
   </div>
+  <div class="standard-form-notification" *ngIf="f.title.touched && f.title.errors?.required">Задължително поле</div>
+  <div class="standard-form-notification" *ngIf="f.title.errors?.minlength">Дължината трябва да е най-малко {{f.title.errors.minlength.requiredLength}} символа</div>
+
   <div class="form-element">
-    <textarea class="textarea-field" rows="10" name="comments" placeholder="ТЕКСТ" required maxlength="200"></textarea>
+    <textarea class="textarea-field" rows="10" name="description" formControlName="description"  placeholder="ТЕКСТ" required maxlength="200"></textarea>
   </div>
+  <div class="standard-form-notification" *ngIf="f.description.touched && f.description.errors?.required">Задължително поле</div>
+  <div class="standard-form-notification" *ngIf="f.description.errors?.minlength">Дължината трябва да е най-малко {{f.description.errors.minlength.requiredLength}} символа</div>
+
   <div class="form-element">
-    <button name="send" type="submit" class="button-field">ГОТОВО</button>
+    <input class="input-field" type="text" formControlName="imageUrl" name="imageUrl" placeholder="Линк към снимка" required>
+  </div>
+  <div class="standard-form-notification" *ngIf="f.imageUrl.touched && f.imageUrl.errors?.required">Задължително поле</div>
+
+  <div class="form-element">
+    <button type="submit" class="button-field" [disabled]="invalid">ГОТОВО</button>
   </div>
 </form>

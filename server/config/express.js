@@ -22,6 +22,6 @@ module.exports = app => {
 
   // routes
   app.use('/auth', authRoutes)
-  app.use('/memories', memoryRoutes)
+  app.use('/memory', memoryRoutes)
   app.use('/stats', statsRoutes)
 }

@@ -38,3 +38,14 @@
   cursor: pointer;
   background: #dd4545;
 }
+
+.standard-form-notification {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.button-field:disabled {
+  cursor: not-allowed;
+}
