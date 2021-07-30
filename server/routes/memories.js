@@ -9,9 +9,6 @@ function validateMemoryForm (payload) {
   let isFormValid = true
   let message = ''
 
-  //payload.year = parseInt(payload.year)
-  //payload.price = parseInt(payload.price)
-
   if (!payload || typeof payload.title !== 'string' || payload.title.length < 3) {
     isFormValid = false
     errors.title = 'Title must be more than 3 symbols.'
@@ -66,6 +63,7 @@ router.get('/all', authCheck ,(req, res) => {
   const search = req.query.search
 
   Memory.find({})
+    .populate('creator')
     .then((memory) => {
       return res.status(200).json(memory)
     })

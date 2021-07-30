@@ -2,56 +2,17 @@
 
 <h1 class="all-memories-heading">Спомени</h1>
 
-<div class="memory-cards-container">
-  <a class="memory-card" routerLink="/memory">
+<div class="memory-cards-container" *ngFor="let m of memory$ | async">
+  <a class="memory-card"  [routerLink]="['/memory/details/', m._id]">
     <div class="memory-card-image-wrapper">
-      <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
+      <img class="memory-card-image" src="{{m.imageUrl}}" alt="memory"/>
     </div>
     <div class="memory-card-title-wrapper">
-      <p class="memory-card-subtitle">Споделено от: <span>Лора</span></p>
-      <h3 class="memory-card-title">Лято в Мичурин</h3>
+      <p class="memory-card-subtitle">Споделено от: <span>{{m.creator.name}}</span></p>
+      <h3 class="memory-card-title">{{m.title}}</h3>
     </div>
   </a>
 
-  <a class="memory-card" routerLink="/memory">
-    <div class="memory-card-image-wrapper">
-      <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-    </div>
-    <div class="memory-card-title-wrapper">
-      <p class="memory-card-subtitle">Споделено от: <span>Лора</span></p>
-      <h3 class="memory-card-title">Лято в Мичурин</h3>
-    </div>
-  </a>
-
-  <a class="memory-card" routerLink="/memory">
-    <div class="memory-card-image-wrapper">
-      <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-    </div>
-    <div class="memory-card-title-wrapper">
-      <p class="memory-card-subtitle">Споделено от: <span>Лора</span></p>
-      <h3 class="memory-card-title">Лято в Мичурин</h3>
-    </div>
-  </a>
-
-  <a class="memory-card" routerLink="/memory">
-    <div class="memory-card-image-wrapper">
-      <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-    </div>
-    <div class="memory-card-title-wrapper">
-      <p class="memory-card-subtitle">Споделено от: <span>Лора</span></p>
-      <h3 class="memory-card-title">Лято в Мичурин</h3>
-    </div>
-  </a>
-
-  <a class="memory-card" routerLink="/memory">
-    <div class="memory-card-image-wrapper">
-      <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-    </div>
-    <div class="memory-card-title-wrapper">
-      <p class="memory-card-subtitle">Споделено от: <span>Лора</span></p>
-      <h3 class="memory-card-title">Лято в Мичурин</h3>
-    </div>
-  </a>
 </div>
 
 </div>
