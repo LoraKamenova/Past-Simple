@@ -38,7 +38,7 @@
 
 .fas.fa-edit:hover, .far.fa-trash-alt:hover {
   cursor: pointer;
-  color: black;
+  color: darkslategrey;
 }
 
 .memory-content-wrapper {

@@ -49,11 +49,18 @@
   font-size: 14px;
 }
 
+.memory-card-title-wrapper {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
 .memory-card-title {
   font-family: 'Bad Script', cursive;
   text-align: center;
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .memory-cards-container > a:nth-child(even) {

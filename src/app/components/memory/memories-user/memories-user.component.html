@@ -5,48 +5,12 @@
   </div>
 
   <div class="memory-cards-container">
-    <a class="memory-card" routerLink="/memory">
+    <a class="memory-card"  *ngFor="let m of userMemories$ | async" [routerLink]="['/memory/details/', m._id]">
       <div class="memory-card-image-wrapper">
-        <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
+        <img class="memory-card-image" src="{{m.imageUrl}}" alt="memory"/>
       </div>
       <div class="memory-card-title-wrapper">
-        <h3 class="memory-card-title">Лято в Мичурин</h3>
-      </div>
-    </a>
-
-    <a class="memory-card" routerLink="/memory">
-      <div class="memory-card-image-wrapper">
-        <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-      </div>
-      <div class="memory-card-title-wrapper">
-        <h3 class="memory-card-title">Лято в Мичурин</h3>
-      </div>
-    </a>
-
-    <a class="memory-card" routerLink="/memory">
-      <div class="memory-card-image-wrapper">
-        <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-      </div>
-      <div class="memory-card-title-wrapper">
-        <h3 class="memory-card-title">Лято в Мичурин</h3>
-      </div>
-    </a>
-
-    <a class="memory-card" routerLink="/memory">
-      <div class="memory-card-image-wrapper">
-        <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-      </div>
-      <div class="memory-card-title-wrapper">
-        <h3 class="memory-card-title">Лято в Мичурин</h3>
-      </div>
-    </a>
-
-    <a class="memory-card" routerLink="/memory">
-      <div class="memory-card-image-wrapper">
-        <img class="memory-card-image" src="https://picsum.photos/200/300" alt="memory"/>
-      </div>
-      <div class="memory-card-title-wrapper">
-        <h3 class="memory-card-title">Лято в Мичурин</h3>
+        <h3 class="memory-card-title">{{m.title}}</h3>
       </div>
     </a>
   </div>

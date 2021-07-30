@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Observable} from "rxjs";
+import {Memory} from "../../../models/memory";
+import {MemoryService} from "../memory.service";
 
 @Component({
   selector: 'app-my-memories',
@@ -6,10 +9,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./memories-user.component.css']
 })
 export class MemoriesUserComponent implements OnInit {
+  userMemories$: Observable<Array<Memory>>
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private memoryService: MemoryService) {
   }
 
+  ngOnInit(): void {
+    this.userMemories$ = this.memoryService.getUserMemories();
+  }
+
+  deleteFurniture(id) {
+    console.log(id)
+    this.memoryService.deleteMemory(id).subscribe((data) => {
+      console.log('delete', data)
+      this.userMemories$ = this.memoryService.getUserMemories();
+    });
+
+  }
 }
