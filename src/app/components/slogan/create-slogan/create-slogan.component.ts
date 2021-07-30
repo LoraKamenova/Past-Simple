@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
-import {MemoryService} from "../../memory/memory.service";
 import {Router} from "@angular/router";
 import {SloganService} from "../slogan.service";
 
@@ -17,13 +16,13 @@ export class CreateSloganComponent implements OnInit {
   ngOnInit(): void {
     this.form = this.fb.group({
       content: ['', [Validators.required]],
-      note: ['', []],
+      note: ['', Validators.nullValidator],
     });
   }
 
   createSlogan() {
     this.sloganService.createSlogan(this.form.value).subscribe((data) => {
-      this.router.navigate(['slogan/all'])
+      this.router.navigate(['slogan/all/admin'])
     })
   }
 

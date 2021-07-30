@@ -4,10 +4,10 @@ import {Observable} from "rxjs";
 import {Memory} from "../../models/memory";
 import {Slogan} from "../../models/slogan";
 
-const createSloganUrl = "http://localhost:5000/memory/create";
-const getAllSlogansUrl = "http://localhost:5000/memory/all";
-const getSingleSloganUrl = "http://localhost:5000/memory/details/";
-const deleteSloganUrl = "http://localhost:5000/memory/delete/";
+const createSloganUrl = "http://localhost:5000/slogan/create";
+const getAllSlogansUrl = "http://localhost:5000/slogan/all";
+const getSingleSloganUrl = "http://localhost:5000/slogan/details/";
+const deleteSloganUrl = "http://localhost:5000/slogan/delete/";
 
 @Injectable({
   providedIn: 'root'

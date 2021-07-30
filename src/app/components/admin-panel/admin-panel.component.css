@@ -72,6 +72,13 @@
   color: white;
 }
 
+.admin-panel-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #008A4D;
+  text-transform: uppercase;
+}
+
 .far.fa-images, .fas.fa-archive {
   margin-right: 10px;
 }
