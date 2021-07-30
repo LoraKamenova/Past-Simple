@@ -1,1 +1,46 @@
-<p>admin-slogans works!</p>
+<div class="all-slogans-admin-wrapper">
+  <div class="all-slogans-header">
+    <span class="all-slogans-heading">Всички лозунги</span><a class="add-slogan-button" [routerLink]="['/slogan/create']">Нов лозунг</a>
+  </div>
+
+  <table class="all-slogans-table">
+    <tr class="table-header">
+      <th class="table-heading slogan-heading">Лозунг</th>
+      <th class="table-heading note-heading">Бележка</th>
+      <th class="table-heading buttons-heading">Действия</th>
+    </tr>
+    <tr>
+      <td class="table-data">Alfreds Futterkiste</td>
+      <td class="table-data">Maria Anders</td>
+      <td class="table-data table-buttons">
+<!--        <a class="edit-button" [routerLink]="['/memory/edit/', slogan?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>-->
+<!--        <a class="delete-button" (click)="deleteSlogan(slogan?._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>-->
+        <a class="edit-button" ><i class="fas fa-edit" title="Редактирай"></i></a>
+        <a class="delete-button" ><i class="far fa-trash-alt" title="Изтрий"></i></a>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="table-data">Alfreds Futterkiste</td>
+      <td class="table-data">Maria Anders</td>
+      <td class="table-data table-buttons">
+        <!--        <a class="edit-button" [routerLink]="['/memory/edit/', slogan?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>-->
+        <!--        <a class="delete-button" (click)="deleteSlogan(slogan?._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>-->
+        <a class="edit-button" ><i class="fas fa-edit" title="Редактирай"></i></a>
+        <a class="delete-button" ><i class="far fa-trash-alt" title="Изтрий"></i></a>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="table-data">Alfreds Futterkiste</td>
+      <td class="table-data">Maria Anders</td>
+      <td class="table-data table-buttons">
+        <!--        <a class="edit-button" [routerLink]="['/memory/edit/', slogan?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>-->
+        <!--        <a class="delete-button" (click)="deleteSlogan(slogan?._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>-->
+        <a class="edit-button" ><i class="fas fa-edit" title="Редактирай"></i></a>
+        <a class="delete-button" ><i class="far fa-trash-alt" title="Изтрий"></i></a>
+      </td>
+    </tr>
+
+  </table>
+</div>

@@ -1,0 +1,104 @@
+.all-slogans-admin-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 1% auto;
+}
+
+.all-slogans-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.all-slogans-heading {
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.add-slogan-button {
+  width: 150px;
+  padding: 10px 20px;
+  margin-left: 30px;
+  background-color: #006B3C;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+}
+
+.add-slogan-button:hover {
+  cursor: pointer;
+  background-color: #008A4D;
+}
+
+.all-slogans-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+.table-data {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+.table-data.table-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.all-slogans-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.slogan-heading {
+  width: 45%;
+}
+
+.note-heading {
+  width: 35%;
+}
+
+.buttons-heading {
+  width: 20%;
+}
+
+.table-heading {
+  border: 1px solid teal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+}
+
+.table-heading:nth-child(1), .table-heading:nth-child(2) {
+  border-right: 1px solid white;
+}
+
+.fas.fa-edit, .far.fa-trash-alt {
+  font-size: 30px;
+  color: darkslategrey;
+  margin: 5px 10px;
+}
+
+.fas.fa-edit:hover{
+  cursor: pointer;
+  color: darkorange;
+}
+
+.far.fa-trash-alt:hover {
+  cursor: pointer;
+  color: red;
+}
