@@ -15,9 +15,9 @@ import {MemoryService} from "./memory.service";
     RouterModule.forChild([
       {path: '', pathMatch: 'full', redirectTo: 'home'},
       {path: 'create', component: CreateMemoryComponent},
-      { path: 'all', component: AllMemoriesComponent},
-      { path: 'details/:id', component: MemoryDetailsComponent},
-      { path: 'user', component: MemoriesUserComponent}
+      {path: 'all', component: AllMemoriesComponent},
+      {path: 'details/:id', component: MemoryDetailsComponent},
+      {path: 'user', component: MemoriesUserComponent}
     ])
   ],
   declarations: [

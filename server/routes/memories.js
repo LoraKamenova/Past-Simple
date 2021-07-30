@@ -151,7 +151,7 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  const validationResult = validateFurnitureForm(memory)
+  const validationResult = validateMemoryForm(memory)
   if (!validationResult.success) {
     return res.status(400).json({
       success: false,

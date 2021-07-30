@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddSloganComponent } from './add-slogan.component';
+import { CreateSloganComponent } from './create-slogan.component';
 
 describe('AddSloganComponent', () => {
-  let component: AddSloganComponent;
-  let fixture: ComponentFixture<AddSloganComponent>;
+  let component: CreateSloganComponent;
+  let fixture: ComponentFixture<CreateSloganComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AddSloganComponent ]
+      declarations: [ CreateSloganComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AddSloganComponent);
+    fixture = TestBed.createComponent(CreateSloganComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
