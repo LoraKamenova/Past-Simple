@@ -1,7 +1,10 @@
 <nav class="navigation">
   <ul class="navigation-list">
     <li class="navigation-list-item">
-      <a class="navigation-list-link" routerLink="/">Начало</a>
+      <a *ngIf="!authService.isAuthenticated()" class="navigation-list-link" routerLink="/">Начало</a>
+    </li>
+    <li class="navigation-list-item">
+      <a *ngIf="authService.isAuthenticated()" class="navigation-list-link" routerLink="/home">Начало</a>
     </li>
     <li *ngIf="!authService.isAuthenticated()" class="navigation-list-item">
       <a class="navigation-list-link" routerLink="/signin">Вход</a>
