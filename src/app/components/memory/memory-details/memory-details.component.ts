@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Memory} from "../../../models/memory";
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {MemoryService} from "../memory.service";
 
 @Component({
@@ -11,7 +11,7 @@ import {MemoryService} from "../memory.service";
 export class MemoryDetailsComponent implements OnInit {
   memory: Memory;
 
-  constructor(private route: ActivatedRoute, private memoryService: MemoryService) { }
+  constructor(private route: ActivatedRoute, private memoryService: MemoryService, private router: Router) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(data => {
@@ -22,4 +22,13 @@ export class MemoryDetailsComponent implements OnInit {
     })
   }
 
+  deleteMemory(id) {
+    console.log(id)
+    this.route.params.subscribe(data => {
+      let id = data['id'];
+      this.memoryService.deleteMemory(id).subscribe((data) => {
+        this.router.navigate(['memory/all'])
+      });
+    })
+  }
 }

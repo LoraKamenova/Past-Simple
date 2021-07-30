@@ -6,8 +6,8 @@
            alt="memory">
     </div>
     <div class="memory-buttons-container">
-      <a class="edit-button"><i class="fas fa-edit"></i></a>
-      <a class="delete-button"><i class="far fa-trash-alt"></i></a>
+      <a class="edit-button" [routerLink]="['/memory/edit/', memory?.id]"><i class="fas fa-edit"></i></a>
+      <a class="delete-button" (click)="deleteMemory(memory?._id)"><i class="far fa-trash-alt"></i></a>
     </div>
     <div class="memory-content-wrapper">
       <div class="memory-content">

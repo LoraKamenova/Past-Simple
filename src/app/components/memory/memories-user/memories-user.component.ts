@@ -18,12 +18,4 @@ export class MemoriesUserComponent implements OnInit {
     this.userMemories$ = this.memoryService.getUserMemories();
   }
 
-  deleteFurniture(id) {
-    console.log(id)
-    this.memoryService.deleteMemory(id).subscribe((data) => {
-      console.log('delete', data)
-      this.userMemories$ = this.memoryService.getUserMemories();
-    });
-
-  }
 }
