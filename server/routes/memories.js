@@ -72,6 +72,7 @@ router.get('/all', authCheck ,(req, res) => {
 router.get('/details/:id', authCheck, (req, res) => {
   const id = req.params.id
   Memory.findById(id)
+    .populate('creator')
     .then((memory) => {
       if (!memory) {
         return res.status(404).json({

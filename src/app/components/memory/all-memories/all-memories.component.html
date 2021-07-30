@@ -2,8 +2,8 @@
 
 <h1 class="all-memories-heading">Спомени</h1>
 
-<div class="memory-cards-container" *ngFor="let m of memory$ | async">
-  <a class="memory-card"  [routerLink]="['/memory/details/', m._id]">
+<div class="memory-cards-container">
+  <a class="memory-card" *ngFor="let m of memory$ | async" [routerLink]="['/memory/details/', m._id]">
     <div class="memory-card-image-wrapper">
       <img class="memory-card-image" src="{{m.imageUrl}}" alt="memory"/>
     </div>

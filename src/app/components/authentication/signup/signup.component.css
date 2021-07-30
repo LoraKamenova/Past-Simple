@@ -43,6 +43,7 @@
   margin-top: 5px;
   font-size: 16px;
   color: white;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .button {
@@ -67,13 +68,15 @@
 }
 
 .form-notification-container {
-  min-height: 20px;
+  min-height: 16px;
   text-align: center;
 }
 
 .form-notification {
-  color: red;
-  font-style: italic;
+  color: #dd4545;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
   font-weight: bold;
   margin-top: 5px;
 }
