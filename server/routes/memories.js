@@ -82,7 +82,7 @@ router.get('/details/:id', authCheck, (req, res) => {
       }
 
       let response = {
-        id,
+        _id: id,
         title: memory.title,
         description: memory.description,
         imageUrl: memory.imageUrl,
