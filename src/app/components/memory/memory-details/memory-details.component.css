@@ -2,30 +2,40 @@
   display: flex;
   width: 90%;
   margin: 1% auto;
+  background-color: white;
+  padding: 20px;
 }
 
 .memory {
   display: flex;
+  justify-content: space-around;
 }
 
+.memory-image-container {
+  width: 65%;
+  margin: 10px;
+  max-height: 80vh;
+}
 .memory-image {
-  min-width: 100%;
-  height: 81vh;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 7px -1px #000000;
+  box-shadow: 0px 0px 7px -1px #000000;
 }
 .memory-content-wrapper {
   position: relative;
-  min-width: 470px;
-  height: 72vh;
-  left: -500px;
-  align-self: center;
-  border: 10px solid rgba(255,255,255,0.5);;
+  width: 35%;
   padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border: 2px dashed #006B3C;
 }
 
 .memory-content {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255,255,255,0.5);
+  background-color: white;
+
   padding: 20px 40px;
   width: 100%;
   height: 100%;

@@ -15,8 +15,8 @@ export class CreateMemoryComponent implements OnInit {
 
   ngOnInit(): void {
     this.form = this.fb.group({
-      title: ['', [Validators.required, Validators.minLength(3)]],
-      description: ['', [Validators.required, Validators.minLength(10)]],
+      title: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(25)]],
+      description: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(630)]],
       imageUrl: ['', Validators.required],
     });
   }

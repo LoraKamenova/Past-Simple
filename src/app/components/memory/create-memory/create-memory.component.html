@@ -13,12 +13,15 @@
         <div class="standard-form-notification" *ngIf="f.title.errors?.minlength">Дължината трябва да е
           най-малко {{f.title.errors.minlength.requiredLength}} символа
         </div>
+        <div class="standard-form-notification" *ngIf="f.title.errors?.maxlength">Дължината трябва да е
+          най-много {{f.title.errors.maxlength.requiredLength}} символа
+        </div>
       </div>
 
       <div class="form-group">
         <label for="description" class="label">Текст</label>
         <textarea class="input" rows="5" name="description" formControlName="description" id="description"
-                  required maxlength="200"></textarea>
+                  required maxlength="630"></textarea>
       </div>
       <div class="standard-form-notification-container">
         <div class="standard-form-notification" *ngIf="f.description.touched && f.description.errors?.required">

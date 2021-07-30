@@ -9,14 +9,14 @@ function validateMemoryForm (payload) {
   let isFormValid = true
   let message = ''
 
-  if (!payload || typeof payload.title !== 'string' || payload.title.length < 3) {
+  if (!payload || typeof payload.title !== 'string' || payload.title.length < 3 ||  payload.title.length > 25){
     isFormValid = false
-    errors.title = 'Title must be more than 3 symbols.'
+    errors.title = 'Title must be between 3 and 25 symbols.'
   }
 
-  if (!payload || typeof payload.description !== 'string' || payload.description.length < 10) {
+  if (!payload || typeof payload.description !== 'string' || payload.description.length < 10 ||  payload.title.length > 630) {
     isFormValid = false
-    errors.description = 'Description must be more than 50 symbols.'
+    errors.description = 'Description must be between 10 and 630 symbols.'
   }
 
 
@@ -86,6 +86,7 @@ router.get('/details/:id', authCheck, (req, res) => {
         title: memory.title,
         description: memory.description,
         imageUrl: memory.imageUrl,
+        creator: memory.creator.name,
       }
 
       res.status(200).json(response)
