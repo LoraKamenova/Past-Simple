@@ -2,18 +2,19 @@
 
   <div class="memory">
     <div class="memory-image-container">
-      <img class="memory-image" src="{{memory.imageUrl}}"
+      <img class="memory-image" src="{{memory?.imageUrl}}"
            alt="memory">
+    </div>
+    <div class="memory-buttons-container">
+      <a class="edit-button"><i class="fas fa-edit"></i></a>
+      <a class="delete-button"><i class="far fa-trash-alt"></i></a>
     </div>
     <div class="memory-content-wrapper">
       <div class="memory-content">
-                <p class="memory-sub-heading">Спомен за...</p>
-                <h3 class="memory-heading">{{memory.title}}</h3>
-                <p class="memory-text">{{memory.description}}</p>
-        <div class="memory-legend">
-          <span class="memory-legend">Споделено от: </span>
-          <span class="memory-legend">{{memory.creator}}</span>
-        </div>
+        <p class="memory-sub-heading">Спомен за...</p>
+        <h3 class="memory-heading">{{memory?.title}}</h3>
+        <p class="memory-text">{{memory?.description}}</p>
+        <p class="memory-legend">Споделено от: {{memory?.creator}}</p>
       </div>
 
     </div>

@@ -1,6 +1,8 @@
 <div class="all-memories-wrapper">
 
-<h1 class="all-memories-heading">Спомени</h1>
+  <div class="all-memories-header">
+    <span class="all-memories-heading">Всички спомени</span><a class="add-memory-button" [routerLink]="['/memory/create']">Нов спомен</a>
+  </div>
 
 <div class="memory-cards-container">
   <a class="memory-card" *ngFor="let m of memory$ | async" [routerLink]="['/memory/details/', m._id]">

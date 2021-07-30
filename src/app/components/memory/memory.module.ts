@@ -4,7 +4,7 @@ import {AllMemoriesComponent} from './all-memories/all-memories.component';
 import {CreateMemoryComponent} from './create-memory/create-memory.component';
 import {RouterModule} from "@angular/router";
 import {MemoryDetailsComponent} from './memory-details/memory-details.component';
-import {MyMemoriesComponent} from "./my-memories/my-memories.component";
+import {MemoriesUserComponent} from "./memories-user/memories-user.component";
 import {ReactiveFormsModule} from "@angular/forms";
 import {MemoryService} from "./memory.service";
 
@@ -17,14 +17,14 @@ import {MemoryService} from "./memory.service";
       {path: 'create', component: CreateMemoryComponent},
       { path: 'all', component: AllMemoriesComponent},
       { path: 'details/:id', component: MemoryDetailsComponent},
-      { path: 'user', component: MyMemoriesComponent}
+      { path: 'user', component: MemoriesUserComponent}
     ])
   ],
   declarations: [
     AllMemoriesComponent,
     CreateMemoryComponent,
     MemoryDetailsComponent,
-    MyMemoriesComponent
+    MemoriesUserComponent
   ],
   providers: [
     MemoryService,

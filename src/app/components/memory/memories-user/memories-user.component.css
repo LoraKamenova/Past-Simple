@@ -54,26 +54,25 @@
   text-align: center;
   font-size: 25px;
   padding: 25px;
+  margin-top: 15px;
 }
 
 .add-memory-button {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  margin: 0 20px;
-  padding: 5px 15px;
-  outline: none;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
+  margin-left: 20px;
+  padding: 10px 20px;
   background-color: #006B3C;
   color: white;
+  border-radius: 5px;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
+  text-align: center;
 }
 
 .add-memory-button:hover {
   cursor: pointer;
-  background-color: #00B565;
+  background-color: #008A4D;
 }
 
 .memory-cards-container > a:nth-child(even) {
