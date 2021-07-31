@@ -4,7 +4,7 @@
   width: 80%;
   justify-content: center;
   align-items: center;
-  margin: 1% auto;
+  margin: 3% auto;
 }
 
 .all-comparisons-header {
@@ -69,7 +69,7 @@
   width: 3%;
 }
 
-.table-heading.comparison-imageUrl {
+.table-heading.comparison-image {
   width: 41%;
 }
 
@@ -84,19 +84,16 @@
 .table-data {
   border: 1px solid #ddd;
   padding: 6px;
-}
-
-.table-data.comparison-numbering {
   text-align: center;
 }
 
-.table-data.comparison-buttons {
-  display: flex;
-  justify-content: center;
+.comparison-table-image {
+  width: 400px;
+  height: 150px;
 }
 
 .fas.fa-edit, .far.fa-trash-alt {
-  font-size: 26px;
+  font-size: 30px;
   color: darkslategrey;
   margin: 5px 10px;
 }

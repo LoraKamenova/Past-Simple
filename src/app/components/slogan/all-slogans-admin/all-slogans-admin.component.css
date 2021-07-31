@@ -4,7 +4,7 @@
   width: 80%;
   justify-content: center;
   align-items: center;
-  margin: 1% auto;
+  margin: 3% auto;
 }
 
 .all-slogans-header {
@@ -46,42 +46,8 @@
   font-family: 'Philosopher', sans-serif;
 }
 
-.table-data {
-  border: 1px solid #ddd;
-  padding: 6px;
-}
-
-.table-data.table-buttons {
-  display: flex;
-  justify-content: center;
-}
-
 .all-slogans-table tr:nth-child(even) {
   background-color: #f2f2f2;
-}
-
-.slogan-numbering{
-  width: 3%;
-}
-
-.slogan-heading {
-  width: 50%;
-}
-
-.note-heading {
-  width: 32%;
-}
-
-.buttons-heading {
-  width: 15%;
-}
-
-.table-data.notes {
-  font-style: italic;
-}
-
-.table-data.numbers {
-  text-align: center;
 }
 
 .table-heading {
@@ -97,6 +63,35 @@
 
 .table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {
   border-right: 1px solid white;
+}
+
+.table-heading.slogan-numbering{
+  width: 3%;
+}
+
+.table-heading.slogan-title {
+  width: 50%;
+}
+
+.table-heading.slogan-note {
+  width: 32%;
+}
+
+.table-heading.slogan-button {
+  width: 15%;
+}
+
+.table-data {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+.slogan-numbering, .slogan-buttons {
+  text-align: center;
+}
+
+.table-data.slogan-note {
+  font-style: italic;
 }
 
 .fas.fa-edit, .far.fa-trash-alt {

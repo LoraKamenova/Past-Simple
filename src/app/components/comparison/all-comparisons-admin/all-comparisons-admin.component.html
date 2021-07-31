@@ -1,18 +1,18 @@
 <div class="all-comparisons-admin-wrapper">
   <div class="all-comparisons-header">
-    <span class="all-comparisons-heading">Всички сравнения</span><a class="add-comparison-button" [routerLink]="['/comparison/create']">Ново сравнение</a>
+    <span class="all-comparisons-heading">Всички сравнения</span><a class="add-comparison-button" [routerLink]="['/comparison/create']">Нова снимка</a>
   </div>
 
   <table class="all-comparisons-table">
     <tr class="table-header">
       <th class="table-heading comparison-numbering">#</th>
-      <th class="table-heading comparison-imageUrl">Снимка</th>
+      <th class="table-heading comparison-image">Снимка</th>
       <th class="table-heading comparison-title">Заглавие</th>
       <th class="table-heading comparison-buttons">Действия</th>
     </tr>
     <tr *ngFor="let c of comparison$ | async; let i = index">
       <td class="table-data comparison-numbering">{{i + 1}}</td>
-      <td class="table-data comparison-imageUrl">{{c.imageUrl}}</td>
+      <td class="table-data comparison-image"><img class="comparison-table-image" src="{{c.imageUrl}}" alt="comparison"></td>
       <td class="table-data comparison-title">{{c.title}}</td>
       <td class="table-data comparison-buttons">
         <a class="edit-button" [routerLink]="['/comparison/edit/', c?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>
