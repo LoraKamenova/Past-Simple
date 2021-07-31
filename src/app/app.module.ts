@@ -21,6 +21,7 @@ import {SigninComponent} from "./components/authentication/signin/signin.compone
 
 import {MemoryModule} from "./components/memory/memory.module";
 import {SloganModule} from "./components/slogan/slogan.module";
+import {ComparisonModule} from "./components/comparison/comparison.module";
 
 import {BlogModule} from "./components/blog/blog.module";
 import {ProfileModule} from "./components/profile/profile.module";
@@ -32,6 +33,7 @@ import {PlacesComponent} from "./components/places/places.component";
 
 
 import {AuthService} from "./components/authentication/auth.service";
+
 
 @NgModule({
   declarations: [
@@ -54,6 +56,7 @@ import {AuthService} from "./components/authentication/auth.service";
     HttpClientModule,
     MemoryModule,
     SloganModule,
+    ComparisonModule,
 
     BlogModule,
     EntertainmentModule,

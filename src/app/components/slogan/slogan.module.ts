@@ -10,6 +10,13 @@ import { EditSloganComponent } from './edit-slogan/edit-slogan.component';
 
 
 @NgModule({
+  declarations: [
+    AllSlogansComponent,
+    CreateSloganComponent,
+    AllSlogansAdminComponent,
+    EditSloganComponent
+  ],
+
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -21,12 +28,7 @@ import { EditSloganComponent } from './edit-slogan/edit-slogan.component';
       {path: 'edit/:id', component: EditSloganComponent},
     ])
   ],
-  declarations: [
-    AllSlogansComponent,
-    CreateSloganComponent,
-    AllSlogansAdminComponent,
-    EditSloganComponent
-  ],
+
   providers: [
     SloganService,
   ]

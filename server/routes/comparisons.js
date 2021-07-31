@@ -1,22 +1,22 @@
 const express = require('express')
 const authCheck = require('../middleware/auth-check');
-const Slogan = require('../models/Slogan');
+const Comparison = require('../models/Comparison');
 
 const router = new express.Router()
 
-function validateSloganForm (payload) {
+function validateComparisonForm (payload) {
   const errors = {}
   let isFormValid = true
   let message = ''
 
-  if (!payload || typeof payload.content !== 'string'){
+  if (!payload || typeof payload.title !== 'string'){
     isFormValid = false
-    errors.content = 'Content can`t be empty.'
+    errors.title = 'Title can`t be empty.'
   }
 
-  if (!payload || typeof payload.note !== 'string') {
+  if (!payload || typeof payload.imageUrl !== 'string') {
     isFormValid = false
-    errors.note = 'Note can`t be empty.'
+    errors.imageUrl = 'ImageUrl can`t be empty.'
   }
 
   if (!isFormValid) {
@@ -31,9 +31,9 @@ function validateSloganForm (payload) {
 }
 
 router.post('/create', authCheck, (req, res) => {
-  const slogan = req.body
-  slogan.creator = req.user._id
-  const validationResult = validateSloganForm(slogan)
+  const comparison = req.body
+  comparison.creator = req.user._id
+  const validationResult = validateComparisonForm(comparison)
   if (!validationResult.success) {
     return res.status(400).json({
       success: false,
@@ -42,12 +42,12 @@ router.post('/create', authCheck, (req, res) => {
     })
   }
 
-  Slogan.create(slogan)
+  Comparison.create(comparison)
     .then(() => {
       res.status(200).json({
         success: true,
-        message: 'Slogan added successfully.',
-        slogan
+        message: 'Comparison added successfully.',
+        comparison
       })
     })
 })
@@ -56,17 +56,17 @@ router.get('/all', authCheck ,(req, res) => {
   const page = parseInt(req.query.page) || 1
   const search = req.query.search
 
-  Slogan.find({})
-    .then((slogan) => {
-      return res.status(200).json(slogan)
+  Comparison.find({})
+    .then((comparison) => {
+      return res.status(200).json(comparison)
     })
 })
 
 router.get('/details/:id', authCheck, (req, res) => {
   const id = req.params.id
-  Slogan.findById(id)
-    .then((slogan) => {
-      if (!slogan) {
+  Comparison.findById(id)
+    .then((comparison) => {
+      if (!comparison) {
         return res.status(404).json({
           success: false,
           message: 'Entry does not exists!'
@@ -75,8 +75,8 @@ router.get('/details/:id', authCheck, (req, res) => {
 
       let response = {
         id,
-        content: slogan.content,
-        note: slogan.note,
+        title: comparison.title,
+        imageUrl: comparison.imageUrl,
       }
 
       res.status(200).json(response)
@@ -87,9 +87,9 @@ router.get('/details/:id', authCheck, (req, res) => {
 router.get('/user', authCheck, (req, res) => {
   const user = req.user._id
 
-  Slogan.find({creator: user})
-    .then((slogan) => {
-      return res.status(200).json(slogan)
+  Comparison.find({creator: user})
+    .then((comparison) => {
+      return res.status(200).json(comparison)
     })
 })
 
@@ -97,27 +97,27 @@ router.delete('/delete/:id', authCheck, (req, res) => {
   const id = req.params.id
   const user = req.user._id
 
-  Slogan.findById(id)
-    .then((slogan) => {
-      if (!slogan) {
+  Comparison.findById(id)
+    .then((comparison) => {
+      if (!comparison) {
         return res.status(200).json({
           success: false,
-          message: 'Slogan does not exists!'
+          message: 'Comparison does not exists!'
         })
       }
 
-      if ((slogan.creator.toString() !== user && !req.user.roles.includes("Admin"))) {
+      if ((comparison.creator.toString() !== user && !req.user.roles.includes("Admin"))) {
         return res.status(401).json({
           success: false,
           message: 'Unauthorized!'
         })
       }
 
-      Slogan.findByIdAndDelete(id)
+      Comparison.findByIdAndDelete(id)
         .then(() => {
           return res.status(200).json({
             success: true,
-            message: 'Slogan deleted successfully!'
+            message: 'Comparison deleted successfully!'
           })
         })
     })
@@ -125,9 +125,9 @@ router.delete('/delete/:id', authCheck, (req, res) => {
 
 router.put('/edit/:id', authCheck, (req, res) => {
   const id = req.params.id;
-  const slogan = req.body;
+  const comparison = req.body;
 
-  if (!slogan) {
+  if (!comparison) {
     return res.status(404).json({
       success: false,
       message: 'Slogan does not exists!'
@@ -141,7 +141,7 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  const validationResult = validateSloganForm(slogan)
+  const validationResult = validateComparisonForm(comparison)
   if (!validationResult.success) {
     return res.status(400).json({
       success: false,
@@ -150,11 +150,11 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  Slogan.findByIdAndUpdate(id, slogan)
+  Comparison.findByIdAndUpdate(id, comparison)
     .then(() => {
       return res.status(200).json({
         success: true,
-        message: 'Slogan edited successfully!'
+        message: 'Comparison edited successfully!'
       })
     })
 })
@@ -162,9 +162,9 @@ router.put('/edit/:id', authCheck, (req, res) => {
 router.get('/:id', authCheck, (req, res) => {
   const id = req.params.id
 
-  Slogan.findById(id)
-    .then(slogan => {
-      if (!slogan) {
+  Comparison.findById(id)
+    .then(comparison => {
+      if (!comparison) {
         return res.status(404).json({
           success: false,
           message: 'Entry does not exists!'
@@ -173,8 +173,8 @@ router.get('/:id', authCheck, (req, res) => {
 
       let response = {
         id,
-        content: slogan.content,
-        note: slogan.note,
+        title: comparison.title,
+        imageUrl: comparison.imageUrl,
       }
 
       res.status(200).json(response)

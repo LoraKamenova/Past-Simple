@@ -15,6 +15,7 @@ const editSloganUrl = "http://localhost:5000/slogan/edit/";
 export class SloganService {
 
   constructor(private http: HttpClient) { }
+
   createSlogan(data) {
     return this.http.post(createSloganUrl, data);
   }
@@ -27,7 +28,7 @@ export class SloganService {
     return this.http.get<Slogan>(getSingleSloganUrl + id)
   }
 
-  editSlogan(id, data : Slogan) {
+  editSlogan(id, data: Slogan) {
     return this.http.put<Slogan>(editSloganUrl + id, data);
   }
 

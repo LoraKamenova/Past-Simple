@@ -1,4 +1,4 @@
-.all-slogans-admin-wrapper {
+.all-comparisons-admin-wrapper {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -7,21 +7,21 @@
   margin: 1% auto;
 }
 
-.all-slogans-header {
+.all-comparisons-header {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.all-slogans-heading {
+.all-comparisons-heading {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   font-size: 30px;
   color: white;
 }
 
-.add-slogan-button {
-  width: 150px;
+.add-comparison-button {
+  width: 200px;
   padding: 10px 20px;
   margin-left: 30px;
   background-color: #006B3C;
@@ -34,54 +34,20 @@
   text-align: center;
 }
 
-.add-slogan-button:hover {
+.add-comparison-button:hover {
   cursor: pointer;
   background-color: #008A4D;
 }
 
-.all-slogans-table {
+.all-comparisons-table {
   border-collapse: collapse;
   width: 100%;
   background-color: white;
   font-family: 'Philosopher', sans-serif;
 }
 
-.table-data {
-  border: 1px solid #ddd;
-  padding: 6px;
-}
-
-.table-data.table-buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.all-slogans-table tr:nth-child(even) {
+.all-comparisons-table tr:nth-child(even) {
   background-color: #f2f2f2;
-}
-
-.slogan-numbering{
-  width: 3%;
-}
-
-.slogan-heading {
-  width: 50%;
-}
-
-.note-heading {
-  width: 32%;
-}
-
-.buttons-heading {
-  width: 15%;
-}
-
-.table-data.notes {
-  font-style: italic;
-}
-
-.table-data.numbers {
-  text-align: center;
 }
 
 .table-heading {
@@ -97,6 +63,36 @@
 
 .table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {
   border-right: 1px solid white;
+}
+
+.table-heading.comparison-numbering{
+  width: 3%;
+}
+
+.table-heading.comparison-imageUrl {
+  width: 41%;
+}
+
+.table-heading.comparison-title {
+  width: 41%;
+}
+
+.table-heading.comparison-buttons {
+  width: 15%;
+}
+
+.table-data {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+.table-data.comparison-numbering {
+  text-align: center;
+}
+
+.table-data.comparison-buttons {
+  display: flex;
+  justify-content: center;
 }
 
 .fas.fa-edit, .far.fa-trash-alt {

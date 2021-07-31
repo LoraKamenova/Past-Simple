@@ -6,7 +6,6 @@ import {BlogPostsComponent} from "./components/blog/all-posts/blog-posts.compone
 import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
 import {QuizComponent} from "./components/quiz/quiz/quiz.component";
 import {PlacesComponent} from "./components/places/places.component";
-import {AllComparisonsComponent} from "./components/comparison/all-comparisons/all-comparisons.component";
 import {TravelCategoriesComponent} from "./components/travel/travel-categories/travel-categories.component";
 import {EntertainmentCategoriesComponent} from "./components/entertainment/entertainment-categories/entertainment-categories.component";
 import {VenueCategoriesComponent} from "./components/venue/venue-categories/venue-categories.component";
@@ -26,6 +25,7 @@ const routes: Routes = [
   {path: 'signin', component: SigninComponent},
   {path: 'memory', loadChildren: './components/memory/memory.module#MemoryModule', canActivate: [AuthGuard]},
   {path: 'slogan', loadChildren: './components/slogan/slogan.module#SloganModule', canActivate: [AuthGuard]},
+  {path: 'comparison', loadChildren: './components/comparison/comparison.module#ComparisonModule', canActivate: [AuthGuard]},
   {path: 'admin-panel', component: AdminPanelComponent},
 
   {path: 'all-posts', component: BlogPostsComponent},
@@ -34,7 +34,6 @@ const routes: Routes = [
   {path: 'quiz', component: QuizComponent},
   {path: 'quiz-result', component: QuizResultComponent},
   {path: 'places', component: PlacesComponent},
-  {path: 'all-comparisons', component: AllComparisonsComponent},
   {path: 'all-travel-categories', component: TravelCategoriesComponent},
   {path: 'all-entertainment-categories', component: EntertainmentCategoriesComponent},
   {path: 'all-venue-categories', component: VenueCategoriesComponent},

@@ -11,9 +11,9 @@
       <th class="table-heading buttons-heading">Действия</th>
     </tr>
     <tr *ngFor="let s of slogan$ | async; let i = index">
-      <td class="table-data">{{i + 1}}</td>
+      <td class="table-data numbers">{{i + 1}}</td>
       <td class="table-data">{{s.content}}</td>
-      <td class="table-data">{{s.note}}</td>
+      <td class="table-data notes">{{s.note}}</td>
       <td class="table-data table-buttons">
         <a class="edit-button" [routerLink]="['/slogan/edit/', s?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>
         <a class="delete-button" (click)="deleteSlogan(s._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>

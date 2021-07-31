@@ -36,9 +36,14 @@
   color: lightgray;
 }
 
-.fas.fa-edit:hover, .far.fa-trash-alt:hover {
+.fas.fa-edit:hover{
   cursor: pointer;
-  color: darkslategrey;
+  color: darkorange;
+}
+
+.far.fa-trash-alt:hover {
+  cursor: pointer;
+  color: red;
 }
 
 .memory-content-wrapper {

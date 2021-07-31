@@ -6,6 +6,7 @@ const localLoginStrategy = require('../passport/local-login')
 const authRoutes = require('../routes/auth')
 const memoryRoutes = require('../routes/memories')
 const sloganRoutes = require('../routes/slogans')
+const comparisonRoutes = require('../routes/comparisons')
 const statsRoutes = require('../routes/stats')
 
 module.exports = app => {
@@ -25,5 +26,6 @@ module.exports = app => {
   app.use('/auth', authRoutes)
   app.use('/memory', memoryRoutes)
   app.use('/slogan', sloganRoutes)
+  app.use('/comparison', comparisonRoutes)
   app.use('/stats', statsRoutes)
 }
