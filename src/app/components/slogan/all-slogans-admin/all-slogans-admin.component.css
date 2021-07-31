@@ -60,12 +60,16 @@
   background-color: #f2f2f2;
 }
 
+.slogan-numbering{
+  width: 3%;
+}
+
 .slogan-heading {
   width: 45%;
 }
 
 .note-heading {
-  width: 35%;
+  width: 32%;
 }
 
 .buttons-heading {
