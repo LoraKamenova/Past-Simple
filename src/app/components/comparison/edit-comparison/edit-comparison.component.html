@@ -1,1 +1,34 @@
-<p>edit-comparison works!</p>
+<div class="standard-form-wrapper">
+  <fieldset class="standard-form-set">
+    <legend class="legend">РЕДАКТИРАЙ СНИМКА</legend>
+
+    <form class="edit-form" [formGroup]="form" (submit)="editComparison()">
+
+      <div class="form-group">
+        <label for="imageUrl" class="label">Линк към снимка</label>
+        <input class="input" id="imageUrl" type="text" formControlName="imageUrl" name="imageUrl" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.imageUrl.touched && f.imageUrl.errors?.required">
+          Задължително поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="title" class="label">Заглавие</label>
+        <textarea class="input" rows="5" name="title" formControlName="title" id="title" required></textarea>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.title.touched && f.title.errors?.required">
+          Задължително поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="button" [disabled]="invalid">ГОТОВО</button>
+      </div>
+    </form>
+
+  </fieldset>
+</div>
+

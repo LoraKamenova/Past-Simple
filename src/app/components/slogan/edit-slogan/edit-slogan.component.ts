@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Form, FormGroup, Validators, FormControl, ReactiveFormsModule } from '@angular/forms';
+import {Component, OnInit} from '@angular/core';
+import {FormGroup, Validators, FormControl} from '@angular/forms';
 import {SloganService} from "../slogan.service";
 import {ActivatedRoute, Router} from "@angular/router";
 import {Slogan} from "../../../models/slogan";
@@ -10,13 +10,14 @@ import {Slogan} from "../../../models/slogan";
   styleUrls: ['./edit-slogan.component.css']
 })
 export class EditSloganComponent implements OnInit {
-  slogan : Slogan;
+  slogan: Slogan;
   form = new FormGroup({
     content: new FormControl('', [Validators.required]),
     note: new FormControl('')
   });
 
-  constructor(private route: ActivatedRoute, private sloganService: SloganService, private router: Router) { }
+  constructor(private route: ActivatedRoute, private sloganService: SloganService, private router: Router) {
+  }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
