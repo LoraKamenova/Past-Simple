@@ -8,6 +8,10 @@ const sloganSchema = new mongoose.Schema({
   note: {
     type: mongoose.Schema.Types.String,
   },
+  creator: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  }
 });
 
 const Slogan = mongoose.model('Slogan', sloganSchema);

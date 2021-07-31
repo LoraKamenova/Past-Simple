@@ -1,0 +1,22 @@
+<div class="all-slogans-admin-wrapper">
+  <div class="all-slogans-header">
+    <span class="all-slogans-heading">Всички лозунги</span><a class="add-slogan-button" [routerLink]="['/slogan/create']">Нов лозунг</a>
+  </div>
+
+  <table class="all-slogans-table">
+    <tr class="table-header">
+      <th class="table-heading slogan-heading">Лозунг</th>
+      <th class="table-heading note-heading">Бележка</th>
+      <th class="table-heading buttons-heading">Действия</th>
+    </tr>
+    <tr *ngFor="let s of slogan$ | async">
+      <td class="table-data">{{s.content}}</td>
+      <td class="table-data">{{s.note}}</td>
+      <td class="table-data table-buttons">
+        <a class="edit-button" [routerLink]="['/memory/edit/', s?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>
+        <a class="delete-button" (click)="deleteSlogan(s._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>
+      </td>
+    </tr>
+
+  </table>
+</div>

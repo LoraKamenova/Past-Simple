@@ -4,7 +4,7 @@ import {AllSlogansComponent} from './all-slogans/all-slogans.component';
 import {CreateSloganComponent} from './create-slogan/create-slogan.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
-import {AdminSlogansComponent} from './admin-slogans/admin-slogans.component';
+import {AllSlogansAdminComponent} from './all-slogans-admin/all-slogans-admin.component';
 import {SloganService} from "./slogan.service";
 
 
@@ -16,13 +16,13 @@ import {SloganService} from "./slogan.service";
       {path: '', pathMatch: 'full', redirectTo: 'home'},
       {path: 'create', component: CreateSloganComponent},
       {path: 'all', component: AllSlogansComponent},
-      {path: 'all/admin', component: AdminSlogansComponent},
+      {path: 'all/admin', component: AllSlogansAdminComponent},
     ])
   ],
   declarations: [
     AllSlogansComponent,
     CreateSloganComponent,
-    AdminSlogansComponent
+    AllSlogansAdminComponent
   ],
   providers: [
     SloganService,
