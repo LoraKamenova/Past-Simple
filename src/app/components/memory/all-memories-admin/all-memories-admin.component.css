@@ -1,19 +1,19 @@
-.all-slogans-admin-wrapper {
+.all-memories-admin-wrapper {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   justify-content: center;
   align-items: center;
   margin: 3% auto;
 }
 
-.all-slogans-header {
+.all-memories-header {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.all-slogans-heading {
+.all-memories-heading {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   font-size: 30px;
@@ -40,14 +40,14 @@
   background-color: teal;
 }
 
-.all-slogans-table {
+.all-memories-table {
   border-collapse: collapse;
   width: 100%;
   background-color: white;
   font-family: 'Philosopher', sans-serif;
 }
 
-.all-slogans-table tr:nth-child(even) {
+.all-memories-table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
@@ -66,37 +66,35 @@
   border-right: 1px solid white;
 }
 
-.table-heading.slogan-numbering{
-  width: 3%;
+.table-heading.memory-numbering{
+  width: 5%;
 }
 
-.table-heading.slogan-title {
-  width: 50%;
+.table-heading.memory-image {
+  width: 25%;
 }
 
-.table-heading.slogan-note {
-  width: 32%;
+.table-heading.memory-title {
+  width: 45%;
 }
 
-.table-heading.slogan-button {
-  width: 15%;
+.table-heading.memory-buttons {
+  width: 25%;
 }
 
 .table-data {
   border: 1px solid #ddd;
   padding: 6px;
-}
-
-.slogan-numbering, .slogan-buttons {
   text-align: center;
 }
 
-.table-data.slogan-note {
-  font-style: italic;
+.memory-table-image {
+  width: 200px;
+  height: 100px;
 }
 
-.fas.fa-edit, .far.fa-trash-alt {
-  font-size: 26px;
+.fas.fa-edit, .far.fa-trash-alt, .fas.fa-search-plus {
+  font-size: 30px;
   color: darkslategrey;
   margin: 5px 10px;
 }
@@ -109,4 +107,9 @@
 .far.fa-trash-alt:hover {
   cursor: pointer;
   color: red;
+}
+
+.fas.fa-search-plus:hover {
+  cursor: pointer;
+  color: rebeccapurple;
 }

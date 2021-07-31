@@ -9,6 +9,7 @@ const getAllMemoriesUrl = "http://localhost:5000/memory/all";
 const getSingleMemoryUrl = "http://localhost:5000/memory/details/";
 const getUserMemoriesUrl = "http://localhost:5000/memory/user/";
 const deleteMemoryUrl = "http://localhost:5000/memory/delete/";
+const editMemoryUrl = "http://localhost:5000/memory/edit/";
 
 @Injectable({
   providedIn: 'root'

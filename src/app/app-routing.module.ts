@@ -2,14 +2,12 @@ import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {HomeComponent} from './components/home/home.component';
 import {IndexComponent} from "./components/index/index.component";
-import {BlogPostsComponent} from "./components/blog/all-posts/blog-posts.component";
 import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
 import {QuizComponent} from "./components/quiz/quiz/quiz.component";
 import {PlacesComponent} from "./components/places/places.component";
 import {TravelCategoriesComponent} from "./components/travel/travel-categories/travel-categories.component";
 import {EntertainmentCategoriesComponent} from "./components/entertainment/entertainment-categories/entertainment-categories.component";
 import {VenueCategoriesComponent} from "./components/venue/venue-categories/venue-categories.component";
-import {PostComponent} from "./components/blog/post/post.component";
 import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
 import {AboutComponent} from "./components/about/about.component";
 import {CafeAlbumComponent} from "./components/venue/cafe-album/cafe-album.component";
@@ -25,11 +23,10 @@ const routes: Routes = [
   {path: 'signin', component: SigninComponent},
   {path: 'memory', loadChildren: './components/memory/memory.module#MemoryModule', canActivate: [AuthGuard]},
   {path: 'slogan', loadChildren: './components/slogan/slogan.module#SloganModule', canActivate: [AuthGuard]},
+  {path: 'post', loadChildren: './components/blog/post.module#PostModule', canActivate: [AuthGuard]},
   {path: 'comparison', loadChildren: './components/comparison/comparison.module#ComparisonModule', canActivate: [AuthGuard]},
   {path: 'admin-panel', component: AdminPanelComponent},
 
-  {path: 'all-posts', component: BlogPostsComponent},
-  {path: 'post', component: PostComponent},
   {path: 'my-profile', component: MyProfileComponent},
   {path: 'quiz', component: QuizComponent},
   {path: 'quiz-result', component: QuizResultComponent},

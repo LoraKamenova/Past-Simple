@@ -32,7 +32,7 @@ export class ComparisonService {
     return this.http.put<Comparison>(editComparisonUrl + id, data);
   }
 
-  deleteSlogan(id) {
+  deleteComparison(id) {
     return this.http.delete(deleteComparisonUrl + id);
   }
 }

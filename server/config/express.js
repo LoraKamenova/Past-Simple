@@ -7,6 +7,7 @@ const authRoutes = require('../routes/auth')
 const memoryRoutes = require('../routes/memories')
 const sloganRoutes = require('../routes/slogans')
 const comparisonRoutes = require('../routes/comparisons')
+const postRoutes = require('../routes/posts')
 const statsRoutes = require('../routes/stats')
 
 module.exports = app => {
@@ -27,5 +28,6 @@ module.exports = app => {
   app.use('/memory', memoryRoutes)
   app.use('/slogan', sloganRoutes)
   app.use('/comparison', comparisonRoutes)
+  app.use('/post', postRoutes)
   app.use('/stats', statsRoutes)
 }

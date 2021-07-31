@@ -22,8 +22,8 @@ import {SigninComponent} from "./components/authentication/signin/signin.compone
 import {MemoryModule} from "./components/memory/memory.module";
 import {SloganModule} from "./components/slogan/slogan.module";
 import {ComparisonModule} from "./components/comparison/comparison.module";
+import {PostModule} from "./components/blog/post.module";
 
-import {BlogModule} from "./components/blog/blog.module";
 import {ProfileModule} from "./components/profile/profile.module";
 import {QuizModule} from "./components/quiz/quiz.module";
 import {EntertainmentModule} from "./components/entertainment/entertainment.module";
@@ -57,8 +57,8 @@ import {AuthService} from "./components/authentication/auth.service";
     MemoryModule,
     SloganModule,
     ComparisonModule,
+    PostModule,
 
-    BlogModule,
     EntertainmentModule,
     ProfileModule,
     QuizModule,

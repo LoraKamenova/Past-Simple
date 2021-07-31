@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
-import {Slogan} from "../../../models/slogan";
 import {ComparisonService} from "../comparison.service";
 import {Comparison} from "../../../models/comparison";
 
@@ -20,7 +19,7 @@ export class AllComparisonsAdminComponent implements OnInit {
 
   deleteComparison(id) {
     console.log(id)
-    this.comparisonService.deleteSlogan(id).subscribe((data) => {
+    this.comparisonService.deleteComparison(id).subscribe((data) => {
       console.log('delete', data)
       this.comparison$ = this.comparisonService.getAllComparisons();
     });

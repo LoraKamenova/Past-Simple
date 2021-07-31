@@ -1,0 +1,25 @@
+<div class="all-memories-admin-wrapper">
+  <div class="all-memories-header">
+    <span class="all-memories-heading">Всички спомени</span><a class="new-entry-button" [routerLink]="['/memory/create']">Нов запис</a>
+  </div>
+
+  <table class="all-memories-table">
+    <tr class="table-header">
+      <th class="table-heading memory-numbering">#</th>
+      <th class="table-heading memory-image">Снимка</th>
+      <th class="table-heading memory-title">Заглавие</th>
+      <th class="table-heading memory-buttons">Действия</th>
+    </tr>
+    <tr *ngFor="let m of memory$ | async; let i = index">
+      <td class="table-data memory-numbering">{{i + 1}}</td>
+      <td class="table-data memory-image"><img class="memory-table-image" src="{{m.imageUrl}}" alt="comparison"></td>
+      <td class="table-data memory-title">{{m.title}}</td>
+      <td class="table-data memory-buttons">
+        <a class="details-button" [routerLink]="['/memory/details/', m?._id]"><i class="fas fa-search-plus" title="Преглед"></i></a>
+        <a class="edit-button" [routerLink]="['/memory/edit/', m?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>
+        <a class="delete-button" (click)="deleteMemory(m._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>
+      </td>
+    </tr>
+
+  </table>
+</div>

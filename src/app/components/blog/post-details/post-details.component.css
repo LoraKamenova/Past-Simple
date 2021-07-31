@@ -9,7 +9,7 @@
   padding-bottom: 30px;
 }
 
-.post-upper-section {
+.post-big-image-section {
   width: 100%;
   height: 350px;
 }
@@ -26,10 +26,10 @@
 
 .post-title-container {
   display: flex;
-  width: 50%;
-  justify-content: center;
+  width: 60%;
+  justify-content: space-between;
   align-items: center;
-  padding: 30px 20px 30px 30px;
+  padding: 30px 70px;
 }
 
 .post-title {
@@ -38,16 +38,17 @@
   font-family: 'Philosopher', sans-serif;
   border-bottom: 3px solid black;
   border-top: 3px solid black;
-  padding: 40px 30px 40px 30px;
+  width: 100%;
   font-size: 30px;
   font-weight: bolder;
+  padding: 40px 30px 40px 30px;
 }
 
 .post-sub-title-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
 }
 
 .post-sub-title {
@@ -57,22 +58,22 @@
   padding-right: 50px;
   font-weight: bold;
   font-style: italic;
+  text-align: center;
 }
 
 .post-content-section {
   width: 100%;
-  padding: 0 40px;
+  padding: 0 70px;
 }
 
 .post-text {
-  padding: 0 30px;
   font-size: 16px;
   font-family: 'Philosopher', sans-serif;
   line-height: 1.2;
   text-align: justify;
 }
 
-.post-lower-section {
+.post-small-image-section {
   display: flex;
   padding: 20px;
 }

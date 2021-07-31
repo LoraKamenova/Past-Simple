@@ -4,56 +4,28 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 2% auto;
+  margin: 3% auto;
   color: white;
-}
-
-.admin-panel-heading {
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  margin: 10px;
-}
-
-.admin-fieldset-container {
-  display: flex;
-  width: 100%;
 }
 
 .admin-fieldset {
   display: flex;
   margin: 20px;
-  height: 350px;
-  padding: 20px;
+  width: 40%;
+  padding: 20px 20px 20px 30px;
   backdrop-filter: blur(15px);
   font-size: 18px;
 }
 
-.general-fieldset {
-  width: 30%;
-  justify-content: center;
-  align-items: center;
-}
-
-.album-fieldset {
-  width: 60%;
-  justify-content: space-evenly;
-}
-
 .admin-fieldset-legend {
   font-weight: bold;
-  text-decoration: underline solid #006B3C;
+  text-decoration: underline solid teal;
   text-underline-offset: 10px;
   color: lightgrey;
   text-transform: uppercase;
   font-size: 26px;
   padding: 0 10px;
   font-family: 'Philosopher', sans-serif;
-}
-
-.admin-fieldset-list-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .admin-fieldset-list {
@@ -75,9 +47,12 @@
 .admin-panel-link:hover {
   cursor: pointer;
   text-decoration: none;
-  color: #008A4D;
+  color: teal;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.far.fa-images, .fas.fa-archive {
+.font-icon {
   margin-right: 10px;
+  font-size: 22px;
 }

@@ -1,0 +1,19 @@
+<div class="blog-posts-wrapper">
+  <h1 class="blog-heading">Блог статии</h1>
+
+  <section class="blog-posts-container">
+    <a class="blog-card" *ngFor="let p of post$ | async" [routerLink]="['/post/details/', p._id]">
+      <img class="blog-card-image" alt="blog"
+           src="{{p.imageUrl1}}">
+      <div class="blog-card-content">
+        <h1 class="blog-card-heading">{{p.title}}</h1>
+        <p class="blog-card-short-text">{{p.content | slice:0:60}}...</p>
+        <div class="blog-card-continue-reading">Продължете да четете &#8594;</div>
+        <div class="blog-card-date-wrapper">
+          <p class="blog-card-author">Автор: <span>{{p.creator.name}}</span></p>
+        </div>
+      </div>
+    </a>
+
+  </section>
+</div>

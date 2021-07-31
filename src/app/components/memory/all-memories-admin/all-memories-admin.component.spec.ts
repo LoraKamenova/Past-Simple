@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PostComponent } from './post.component';
+import { AllMemoriesAdminComponent } from './all-memories-admin.component';
 
-describe('PostComponent', () => {
-  let component: PostComponent;
-  let fixture: ComponentFixture<PostComponent>;
+describe('AllMemoriesAdminComponent', () => {
+  let component: AllMemoriesAdminComponent;
+  let fixture: ComponentFixture<AllMemoriesAdminComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PostComponent ]
+      declarations: [ AllMemoriesAdminComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PostComponent);
+    fixture = TestBed.createComponent(AllMemoriesAdminComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -20,13 +20,14 @@
   color: white;
 }
 
-.add-comparison-button {
+.new-entry-button {
+  position: relative;
+  top: -5px;
   width: 200px;
   padding: 10px 20px;
-  margin-left: 30px;
-  background-color: #006B3C;
+  border: 2px solid teal;
+  margin-left: 20px;
   color: white;
-  border-radius: 5px;
   outline: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -34,9 +35,9 @@
   text-align: center;
 }
 
-.add-comparison-button:hover {
+.new-entry-button:hover {
   cursor: pointer;
-  background-color: #008A4D;
+  background-color: teal;
 }
 
 .all-comparisons-table {
@@ -70,11 +71,11 @@
 }
 
 .table-heading.comparison-image {
-  width: 41%;
+  width: 31%;
 }
 
 .table-heading.comparison-title {
-  width: 41%;
+  width: 51%;
 }
 
 .table-heading.comparison-buttons {
@@ -88,8 +89,8 @@
 }
 
 .comparison-table-image {
-  width: 400px;
-  height: 150px;
+  width: 300px;
+  height: 100px;
 }
 
 .fas.fa-edit, .far.fa-trash-alt {

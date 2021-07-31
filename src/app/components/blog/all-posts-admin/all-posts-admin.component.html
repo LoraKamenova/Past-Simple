@@ -1,0 +1,23 @@
+<div class="all-posts-admin-wrapper">
+  <div class="all-posts-header">
+    <span class="all-posts-heading">Всички статии</span><a class="new-entry-button" [routerLink]="['/post/create']">Нов запис</a>
+  </div>
+
+  <table class="all-posts-table">
+    <tr class="table-header">
+      <th class="table-heading post-numbering">#</th>
+      <th class="table-heading post-title">Заглавие</th>
+      <th class="table-heading post-buttons">Действия</th>
+    </tr>
+    <tr *ngFor="let p of post$ | async; let i = index">
+      <td class="table-data post-numbering">{{i + 1}}</td>
+      <td class="table-data post-title">{{p.title}}</td>
+      <td class="table-data post-buttons">
+        <a class="details-button" [routerLink]="['/post/details/', p?._id]"><i class="fas fa-search-plus" title="Преглед"></i></a>
+        <a class="edit-button" [routerLink]="['/post/edit/', p?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>
+        <a class="delete-button" (click)="deletePost(p._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>
+      </td>
+    </tr>
+
+  </table>
+</div>
