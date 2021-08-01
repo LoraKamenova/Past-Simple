@@ -23,7 +23,7 @@ const routes: Routes = [
   {path: 'signin', component: SigninComponent},
   {path: 'memory', loadChildren: './components/memory/memory.module#MemoryModule', canActivate: [AuthGuard]},
   {path: 'slogan', loadChildren: './components/slogan/slogan.module#SloganModule', canActivate: [AuthGuard]},
-  {path: 'post', loadChildren: './components/blog/post.module#PostModule', canActivate: [AuthGuard]},
+  {path: 'post', loadChildren: './components/post/post.module#PostModule', canActivate: [AuthGuard]},
   {path: 'comparison', loadChildren: './components/comparison/comparison.module#ComparisonModule', canActivate: [AuthGuard]},
   {path: 'admin-panel', component: AdminPanelComponent},
 

@@ -22,7 +22,7 @@ import {SigninComponent} from "./components/authentication/signin/signin.compone
 import {MemoryModule} from "./components/memory/memory.module";
 import {SloganModule} from "./components/slogan/slogan.module";
 import {ComparisonModule} from "./components/comparison/comparison.module";
-import {PostModule} from "./components/blog/post.module";
+import {PostModule} from "./components/post/post.module";
 
 import {ProfileModule} from "./components/profile/profile.module";
 import {QuizModule} from "./components/quiz/quiz.module";

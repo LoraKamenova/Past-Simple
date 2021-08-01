@@ -10,7 +10,7 @@
         <p class="blog-card-short-text">{{p.content | slice:0:60}}...</p>
         <div class="blog-card-continue-reading">Продължете да четете &#8594;</div>
         <div class="blog-card-date-wrapper">
-          <p class="blog-card-author">Автор: <span>{{p.creator.name}}</span></p>
+          <p class="blog-card-author">Автор: <span>{{p.creator[0].name}}</span></p>
         </div>
       </div>
     </a>

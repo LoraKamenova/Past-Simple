@@ -146,12 +146,12 @@ router.put('/edit/:id', authCheck, (req, res) => {
   console.log(req.user._id)
   console.log(memory.creator[0]._id)
 
-  if (!req.user.roles.includes('Admin') ) {
-    return res.status(401).json({
-      success: false,
-      message: 'Unauthorized!'
-    })
-  }
+  // if ((req.user._id !== memory.creator[0]._id) && !req.user.roles.includes('Admin')) {
+  //   return res.status(401).json({
+  //     success: false,
+  //     message: 'Unauthorized!'
+  //   })
+  // }
 
 
   const validationResult = validateMemoryForm(memory)
@@ -163,13 +163,13 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  Memory.findByIdAndUpdate(id, memory)
-    .then(() => {
-      return res.status(200).json({
-        success: true,
-        message: 'Memory edited successfully!'
+    Memory.findByIdAndUpdate(id, memory)
+      .then(() => {
+        return res.status(200).json({
+          success: true,
+          message: 'Memory edited successfully!'
+        })
       })
-  })
 })
 
 router.get('/:id', authCheck, (req, res) => {
