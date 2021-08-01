@@ -5,7 +5,7 @@ import {CreateSloganComponent} from './create-slogan/create-slogan.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
 import {AllSlogansAdminComponent} from './all-slogans-admin/all-slogans-admin.component';
-import {SloganService} from "./slogan.service";
+import {SloganService} from "../../services/slogan.service";
 import { EditSloganComponent } from './edit-slogan/edit-slogan.component';
 
 

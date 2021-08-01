@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Memory} from "../../../models/memory";
 import {ActivatedRoute, Router} from "@angular/router";
-import {MemoryService} from "../memory.service";
+import {MemoryService} from "../../../services/memory.service";
 
 @Component({
   selector: 'app-memory',

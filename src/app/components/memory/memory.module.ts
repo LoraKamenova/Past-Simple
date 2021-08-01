@@ -6,7 +6,7 @@ import {RouterModule} from "@angular/router";
 import {MemoryDetailsComponent} from './memory-details/memory-details.component';
 import {MemoriesUserComponent} from "./memories-user/memories-user.component";
 import {ReactiveFormsModule} from "@angular/forms";
-import {MemoryService} from "./memory.service";
+import {MemoryService} from "../../services/memory.service";
 import { AllMemoriesAdminComponent } from './all-memories-admin/all-memories-admin.component';
 import { EditMemoryComponent } from './edit-memory/edit-memory.component';
 

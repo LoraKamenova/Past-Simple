@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
-import {ComparisonService} from "../comparison.service";
+import {ComparisonService} from "../../../services/comparison.service";
 import {Comparison} from "../../../models/comparison";
 
 @Component({

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
 import {Comparison} from "../../../models/comparison";
-import {ComparisonService} from "../comparison.service";
+import {ComparisonService} from "../../../services/comparison.service";
 
 @Component({
   selector: 'app-all-comparisons',

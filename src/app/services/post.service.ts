@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {Post} from "../../models/post";
+import {Post} from "../models/post";
 
 const createPostUrl = "http://localhost:5000/post/create";
 const getAllPostsUrl = "http://localhost:5000/post/all";

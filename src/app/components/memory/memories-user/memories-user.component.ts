@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
 import {Memory} from "../../../models/memory";
-import {MemoryService} from "../memory.service";
+import {MemoryService} from "../../../services/memory.service";
 
 @Component({
   selector: 'app-my-memories',

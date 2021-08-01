@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {Router} from "@angular/router";
-import {SloganService} from "../slogan.service";
+import {SloganService} from "../../../services/slogan.service";
 
 @Component({
   selector: 'app-add-slogan',

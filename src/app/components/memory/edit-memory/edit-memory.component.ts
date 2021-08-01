@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {ActivatedRoute, Router} from "@angular/router";
 import {Memory} from "../../../models/memory";
-import {MemoryService} from "../memory.service";
+import {MemoryService} from "../../../services/memory.service";
 
 @Component({
   selector: 'app-edit-memory',

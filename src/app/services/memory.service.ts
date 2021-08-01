@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {Memory} from "../../models/memory";
+import {Memory} from "../models/memory";
 
 
 const createMemoryUrl = "http://localhost:5000/memory/create";

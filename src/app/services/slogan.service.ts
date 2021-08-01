@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {Slogan} from "../../models/slogan";
+import {Slogan} from "../models/slogan";
 
 const createSloganUrl = "http://localhost:5000/slogan/create";
 const getAllSlogansUrl = "http://localhost:5000/slogan/all";

@@ -7,7 +7,7 @@ import {PostDetailsComponent} from './post-details/post-details.component';
 import {RouterModule} from "@angular/router";
 import {AllPostsAdminComponent} from './all-posts-admin/all-posts-admin.component';
 import {ReactiveFormsModule} from "@angular/forms";
-import {PostService} from "./post.service";
+import {PostService} from "../../services/post.service";
 
 
 @NgModule({

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
 import {Slogan} from "../../../models/slogan";
-import {SloganService} from "../slogan.service";
+import {SloganService} from "../../../services/slogan.service";
 
 @Component({
   selector: 'app-all-slogans',

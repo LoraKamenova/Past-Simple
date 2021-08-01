@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {Post} from "../../../models/post";
 import {ActivatedRoute, Router} from "@angular/router";
-import {PostService} from "../post.service";
+import {PostService} from "../../../services/post.service";
 
 @Component({
   selector: 'app-edit-post',

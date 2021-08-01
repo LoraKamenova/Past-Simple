@@ -6,7 +6,7 @@ import { CreateComparisonComponent } from './create-comparison/create-comparison
 import { EditComparisonComponent } from './edit-comparison/edit-comparison.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
-import {ComparisonService} from "./comparison.service";
+import {ComparisonService} from "../../services/comparison.service";
 
 
 @NgModule({

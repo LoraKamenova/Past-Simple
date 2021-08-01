@@ -10,8 +10,8 @@ import {JwtInterceptorService} from "./interceptors/jwt-interceptor.service";
 import {ResponseHandlerInterceptorService} from "./interceptors/response-handler-interceptor.service";
 
 import {AppComponent} from './app.component';
-import {NavigationComponent} from './components/navigation/navigation/navigation.component';
-import {FooterComponent} from './components/footer/footer/footer.component';
+import {NavigationComponent} from './components/shared/navigation/navigation/navigation.component';
+import {FooterComponent} from './components/shared/footer/footer/footer.component';
 import {HomeComponent} from "./components/home/home.component";
 import {AboutComponent} from './components/about/about.component';
 import {AdminPanelComponent} from "./components/admin-panel/admin-panel.component";
@@ -24,15 +24,13 @@ import {SloganModule} from "./components/slogan/slogan.module";
 import {ComparisonModule} from "./components/comparison/comparison.module";
 import {PostModule} from "./components/post/post.module";
 
-import {ProfileModule} from "./components/profile/profile.module";
 import {QuizModule} from "./components/quiz/quiz.module";
-import {EntertainmentModule} from "./components/entertainment/entertainment.module";
-import {TravelModule} from "./components/travel/travel.module";
-import {VenueModule} from "./components/venue/venue.module";
-import {PlacesComponent} from "./components/places/places.component";
 
 
-import {AuthService} from "./components/authentication/auth.service";
+import {AuthService} from "./services/auth.service";
+import {CategoriesModule} from "./components/categories/categories.module";
+import {AlbumsModule} from "./components/albums/albums.module";
+import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
 
 
 @NgModule({
@@ -41,11 +39,11 @@ import {AuthService} from "./components/authentication/auth.service";
     NavigationComponent,
     FooterComponent,
     HomeComponent,
-    PlacesComponent,
     AboutComponent,
     SignupComponent,
     SigninComponent,
     AdminPanelComponent,
+    MyProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -58,12 +56,10 @@ import {AuthService} from "./components/authentication/auth.service";
     SloganModule,
     ComparisonModule,
     PostModule,
+    CategoriesModule,
+    AlbumsModule,
 
-    EntertainmentModule,
-    ProfileModule,
     QuizModule,
-    TravelModule,
-    VenueModule
   ],
   providers: [
     AuthService,

@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {FormGroup, Validators, FormControl} from '@angular/forms';
-import {SloganService} from "../slogan.service";
+import {SloganService} from "../../../services/slogan.service";
 import {ActivatedRoute, Router} from "@angular/router";
 import {Slogan} from "../../../models/slogan";
 

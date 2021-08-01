@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {Comparison} from "../../../models/comparison";
 import {ActivatedRoute, Router} from "@angular/router";
-import {ComparisonService} from "../comparison.service";
+import {ComparisonService} from "../../../services/comparison.service";
 
 @Component({
   selector: 'app-edit-comparison',

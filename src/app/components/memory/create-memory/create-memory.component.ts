@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
-import {MemoryService} from "../memory.service";
+import {MemoryService} from "../../../services/memory.service";
 import {Router} from "@angular/router";
 
 @Component({
