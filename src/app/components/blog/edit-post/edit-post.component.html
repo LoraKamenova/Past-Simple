@@ -1,15 +1,88 @@
-<h1 class="create-heading">Редакция на статия</h1>
+<div class="custom-form-wrapper">
+  <fieldset class="custom-form-set">
+    <legend class="legend">Редактирай статия</legend>
 
-<form class="create-form" method="post" action="">
-  <div class="form-element">
-    <input class="input-field" type="text" name="first_name" required>
-  </div>
-  <div class="form-element">
-    <textarea class="textarea-field" rows="10" name="comments" required></textarea>
-  </div>
-  <div class="form-element">
-    <button name="send" type="submit" class="button-field">РЕДАКТИРАЙ</button>
-  </div>
-</form>
+    <form class="create-form" [formGroup]="form" (submit)="editPost()">
+      <div class="form-group">
+        <label for="title" class="label">Заглавие</label>
+        <input class="input" id="title" type="text" formControlName="title" name="title" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.title.touched && f.title.errors?.required">Задължително поле
+        </div>
+        <div class="standard-form-notification" *ngIf="f.title.errors?.minlength">Дължината трябва да е
+          най-малко {{f.title.errors.minlength.requiredLength}} символа
+        </div>
+        <div class="standard-form-notification" *ngIf="f.title.errors?.maxlength">Дължината трябва да е
+          най-много {{f.title.errors.maxlength.requiredLength}} символа
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="subtitle" class="label">Подзаглавие</label>
+        <input class="input" id="subtitle" type="text" formControlName="subtitle" name="subtitle" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.subtitle.touched && f.subtitle.errors?.required">Задължително поле
+        </div>
+        <div class="standard-form-notification" *ngIf="f.subtitle.errors?.minlength">Дължината трябва да е
+          най-малко {{f.subtitle.errors.minlength.requiredLength}} символа
+        </div>
+        <div class="standard-form-notification" *ngIf="f.subtitle.errors?.maxlength">Дължината трябва да е
+          най-много {{f.subtitle.errors.maxlength.requiredLength}} символа
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="content" class="label">Текст</label>
+        <textarea class="input" rows="8" name="content" formControlName="content" id="content"
+                  required></textarea>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.content.touched && f.content.errors?.required">
+          Задължително поле
+        </div>
+        <div class="standard-form-notification" *ngIf="f.content.errors?.minlength">Дължината трябва да е
+          най-малко {{f.content.errors.minlength.requiredLength}} символа
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl1" class="label">Линк към снимка 1</label>
+        <input class="input" type="text" formControlName="imageUrl1" name="imageUrl1" id="imageUrl1" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.imageUrl1.touched && f.imageUrl1.errors?.required">Задължително
+          поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl2" class="label">Линк към снимка 2</label>
+        <input class="input" type="text" formControlName="imageUrl2" name="imageUrl2" id="imageUrl2" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.imageUrl2.touched && f.imageUrl2.errors?.required">Задължително
+          поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl3" class="label">Линк към снимка 3</label>
+        <input class="input" type="text" formControlName="imageUrl3" name="imageUrl3" id="imageUrl3" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.imageUrl3.touched && f.imageUrl3.errors?.required">Задължително
+          поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="button" [disabled]="invalid">ГОТОВО</button>
+      </div>
+    </form>
+  </fieldset>
+</div>
+
 
 

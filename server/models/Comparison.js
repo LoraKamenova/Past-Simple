@@ -9,10 +9,10 @@ const comparisonSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.String,
     required: true
   },
-  creator: {
+  creator: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User'
-  }
+  }]
 });
 
 const Comparison = mongoose.model('Comparison', comparisonSchema);

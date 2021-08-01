@@ -23,6 +23,7 @@
     "validator": "7.2.0"
   },
   "devDependencies": {
+    "mongodb": "^4.0.1",
     "nodemon": "^2.0.12"
   }
 }

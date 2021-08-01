@@ -8,6 +8,7 @@ import {MemoriesUserComponent} from "./memories-user/memories-user.component";
 import {ReactiveFormsModule} from "@angular/forms";
 import {MemoryService} from "./memory.service";
 import { AllMemoriesAdminComponent } from './all-memories-admin/all-memories-admin.component';
+import { EditMemoryComponent } from './edit-memory/edit-memory.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { AllMemoriesAdminComponent } from './all-memories-admin/all-memories-adm
       {path: 'all', component: AllMemoriesComponent},
       {path: 'all/admin', component: AllMemoriesAdminComponent},
       {path: 'details/:id', component: MemoryDetailsComponent},
+      {path: 'edit/:id', component: EditMemoryComponent},
       {path: 'user', component: MemoriesUserComponent}
     ])
   ],
@@ -27,7 +29,8 @@ import { AllMemoriesAdminComponent } from './all-memories-admin/all-memories-adm
     CreateMemoryComponent,
     MemoryDetailsComponent,
     MemoriesUserComponent,
-    AllMemoriesAdminComponent
+    AllMemoriesAdminComponent,
+    EditMemoryComponent
   ],
   providers: [
     MemoryService,

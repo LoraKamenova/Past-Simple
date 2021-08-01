@@ -13,10 +13,10 @@ const memorySchema = new mongoose.Schema({
     type: mongoose.Schema.Types.String,
     required: true
   },
-  creator: {
+  creator: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User'
-  }
+  }]
 });
 
 const Memory = mongoose.model('Memory', memorySchema);

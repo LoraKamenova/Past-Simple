@@ -20,7 +20,7 @@ import {PostService} from "./post.service";
       {path: 'all', component: AllPostsComponent},
       {path: 'all/admin', component: AllPostsAdminComponent},
       {path: 'details/:id', component: PostDetailsComponent},
-      {path: 'edit/:id', component: PostDetailsComponent},
+      {path: 'edit/:id', component: EditPostComponent},
     ])
   ],
   declarations: [

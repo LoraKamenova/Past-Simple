@@ -34,6 +34,10 @@ export class MemoryService {
     return this.http.get<Array<Memory>>(getUserMemoriesUrl)
   }
 
+  editMemory(id, data: Memory) {
+    return this.http.put<Memory>(editMemoryUrl + id, data);
+  }
+
   deleteMemory(id) {
     return this.http.delete(deleteMemoryUrl + id);
   }

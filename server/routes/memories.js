@@ -86,13 +86,12 @@ router.get('/details/:id', authCheck, (req, res) => {
         title: memory.title,
         description: memory.description,
         imageUrl: memory.imageUrl,
-        creator: memory.creator.name,
+        creator: memory.creator,
       }
 
       res.status(200).json(response)
     })
 })
-
 
 router.get('/user', authCheck, (req, res) => {
   const user = req.user._id
@@ -144,12 +143,16 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  if (!req.user.roles.includes('Admin')) {
+  console.log(req.user._id)
+  console.log(memory.creator[0]._id)
+
+  if (!req.user.roles.includes('Admin') ) {
     return res.status(401).json({
       success: false,
       message: 'Unauthorized!'
     })
   }
+
 
   const validationResult = validateMemoryForm(memory)
   if (!validationResult.success) {

@@ -111,7 +111,6 @@ router.get('/details/:id', authCheck, (req, res) => {
     })
 })
 
-
 router.get('/user', authCheck, (req, res) => {
   const user = req.user._id
 
