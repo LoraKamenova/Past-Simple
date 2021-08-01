@@ -11,19 +11,23 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .all-slogans-heading {
+  display: flex;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   font-size: 30px;
   color: white;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .new-entry-button {
   position: relative;
   top: -5px;
-  width: 200px;
+  width: 15%;
   padding: 10px 20px;
   border: 2px solid teal;
   margin-left: 20px;
@@ -33,6 +37,7 @@
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
+  align-self: flex-end;
 }
 
 .new-entry-button:hover {
@@ -104,9 +109,11 @@
 .fas.fa-edit:hover{
   cursor: pointer;
   color: darkorange;
+  transform: scale(1.4);
 }
 
 .far.fa-trash-alt:hover {
   cursor: pointer;
   color: red;
+  transform: scale(1.4);
 }

@@ -11,19 +11,23 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .all-memories-heading {
+  display: flex;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   font-size: 30px;
   color: white;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .new-entry-button {
   position: relative;
   top: -5px;
-  width: 200px;
+  width: 25%;
   padding: 10px 20px;
   border: 2px solid teal;
   margin-left: 20px;
@@ -33,6 +37,7 @@
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
+  align-self: flex-end;
 }
 
 .new-entry-button:hover {
@@ -89,8 +94,15 @@
 }
 
 .memory-table-image {
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 70px;
+}
+
+
+.memory-table-image:hover {
+  transform: scale(1.8);
+  -webkit-box-shadow: 0px 0px 7px 0px #000000;
+  box-shadow: 0px 0px 7px 0px #000000;
 }
 
 .fas.fa-edit, .far.fa-trash-alt, .fas.fa-search-plus {
@@ -102,14 +114,17 @@
 .fas.fa-edit:hover{
   cursor: pointer;
   color: darkorange;
+  transform: scale(1.4);
 }
 
 .far.fa-trash-alt:hover {
   cursor: pointer;
   color: red;
+  transform: scale(1.4);
 }
 
 .fas.fa-search-plus:hover {
   cursor: pointer;
-  color: rebeccapurple;
+  color: forestgreen;
+  transform: scale(1.4);
 }

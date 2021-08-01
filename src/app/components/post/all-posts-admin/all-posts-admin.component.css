@@ -11,19 +11,23 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .all-posts-heading {
+  display: flex;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   font-size: 30px;
   color: white;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .new-entry-button {
   position: relative;
   top: -5px;
-  width: 200px;
+  width: 25%;
   padding: 10px 20px;
   border: 2px solid teal;
   margin-left: 20px;
@@ -33,6 +37,7 @@
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
+  align-self: flex-end;
 }
 
 .new-entry-button:hover {
@@ -71,11 +76,11 @@
 }
 
 .table-heading.post-title {
-  width: 65%;
+  width: 70%;
 }
 
 .table-heading.post-buttons {
-  width: 30%;
+  width: 25%;
 }
 
 .table-data {
@@ -87,6 +92,12 @@
   text-align: center;
 }
 
+.table-data.post-title {
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-style: italic;
+}
+
 .fas.fa-edit, .far.fa-trash-alt, .fas.fa-search-plus {
   font-size: 30px;
   color: darkslategrey;
@@ -96,14 +107,17 @@
 .fas.fa-edit:hover{
   cursor: pointer;
   color: darkorange;
+  transform: scale(1.4);
 }
 
 .far.fa-trash-alt:hover {
   cursor: pointer;
   color: red;
+  transform: scale(1.4);
 }
 
 .fas.fa-search-plus:hover {
   cursor: pointer;
-  color: rebeccapurple;
+  color: forestgreen;
+  transform: scale(1.4);
 }
