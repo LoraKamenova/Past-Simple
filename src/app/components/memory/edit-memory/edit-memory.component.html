@@ -1,0 +1,49 @@
+<div class="custom-form-wrapper">
+  <fieldset class="custom-form-set">
+    <legend class="legend">Редактирай спомен</legend>
+
+    <form class="create-form" [formGroup]="form" (submit)="editMemory()">
+      <div class="form-group">
+        <label for="title" class="label">Заглавие</label>
+        <input class="input" id="title" type="text" formControlName="title" name="title" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.title.touched && f.title.errors?.required">Задължително поле
+        </div>
+        <div class="standard-form-notification" *ngIf="f.title.errors?.minlength">Дължината трябва да е
+          най-малко {{f.title.errors.minlength.requiredLength}} символа
+        </div>
+        <div class="standard-form-notification" *ngIf="f.title.errors?.maxlength">Дължината трябва да е
+          най-много {{f.title.errors.maxlength.requiredLength}} символа
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="description" class="label">Текст</label>
+        <textarea class="input" rows="5" name="description" formControlName="description" id="description"
+                  required maxlength="630"></textarea>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.description.touched && f.description.errors?.required">
+          Задължително поле
+        </div>
+        <div class="standard-form-notification" *ngIf="f.description.errors?.minlength">Дължината трябва да е
+          най-малко {{f.description.errors.minlength.requiredLength}} символа
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl" class="label">Линк към снимка</label>
+        <input class="input" type="text" formControlName="imageUrl" name="imageUrl" id="imageUrl" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.imageUrl.touched && f.imageUrl.errors?.required">Задължително
+          поле
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="button" [disabled]="invalid">ГОТОВО</button>
+      </div>
+    </form>
+  </fieldset>
+</div>
