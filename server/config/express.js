@@ -29,5 +29,6 @@ module.exports = app => {
   app.use('/slogan', sloganRoutes)
   app.use('/comparison', comparisonRoutes)
   app.use('/post', postRoutes)
+  app.use('/picture', postRoutes)
   app.use('/stats', statsRoutes)
 }

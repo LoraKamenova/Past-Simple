@@ -31,6 +31,7 @@ import {AuthService} from "./services/auth.service";
 import {CategoriesModule} from "./components/categories/categories.module";
 import {AlbumsModule} from "./components/albums/albums.module";
 import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
+import { PictureComponent } from './components/picture/picture.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import {MyProfileComponent} from "./components/profile/my-profile/my-profile.com
     SignupComponent,
     SigninComponent,
     AdminPanelComponent,
-    MyProfileComponent
+    MyProfileComponent,
+    PictureComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,10 @@
 const express = require('express')
 const authCheck = require('../middleware/auth-check');
-const Comparison = require('../models/Comparison');
+const Picture = require('../models/Picture');
 
 const router = new express.Router()
 
-function validateComparisonForm (payload) {
+function validatePictureForm (payload) {
   const errors = {}
   let isFormValid = true
   let message = ''
@@ -19,6 +19,16 @@ function validateComparisonForm (payload) {
     errors.imageUrl = 'ImageUrl can`t be empty.'
   }
 
+  if (!payload || typeof payload.category !== 'string'){
+    isFormValid = false
+    errors.category = 'Category can`t be empty.'
+  }
+
+  if (!payload || typeof payload.format !== 'string') {
+    isFormValid = false
+    errors.format = 'Format can`t be empty.'
+  }
+
   if (!isFormValid) {
     message = 'Check the form for errors.'
   }
@@ -31,9 +41,9 @@ function validateComparisonForm (payload) {
 }
 
 router.post('/create', authCheck, (req, res) => {
-  const comparison = req.body
-  comparison.creator = req.user._id
-  const validationResult = validateComparisonForm(comparison)
+  const picture = req.body
+  picture.creator = req.user._id
+  const validationResult = validatePictureForm(comparison)
   if (!validationResult.success) {
     return res.status(400).json({
       success: false,
@@ -42,12 +52,12 @@ router.post('/create', authCheck, (req, res) => {
     })
   }
 
-  Comparison.create(comparison)
+  Picture.create(picture)
     .then(() => {
       res.status(200).json({
         success: true,
         message: 'Comparison added successfully.',
-        comparison
+        picture
       })
     })
 })
@@ -56,17 +66,17 @@ router.get('/all', authCheck ,(req, res) => {
   const page = parseInt(req.query.page) || 1
   const search = req.query.search
 
-  Comparison.find({})
-    .then((comparison) => {
-      return res.status(200).json(comparison)
+  Picture.find({})
+    .then((picture) => {
+      return res.status(200).json(picture)
     })
 })
 
 router.get('/details/:id', authCheck, (req, res) => {
   const id = req.params.id
-  Comparison.findById(id)
-    .then((comparison) => {
-      if (!comparison) {
+  Picture.findById(id)
+    .then((picture) => {
+      if (!picture) {
         return res.status(404).json({
           success: false,
           message: 'Entry does not exists!'
@@ -75,8 +85,10 @@ router.get('/details/:id', authCheck, (req, res) => {
 
       let response = {
         id,
-        title: comparison.title,
-        imageUrl: comparison.imageUrl,
+        title: picture.title,
+        imageUrl: picture.imageUrl,
+        category: picture.category,
+        format: picture.format,
       }
 
       res.status(200).json(response)
@@ -87,9 +99,9 @@ router.get('/details/:id', authCheck, (req, res) => {
 router.get('/user', authCheck, (req, res) => {
   const user = req.user._id
 
-  Comparison.find({creator: user})
-    .then((comparison) => {
-      return res.status(200).json(comparison)
+  Picture.find({creator: user})
+    .then((picture) => {
+      return res.status(200).json(picture)
     })
 })
 
@@ -97,27 +109,27 @@ router.delete('/delete/:id', authCheck, (req, res) => {
   const id = req.params.id
   const user = req.user._id
 
-  Comparison.findById(id)
-    .then((comparison) => {
-      if (!comparison) {
+  Picture.findById(id)
+    .then((picture) => {
+      if (!picture) {
         return res.status(200).json({
           success: false,
-          message: 'Comparison does not exists!'
+          message: 'Picture does not exists!'
         })
       }
 
-      if ((comparison.creator.toString() !== user && !req.user.roles.includes("Admin"))) {
+      if ((picture.creator.toString() !== user && !req.user.roles.includes("Admin"))) {
         return res.status(401).json({
           success: false,
           message: 'Unauthorized!'
         })
       }
 
-      Comparison.findByIdAndDelete(id)
+      Picture.findByIdAndDelete(id)
         .then(() => {
           return res.status(200).json({
             success: true,
-            message: 'Comparison deleted successfully!'
+            message: 'Picture deleted successfully!'
           })
         })
     })
@@ -125,12 +137,12 @@ router.delete('/delete/:id', authCheck, (req, res) => {
 
 router.put('/edit/:id', authCheck, (req, res) => {
   const id = req.params.id;
-  const comparison = req.body;
+  const picture = req.body;
 
-  if (!comparison) {
+  if (!picture) {
     return res.status(404).json({
       success: false,
-      message: 'Comparison does not exists!'
+      message: 'Picture does not exists!'
     })
   }
 
@@ -141,7 +153,7 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  const validationResult = validateComparisonForm(comparison)
+  const validationResult = validatePictureForm(comparison)
   if (!validationResult.success) {
     return res.status(400).json({
       success: false,
@@ -150,11 +162,11 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  Comparison.findByIdAndUpdate(id, comparison)
+  Picture.findByIdAndUpdate(id, comparison)
     .then(() => {
       return res.status(200).json({
         success: true,
-        message: 'Comparison edited successfully!'
+        message: 'Picture edited successfully!'
       })
     })
 })
@@ -162,9 +174,9 @@ router.put('/edit/:id', authCheck, (req, res) => {
 router.get('/:id', authCheck, (req, res) => {
   const id = req.params.id
 
-  Comparison.findById(id)
-    .then(comparison => {
-      if (!comparison) {
+  Picture.findById(id)
+    .then(picture => {
+      if (!picture) {
         return res.status(404).json({
           success: false,
           message: 'Entry does not exists!'
@@ -173,8 +185,10 @@ router.get('/:id', authCheck, (req, res) => {
 
       let response = {
         id,
-        title: comparison.title,
-        imageUrl: comparison.imageUrl,
+        title: picture.title,
+        imageUrl: picture.imageUrl,
+        category: picture.category,
+        format: picture.format,
       }
 
       res.status(200).json(response)
