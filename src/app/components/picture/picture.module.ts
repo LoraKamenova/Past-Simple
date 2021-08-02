@@ -6,6 +6,7 @@ import {PictureDetailsComponent} from './picture-details/picture-details.compone
 import {RouterModule} from "@angular/router";
 import {AllPicturesAdminComponent} from "./all-pictures-admin/all-pictures-admin.component";
 import {PictureService} from "../../services/picture.service";
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -18,13 +19,14 @@ import {PictureService} from "../../services/picture.service";
 
   imports: [
     CommonModule,
+    ReactiveFormsModule,
     RouterModule.forChild([
       {path: '', pathMatch: 'full', redirectTo: 'home'},
       {path: 'create', component: CreatePictureComponent},
       {path: 'all/admin', component: AllPicturesAdminComponent},
       {path: 'details/:id', component: PictureDetailsComponent},
       {path: 'edit/:id', component: EditPictureComponent},
-    ])
+    ]),
   ],
 
   providers: [

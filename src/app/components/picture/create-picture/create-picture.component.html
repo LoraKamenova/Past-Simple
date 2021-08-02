@@ -1,1 +1,45 @@
-<p>create-picture works!</p>
+<div class="custom-form-wrapper">
+  <fieldset class="custom-form-set">
+    <legend class="legend">Нова снимка</legend>
+
+    <form class="create-form" [formGroup]="form" (submit)="createPicture()">
+      <div class="form-group">
+        <label for="title" class="label">Заглавие</label>
+        <input class="input" id="title" type="text" formControlName="title" name="title" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.title.touched && f.title.errors?.required">Задължително поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl" class="label">Линк към снимка</label>
+        <input class="input" type="text" formControlName="imageUrl" name="imageUrl" id="imageUrl" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.imageUrl.touched && f.imageUrl.errors?.required">Задължително
+          поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="category" class="label">Текст</label>
+        <select class="input" formControlName="category" (change)="changeCategory($event)"  name="category" id="category" required>
+          <option value="">Choose Fruit</option>
+          <option *ngFor="let fruit of Categories">
+            {{fruit}}
+          </option>
+        </select>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.description.touched && f.description.errors?.required">
+          Задължително поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="button" [disabled]="invalid">ГОТОВО</button>
+      </div>
+    </form>
+  </fieldset>
+</div>

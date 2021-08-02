@@ -27,6 +27,7 @@ const routes: Routes = [
   {path: 'comparison', loadChildren: './components/comparison/comparison.module#ComparisonModule', canActivate: [AuthGuard]},
   {path: 'categories', loadChildren: './components/categories/categories.module#CategoriesModule', canActivate: [AuthGuard]},
   {path: 'albums', loadChildren: './components/albums/albums.module#AlbumsModule', canActivate: [AuthGuard]},
+  {path: 'picture', loadChildren: './components/picture/picture.module#PictureModule', canActivate: [AuthGuard]},
 
   {path: 'quiz', component: QuizComponent},
   {path: 'quiz-result', component: QuizResultComponent},

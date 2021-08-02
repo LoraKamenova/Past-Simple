@@ -14,8 +14,6 @@ import {CafeComponent} from './cafe/cafe.component';
 import {CinemaComponent} from './cinema/cinema.component';
 import {MediaComponent} from './media/media.component';
 import {OtherEntertainmentComponent} from './other-entertainment/other-entertainment.component';
-import { AllPicturesAdminComponent } from '../picture/all-pictures-admin/all-pictures-admin.component';
-
 
 
 @NgModule({
@@ -32,14 +30,12 @@ import { AllPicturesAdminComponent } from '../picture/all-pictures-admin/all-pic
     CinemaComponent,
     MediaComponent,
     OtherEntertainmentComponent,
-    AllPicturesAdminComponent
   ],
 
   imports: [
     CommonModule,
     RouterModule.forChild([
       {path: '', pathMatch: 'full', redirectTo: 'home'},
-      {path: 'all-pictures/admin', component: SeaComponent},
       {path: 'sea', component: SeaComponent},
       {path: 'mountain', component: MountainComponent},
       {path: 'spa', component: SpaComponent},
