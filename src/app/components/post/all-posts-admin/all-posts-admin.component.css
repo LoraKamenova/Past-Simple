@@ -25,12 +25,9 @@
 }
 
 .new-entry-button {
-  position: relative;
-  top: -5px;
   width: 25%;
   padding: 10px 20px;
   border: 2px solid teal;
-  margin-left: 20px;
   color: white;
   outline: none;
   text-decoration: none;
@@ -67,7 +64,7 @@
   text-transform: uppercase;
 }
 
-.table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {
+.table-heading:nth-child(1), .table-heading:nth-child(2) {
   border-right: 1px solid white;
 }
 

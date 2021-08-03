@@ -25,12 +25,9 @@
 }
 
 .new-entry-button {
-  position: relative;
-  top: -5px;
   width: 17%;
   padding: 10px 20px;
   border: 2px solid teal;
-  margin-left: 20px;
   color: white;
   outline: none;
   text-decoration: none;
