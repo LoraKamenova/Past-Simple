@@ -84,3 +84,7 @@
 .button:disabled {
   cursor: not-allowed;
 }
+
+.input-select {
+  color: black;
+}

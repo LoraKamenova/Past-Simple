@@ -10,7 +10,26 @@ import {PictureService} from "../../../services/picture.service";
 })
 export class CreatePictureComponent implements OnInit {
   form: FormGroup;
-  Categories: any = ['Apple', 'Mengo', 'Banana', 'Strawberry']
+  Categories: any = [
+    'Море',
+    'Планина',
+    'Минерални бани',
+    'Къмпинг',
+    'Градове',
+    'Хотели',
+    'Сладкарници',
+    'Ресторанти',
+    'Ханчета',
+    'Кино',
+    'Медии',
+    'Други развлечения',
+  ]
+
+  Formats: any = [
+    'широк',
+    'висок',
+    'квадрат'
+  ]
 
   constructor(private fb: FormBuilder, private pictureService: PictureService, private router: Router) {
   }
@@ -20,7 +39,7 @@ export class CreatePictureComponent implements OnInit {
       title: ['', Validators.required],
       imageUrl: ['', Validators.required],
       category: ['', Validators.required],
-      description: ['', Validators.required],
+      format: ['', Validators.required],
     });
   }
 
@@ -34,9 +53,19 @@ export class CreatePictureComponent implements OnInit {
     })
   }
 
+  get format() {
+    return this.form.get('format');
+  }
+
+  changeFormat(e) {
+    this.format.setValue(e.target.value, {
+      onlySelf: true
+    })
+  }
+
   createPicture() {
     this.pictureService.createPicture(this.form.value).subscribe((data) => {
-      this.router.navigate(['memory/all'])
+      this.router.navigate(['home'])
     })
   }
 

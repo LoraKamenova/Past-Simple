@@ -43,7 +43,7 @@ function validatePictureForm (payload) {
 router.post('/create', authCheck, (req, res) => {
   const picture = req.body
   picture.creator = req.user._id
-  const validationResult = validatePictureForm(comparison)
+  const validationResult = validatePictureForm(picture)
   if (!validationResult.success) {
     return res.status(400).json({
       success: false,
@@ -56,7 +56,7 @@ router.post('/create', authCheck, (req, res) => {
     .then(() => {
       res.status(200).json({
         success: true,
-        message: 'Comparison added successfully.',
+        message: 'Picture added successfully.',
         picture
       })
     })
