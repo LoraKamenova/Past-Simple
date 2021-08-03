@@ -1,1 +1,61 @@
-<p>edit-picture works!</p>
+<div class="custom-form-wrapper">
+  <fieldset class="custom-form-set">
+    <legend class="legend">Нова снимка</legend>
+
+    <form class="create-form" [formGroup]="form" (submit)="editPicture()">
+      <div class="form-group">
+        <label for="title" class="label">Заглавие</label>
+        <input class="input" id="title" type="text" formControlName="title" name="title" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.title.touched && f.title.errors?.required">Задължително поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl" class="label">Линк към снимка</label>
+        <input class="input" type="text" formControlName="imageUrl" name="imageUrl" id="imageUrl" required>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.imageUrl.touched && f.imageUrl.errors?.required">Задължително
+          поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="category" class="label">Категория</label>
+        <select class="input" formControlName="category" (change)="changeCategory($event)"  name="category" id="category" required>
+          <option class="input-select" value="">---------------изберете Категория---------------</option>
+          <option class="input-select" *ngFor="let category of Categories">
+            {{category}}
+          </option>
+        </select>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.category.touched && f.category.errors?.required">
+          Задължително поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="format" class="label">Формат</label>
+        <select class="input" formControlName="format" (change)="changeFormat($event)"  name="format" id="format" required>
+          <option class="input-select" value="">---------------Изберете Формат---------------</option>
+          <option class="input-select" *ngFor="let format of Formats">
+            {{format}}
+          </option>
+        </select>
+      </div>
+      <div class="standard-form-notification-container">
+        <div class="standard-form-notification" *ngIf="f.format.touched && f.format.errors?.required">
+          Задължително поле
+        </div>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="button" [disabled]="invalid">ГОТОВО</button>
+      </div>
+    </form>
+  </fieldset>
+</div>
+

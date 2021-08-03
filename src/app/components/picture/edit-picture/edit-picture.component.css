@@ -1,0 +1,90 @@
+.custom-form-wrapper {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin: 1% auto;
+}
+
+.custom-form-set{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  backdrop-filter: blur(15px);
+}
+
+.legend {
+  font-weight: bold;
+  text-decoration: underline solid #006B3C;
+  text-underline-offset: 10px;
+  color: lightgrey;
+  text-transform: uppercase;
+  font-size: 26px;
+  padding: 0 10px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  color: lightgrey;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.input {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .1);
+  margin-top: 5px;
+  font-size: 16px;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.button {
+  background: #006B3C;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: lightgrey;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  background: #008A4D;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.standard-form-notification-container {
+  min-height: 16px;
+  text-align: center;
+}
+
+.standard-form-notification {
+  color: #dd4545;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.input-select {
+  color: black;
+}

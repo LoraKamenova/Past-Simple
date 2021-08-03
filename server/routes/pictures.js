@@ -153,7 +153,7 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  const validationResult = validatePictureForm(comparison)
+  const validationResult = validatePictureForm(picture)
   if (!validationResult.success) {
     return res.status(400).json({
       success: false,
@@ -162,7 +162,7 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
   }
 
-  Picture.findByIdAndUpdate(id, comparison)
+  Picture.findByIdAndUpdate(id, picture)
     .then(() => {
       return res.status(200).json({
         success: true,
