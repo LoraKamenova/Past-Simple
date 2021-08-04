@@ -59,6 +59,26 @@ export class EditPictureComponent implements OnInit {
     });
   }
 
+  get category() {
+    return this.form.get('category');
+  }
+
+  changeCategory(e) {
+    this.category.setValue(e.target.value, {
+      onlySelf: true
+    })
+  }
+
+  get format() {
+    return this.form.get('format');
+  }
+
+  changeFormat(e) {
+    this.format.setValue(e.target.value, {
+      onlySelf: true
+    })
+  }
+
   editPicture() {
     this.route.params.subscribe(params => {
       let id = params['id'];
