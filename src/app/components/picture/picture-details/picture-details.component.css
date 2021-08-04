@@ -1,82 +1,64 @@
-body {
-  background-color:#222;
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3% auto;
+  align-items: center;
 }
 
-.carousel {
-  position:relative;
-  width:400px;
-  border:10px solid white;
-  margin:20px auto;
-  box-shadow:0px 0px 40px #000;
-}
-.carousel > img {
-  display:none;
-  width:100%;
-}
-.carousel > input {
-  position:absolute;
-  left:-9999px;
-}
-.carousel > input:checked + label + img {
-  display:block;
+.gallery-item-wrapper {
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  background-color: white;
 }
 
-.carousel > label,
-.carousel > input:checked ~ label ~ label ~ label ~ label {
-  display:none;
-}
-.carousel > input:checked + label {
-  display:block;
-  left:0;
-}
-.carousel > input:checked ~ label ~ label ~ label {
-  display:block;
-  right:0;
-}
-
-.carousel > label {
-  position:absolute;
-  top:0;
-  width:25%;
-  height:100%;
-  visibility:hidden;
-}
-.carousel > label:before {
-  content:'';
-  display:block;
-  position:absolute;
-  width:100%;
-  height:100%;
-  visibility:visible;
-}
-.carousel > label:after {
-  display:block;
-  position:absolute;
-  top:50%;
-  width:25px;
-  height:25px;
-  line-height:22px;
-  margin:-15px 10px 0 10px;
-  background-color:black;
-  color:white;
-  font-family:'Arial';
-  font-weight:bold;
-  font-size:18px;
-  text-align:center;
-  visibility:hidden;
-  border:2px solid white;
-  border-radius:20px;
-  box-shadow:0 3px 4px black;
-}
-.carousel > label:hover:after {
-  visibility:visible;
+.gallery-content-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #006B3C;
+  margin-left: 50px;
+  padding: 20px;
+  height: 200px;
+  position: relative;
+  top: -20px
 }
 
-.carousel > input:checked + label:after {
-  left:0;
-  content:'\00AB';
+.album-title-container {
+  width: 100%;
+  border-bottom: 2px solid white;
 }
-.carousel > input:checked ~ label ~ label ~ label:after {
-  right:0;
-  content:'\00BB';
+
+.album-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.album-sub-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+}
+
+.gallery-text-container {
+  margin-top: 20px;
+}
+
+.gallery-text {
+  font-size: 18px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.gallery-picture-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 75vh;
+}
+
+.gallery-image {
+  width: 85%;
+  height: 85%;
 }
