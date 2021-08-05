@@ -102,6 +102,7 @@ div.group input ~ div.content {
   margin: 0px 60px;
   position: relative;
   width: 300px;
+  background-color: white;
 }
 div.group input:checked ~ div.content {
   display: block;
