@@ -7,13 +7,13 @@
 .gallery-picture-container {
   width: 50%;
 }
-div.group input {
+.gallery-group input {
   display: none;
   left: -100%;
   position: absolute;
   top: -100%;
 }
-div.group input ~ div.content {
+.gallery-group input ~ div.content {
   border: solid 1px black;
   display: none;
   height: 350px;
@@ -22,14 +22,14 @@ div.group input ~ div.content {
   width: 300px;
   background-color: white;
 }
-div.group input:checked ~ div.content {
+.gallery-group input:checked ~ div.content {
   display: block;
 }
-div.group input:checked ~ label.previous,
-div.group input:checked ~ label.next {
+.gallery-group input:checked ~ label.previous,
+.gallery-group input:checked ~ label.next {
   display: block;
 }
-div.group label {
+.gallery-group label {
   background-color: #69c;
   border: solid 1px black;
   display: none;
