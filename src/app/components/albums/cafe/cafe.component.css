@@ -80,9 +80,11 @@
 /*  right:0;*/
 /*  content:'\00BB';*/
 /*}*/
-
-div.wrap2 {
-  float: left;
+.gallery-wrapper {
+  display: flex;
+  margin: 3% auto;
+}
+.gallery-picture-container {
   height: 500px;
   width: 422px;
 }
