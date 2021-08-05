@@ -83,10 +83,11 @@
 .gallery-wrapper {
   display: flex;
   margin: 3% auto;
+  width: 60%;
+  justify-content: center;
 }
 .gallery-picture-container {
-  height: 500px;
-  width: 422px;
+  width: 50%;
 }
 div.group input {
   display: none;
