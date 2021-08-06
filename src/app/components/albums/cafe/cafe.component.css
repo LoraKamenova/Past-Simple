@@ -36,14 +36,17 @@
   height: 50px;
   width: 50px;
 }
-img {
+.gallery-image {
   left: 0;
   margin: 0 auto;
   position: absolute;
   right: 0;
+  border: 2px solid black;
 }
-p {
+.gallery-paragraph {
   text-align: center;
+  width: 100%;
+  padding: 5px;
 }
 label {
   font-size: 4em;
