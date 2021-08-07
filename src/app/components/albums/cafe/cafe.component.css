@@ -68,11 +68,9 @@
   transform: rotate(45deg);
   margin: -4px 0 0 -24px;
 }
-
 .carousel input + label:hover {
 cursor: pointer;
 }
-
 .carousel input:checked + label {
   display: none;
 }
@@ -94,6 +92,7 @@ cursor: pointer;
   transition: opacity 1s;
   opacity: 1;
 }
+
 .slide {
   position: absolute;
   z-index: 1;
@@ -131,6 +130,14 @@ cursor: pointer;
   box-shadow: 0 0 50px 0 rgba(0,0,0,0.8);
 }
 
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
 .caption p {
   font-family: 'Philosopher', sans-serif;
   color: #c1c1c1;
@@ -139,15 +146,8 @@ cursor: pointer;
   justify-content: center;
 }
 
-.carouselCaption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto;
-  /*margin: 24px auto 0;*/
-}
 
-.descripcionAplicacion {
-  color: white;
-}
+
+/*.descripcionAplicacion {*/
+/*  color: white;*/
+/*}*/
