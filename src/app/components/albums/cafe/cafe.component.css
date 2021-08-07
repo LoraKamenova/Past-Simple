@@ -1,3 +1,15 @@
+.gallery-page-wrapper {
+  display: flex;
+  width: 95%;
+}
+
+.gallery-page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
 .carousel-wrapper {
   display: flex;
   flex-direction: column;
@@ -134,4 +146,8 @@ cursor: pointer;
   width: 70%;
   margin: 0 auto;
   /*margin: 24px auto 0;*/
+}
+
+.descripcionAplicacion {
+  color: white;
 }
