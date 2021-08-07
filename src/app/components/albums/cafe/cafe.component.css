@@ -1,6 +1,8 @@
 .gallery-page-wrapper {
   display: flex;
-  width: 95%;
+  width: 90%;
+  height: 85vh;
+  margin: 0 auto;
 }
 
 .gallery-page-header {
@@ -8,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 30%;
 }
 
 .carousel-wrapper {
@@ -16,8 +18,8 @@
   flex-direction: column;
   justify-content: center;
   margin: 1% auto;
-  width: 60%;
-  height: 80vh;
+  width: 70%;
+  height: 100%;
 }
 
 .gallery-page-heading {

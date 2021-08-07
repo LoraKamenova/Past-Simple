@@ -11,7 +11,7 @@ export const fade = trigger('fade', [
   state('inactive', style({ opacity: 0 })),
   state('active', style({ opacity: 1 })),
   transition('* <=> *', [
-    animate(1500)
+    animate(2000)
   ])
 ]);
 
