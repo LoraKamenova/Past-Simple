@@ -171,6 +171,16 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
 })
 
+
+
+router.get('/cafe-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Сладкарници'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
 router.get('/:id', authCheck, (req, res) => {
   const id = req.params.id
 

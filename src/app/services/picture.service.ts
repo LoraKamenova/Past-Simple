@@ -9,6 +9,8 @@ const getSinglePictureUrl = "http://localhost:5000/picture/details/";
 const deletePictureUrl = "http://localhost:5000/picture/delete/";
 const editPictureUrl = "http://localhost:5000/picture/edit/";
 
+const getCafeAlbumUrl = "http://localhost:5000/picture/cafe-album";
+
 
 @Injectable({
   providedIn: 'root'
@@ -22,11 +24,11 @@ export class PictureService {
   }
 
   getAllPictures(): Observable<Array<Picture>> {
-    return this.http.get<Array<Picture>>(getAllPicturesUrl)
+    return this.http.get<Array<Picture>>(getAllPicturesUrl);
   }
 
   getPicture(id): Observable<Picture> {
-    return this.http.get<Picture>(getSinglePictureUrl + id)
+    return this.http.get<Picture>(getSinglePictureUrl + id);
   }
 
   editPicture(id, data: Picture) {
@@ -35,5 +37,9 @@ export class PictureService {
 
   deletePicture(id) {
     return this.http.delete(deletePictureUrl + id);
+  }
+
+  getCafeAlbum(): Observable<Array<Picture>> {
+    return this.http.get<Array<Picture>>(getCafeAlbumUrl);
   }
 }

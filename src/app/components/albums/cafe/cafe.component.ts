@@ -6,6 +6,10 @@ import {
   animate,
   transition,
 } from '@angular/animations';
+import {Observable} from "rxjs";
+import {Picture} from "../../../models/picture";
+import {ActivatedRoute, Router} from "@angular/router";
+import {PictureService} from "../../../services/picture.service";
 
 export const fade = trigger('fade', [
   state('inactive', style({ opacity: 0 })),
@@ -24,13 +28,17 @@ export const fade = trigger('fade', [
 
 
 export class CafeComponent implements OnInit {
+  picture$: Observable<Array<Picture>>;
+
   times = 999;
   counter = 0;
   state;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute, private pictureService: PictureService, private router: Router) { }
 
   ngOnInit(): void {
+    this.picture$ = this.pictureService.getCafeAlbum();
+    console.log(this.picture$)
   }
 
   onDone($event) {
