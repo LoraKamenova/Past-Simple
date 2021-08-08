@@ -15,7 +15,7 @@ export class AllPicturesAdminComponent implements OnInit {
   constructor(private route: ActivatedRoute, private pictureService: PictureService, private router: Router) { }
 
   ngOnInit(): void {
-    this.picture$ = this.pictureService.getAllPictures();
+    this.picture$ = this.pictureService.getCafeAlbum();
   }
 
   deletePicture(id) {

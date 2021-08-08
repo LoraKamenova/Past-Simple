@@ -171,11 +171,17 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
 })
 
-
-
 router.get('/cafe-album', authCheck ,(req, res) => {
 
-  Picture.find({category: 'Сладкарници'})
+  Picture.find({category: 'Море'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/sea-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Море'})
     .then((picture) => {
       return res.status(200).json(picture)
     })
