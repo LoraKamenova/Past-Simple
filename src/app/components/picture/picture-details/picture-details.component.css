@@ -1,18 +1,18 @@
-.gallery-container {
+.picture-details-container {
   display: flex;
   flex-direction: column;
   margin: 3% auto;
   align-items: center;
 }
 
-.gallery-item-wrapper {
+.picture-wrapper {
   display: flex;
   width: 65%;
   justify-content: center;
   background-color: white;
 }
 
-.gallery-content-container {
+.picture-content-container {
   color: white;
   display: flex;
   flex-direction: column;
@@ -25,32 +25,32 @@
   top: -20px
 }
 
-.album-title-container {
+.picture-category-container {
   width: 100%;
   border-bottom: 2px solid white;
 }
 
-.album-title {
+.picture-category {
   font-family: 'Philosopher', sans-serif;
   font-size: 30px;
   text-transform: uppercase;
 }
 
-.album-sub-title {
+.picture-sub-title {
   font-family: 'Philosopher', sans-serif;
   font-size: 20px;
 }
 
-.gallery-text-container {
+.picture-title-container {
   margin-top: 20px;
 }
 
-.gallery-text {
+.picture-title {
   font-size: 18px;
   font-family: 'Philosopher', sans-serif;
 }
 
-.gallery-picture-wrapper {
+.picture-image-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,7 @@
   height: 73vh;
 }
 
-.gallery-image {
+.picture-image {
   width: 85%;
   height: 85%;
 }

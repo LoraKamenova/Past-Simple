@@ -24,7 +24,7 @@ export const fade = trigger('fade', [
 
 
 export class CafeComponent implements OnInit {
-  times = 15;
+  times = 999;
   counter = 0;
   state;
 
