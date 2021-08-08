@@ -1,6 +1,6 @@
 <div class="picture-details-container">
 
-  <div class="picture-wrapper wide-container" *ngIf="picture?.format.includes('широк'); else high">
+  <div class="picture-wrapper">
 
     <div class="picture-content-container">
       <div class="picture-category-container">
@@ -14,8 +14,8 @@
 
     </div>
 
-    <div class="picture-image-wrapper wide-picture-container">
-      <img class="picture-image wide-picture"
+    <div class="picture-image-wrapper"  *ngIf="picture?.format.includes('широк'); else high">
+      <img class="picture-image wide-image"
            src="{{picture?.imageUrl}}"
            alt="picture details">
     </div>
@@ -23,27 +23,11 @@
   </div>
 
   <ng-template #high>
-    <div class="picture-wrapper high-container">
-
-      <div class="picture-content-container">
-        <div class="picture-category-container">
-          <p class="picture-sub-title">албум</p>
-          <p class="picture-category smaller-fonts">{{picture?.category}}</p>
-        </div>
-
-        <div class="picture-title-container">
-          <p class="picture-title">{{picture?.title}}</p>
-        </div>
-
-      </div>
-
-      <div class="picture-image-container high-picture-container">
-        <img class="picture-image high-picture"
+      <div class="picture-image-wrapper">
+        <img class="picture-image high-image"
              src="{{picture?.imageUrl}}"
              alt="picture details">
       </div>
-
-    </div>
   </ng-template>
 
 </div>
