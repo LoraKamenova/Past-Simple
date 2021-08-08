@@ -18,8 +18,9 @@
 .gallery-page-heading-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: 100px;
+  padding: 5px 0;
 }
 
 .gallery-page-heading, .gallery-page-sub-heading {

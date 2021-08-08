@@ -1,8 +1,7 @@
-<div class="picture-details-container">
+<div class="picture-details-wrapper">
 
-  <div class="picture-wrapper">
-
-    <div class="picture-content-container">
+  <div class="content-container">
+    <div class="content-box">
       <div class="picture-category-container">
         <p class="picture-sub-title">албум</p>
         <p class="picture-category bigger-fonts">{{picture?.category}}</p>
@@ -11,23 +10,22 @@
       <div class="picture-title-container">
         <p class="picture-title">{{picture?.title}}</p>
       </div>
-
     </div>
+  </div>
 
-    <div class="picture-image-wrapper"  *ngIf="picture?.format.includes('широк'); else high">
-      <img class="picture-image wide-image"
+  <div class="picture-container" *ngIf="picture?.format.includes('широк'); else high">
+    <div class="picture-outer" style="background-image: url('{{picture.imageUrl}}');">
+      <img src="{{picture?.imageUrl}}" class="picture-inner">
+    </div>
+  </div>
+
+
+  <ng-template #high>
+    <div class="picture-image-wrapper">
+      <img class="picture-image high-image"
            src="{{picture?.imageUrl}}"
            alt="picture details">
     </div>
-
-  </div>
-
-  <ng-template #high>
-      <div class="picture-image-wrapper">
-        <img class="picture-image high-image"
-             src="{{picture?.imageUrl}}"
-             alt="picture details">
-      </div>
   </ng-template>
 
 </div>
