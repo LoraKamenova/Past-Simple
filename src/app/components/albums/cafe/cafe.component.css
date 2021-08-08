@@ -44,15 +44,19 @@
   flex-wrap: wrap;
 }
 
-.galley-item {
+.gallery-item-wrapper {
   width: 45%;
   height: 400px;
+}
+
+.galley-item {
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  height: 100%;
+  width: 100%;
 }
-
 
 .gallery-item-text-container {
   width: 80%;
@@ -62,7 +66,12 @@
 }
 
 .gallery-item-text {
-  color: white;
+  color: black;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
+  height: 100%;
+}
+.gallery-item-text:hover {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
 }
