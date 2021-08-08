@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   width: 80%;
-
 }
 
 .content-container {
@@ -24,7 +23,8 @@
   padding: 20px;
   height: 200px;
   position: relative;
-  right: -30px
+  right: -50px;
+  z-index: 1
 }
 
 .picture-category-container {
@@ -66,6 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 0;
 }
 
 .picture-inner {
