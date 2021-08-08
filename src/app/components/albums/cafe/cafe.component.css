@@ -40,12 +40,11 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
-  padding: 50px;
   flex-wrap: wrap;
 }
 
 .gallery-item-wrapper {
-  width: 48%;
+  width: 49%;
   height: 400px;
   margin: 20px 5px;
 }
@@ -66,17 +65,21 @@
   box-shadow: 0px 0px 15px 4px #000000;
   display: flex;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .gallery-item-text {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   color: white;
+  font-size: 25px;
   padding: 0 7px;
   font-style: italic;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .gallery-item-text-container:hover {
   background-color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
+  color: white;
 }
