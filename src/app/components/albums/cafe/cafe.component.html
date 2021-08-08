@@ -16,11 +16,10 @@
 
   <div class="galley-items-container">
 
-    <div class="gallery-item-wrapper">
-      <div class="galley-item"
-           style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7fkGmlyAOeU5EjQb49NheuZlQCBXqW8MkhUaiQGcWpmjb4TtzTSLQPxRcnBc0RdICfM&usqp=CAU');">
+    <div class="gallery-item-wrapper" *ngFor="let p of picture$ | async; let i = index">
+      <div class="galley-item" style="background-image: url('{{p.imageUrl}}');">
         <div class="gallery-item-text-container">
-          <p class="gallery-item-text">Text</p>
+          <span class="gallery-item-text">{{p.title}}</span>
         </div>
       </div>
     </div>
