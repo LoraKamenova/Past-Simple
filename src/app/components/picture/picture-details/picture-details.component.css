@@ -7,7 +7,21 @@
 
 .picture-wrapper {
   display: flex;
-  width: 65%;
+  justify-content: center;
+  background-color: white;
+}
+
+.picture-wrapper.wide-container {
+  width: 70%;
+}
+
+.picture-wrapper.high-container {
+  width: 55%;
+}
+
+.picture-wrapper {
+  display: flex;
+  width: 70%;
   justify-content: center;
   background-color: white;
 }
@@ -16,7 +30,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 26%;
   background-color: #006B3C;
   margin-left: 50px;
   padding: 20px;
@@ -32,8 +46,15 @@
 
 .picture-category {
   font-family: 'Philosopher', sans-serif;
-  font-size: 30px;
   text-transform: uppercase;
+}
+
+.picture-category.bigger-fonts {
+  font-size: 30px;
+}
+
+.picture-category.smaller-fonts {
+  font-size: 25px;
 }
 
 .picture-sub-title {
@@ -50,7 +71,7 @@
   font-family: 'Philosopher', sans-serif;
 }
 
-.picture-image-wrapper {
+.picture-image-container {
   display: flex;
   justify-content: center;
   align-items: center;

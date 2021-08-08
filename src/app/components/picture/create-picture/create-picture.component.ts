@@ -27,8 +27,7 @@ export class CreatePictureComponent implements OnInit {
 
   Formats: any = [
     'широк',
-    'висок',
-    'квадрат'
+    'висок'
   ]
 
   constructor(private fb: FormBuilder, private pictureService: PictureService, private router: Router) {
