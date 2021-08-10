@@ -52,6 +52,7 @@
   height: 100%;
   backdrop-filter: blur(3px);
   padding: 50px;
+  border: 1px solid black;
 }
 
 .content-box {
