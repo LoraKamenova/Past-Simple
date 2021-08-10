@@ -7,7 +7,7 @@
 
   <div class="picture-container" *ngIf="picture?.format.includes('широк'); else high">
     <div class="picture-outer" style="background-image: url('{{picture.imageUrl}}');">
-      <img src="{{picture?.imageUrl}}" class="picture-inner">
+      <img class="picture-inner" src="{{picture?.imageUrl}}">
     </div>
   </div>
 

@@ -9,8 +9,11 @@
 .picture-category-container {
   color: white;
   display: flex;
+  padding: 10px;
   width: 10%;
-  justify-content: flex-end;
+  justify-content: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 .picture-category-subtitle {
@@ -52,13 +55,13 @@
   height: 100%;
   backdrop-filter: blur(3px);
   padding: 50px;
-  border: 1px solid black;
 }
 
 .content-box {
-  border: 1px solid white;
   padding: 5px;
   width: 15%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .picture-title {
