@@ -2,12 +2,13 @@
 
     <div class="content-box">
       <div class="picture-category-container">
-        <span class="picture-category-subtitle">албум </span>
-        <span class="picture-category-title">{{picture?.category}}</span>
+<!--        <span class="picture-category-subtitle">албум </span>-->
+        <span class="picture-category-title">албум {{picture?.category}}</span>
+        <span class="picture-title">{{picture?.title}}</span>
       </div>
-      <div class="picture-title-container">
-        <p class="picture-title">{{picture?.title}}</p>
-      </div>
+<!--      <div class="picture-title-container">-->
+<!--        <p class="picture-title">{{picture?.title}}</p>-->
+<!--      </div>-->
     </div>
 
   <div class="picture-container" *ngIf="picture?.format.includes('широк'); else high">
