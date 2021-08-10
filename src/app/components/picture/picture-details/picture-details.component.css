@@ -1,37 +1,29 @@
 .picture-details-wrapper {
   display: flex;
-  flex-direction: column;
   margin: 2% auto;
   align-items: center;
   justify-content: center;
-  width: 50%;
-}
-
-.content-box {
-  color: white;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  width: 60%;
 }
 
 .picture-category-container {
-  width: 100%;
-  border-bottom: 2px solid white;
+  color: white;
+  display: flex;
 }
 
 .picture-category-subtitle {
   font-family: 'Philosopher', sans-serif;
   font-size: 18px;
-  font-style: italic;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
 
 .picture-category-title {
   font-family: 'Philosopher', sans-serif;
   font-size: 25px;
   text-transform: uppercase;
-  font-style: italic;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
 
 .picture-title-container {
