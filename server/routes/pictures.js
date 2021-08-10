@@ -95,7 +95,6 @@ router.get('/details/:id', authCheck, (req, res) => {
     })
 })
 
-
 router.get('/user', authCheck, (req, res) => {
   const user = req.user._id
 
@@ -171,7 +170,7 @@ router.put('/edit/:id', authCheck, (req, res) => {
     })
 })
 
-router.get('/cafe-album', authCheck ,(req, res) => {
+router.get('/sea-album', authCheck ,(req, res) => {
 
   Picture.find({category: 'Море'})
     .then((picture) => {
@@ -179,9 +178,90 @@ router.get('/cafe-album', authCheck ,(req, res) => {
     })
 })
 
-router.get('/sea-album', authCheck ,(req, res) => {
 
-  Picture.find({category: 'Море'})
+router.get('/mountain-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Планина'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/camping-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Къмпинг'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/spa-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Минерални бани'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/hotels-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Хотели'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/towns-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Градове'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/restaurant-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Ресторанти'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/cafe-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Сладкарници'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/pubs-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Ханчета'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/cinema-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Кино'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/media-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Медии'})
+    .then((picture) => {
+      return res.status(200).json(picture)
+    })
+})
+
+router.get('/other-entertainment-album', authCheck ,(req, res) => {
+
+  Picture.find({category: 'Други забавления'})
     .then((picture) => {
       return res.status(200).json(picture)
     })
