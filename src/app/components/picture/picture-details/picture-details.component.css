@@ -18,6 +18,8 @@
   font-size: 18px;
   writing-mode: vertical-lr;
   text-orientation: upright;
+  display: flex;
+  justify-content: center;
 }
 
 .picture-category-title {
@@ -37,7 +39,7 @@
 
 .picture-outer {
   width: 100%;
-  height: 400px;
+  height: 450px;
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
