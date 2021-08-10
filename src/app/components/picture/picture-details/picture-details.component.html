@@ -5,19 +5,17 @@
     <span class="picture-category-title">{{picture?.category}}</span>
   </div>
 
-<!--    <div class="content-box">-->
-
-<!--      <div class="picture-title-container">-->
-<!--        <p class="picture-title">{{picture?.title}}</p>-->
-<!--      </div>-->
-<!--    </div>-->
-
   <div class="picture-container" *ngIf="picture?.format.includes('широк'); else high">
     <div class="picture-outer" style="background-image: url('{{picture.imageUrl}}');">
       <img src="{{picture?.imageUrl}}" class="picture-inner">
     </div>
   </div>
 
+  <div class="content-box-outer">
+    <div class="content-box-inner">
+      <p class="picture-title">{{picture?.title}}</p>
+    </div>
+  </div>
 
   <ng-template #high>
     <div class="picture-image-wrapper">

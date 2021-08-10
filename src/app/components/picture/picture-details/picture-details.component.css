@@ -1,8 +1,8 @@
 .picture-details-wrapper {
   display: flex;
-  margin: 2% auto;
+  margin: 3% auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 60%;
 }
 
@@ -26,15 +26,21 @@
   text-orientation: upright;
 }
 
-.picture-title-container {
-  margin-top: 5px;
-  width: 100%;
+.content-box-outer {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.content-box-inner {
+  border: 1px solid white;
 }
 
 .picture-title {
+  color: white;
+  text-align: center;
   font-size: 18px;
   font-family: 'Philosopher', sans-serif;
-  text-align: left;
+  padding: 20px;
   width: 100%;
 }
 
