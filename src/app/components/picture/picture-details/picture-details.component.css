@@ -3,12 +3,13 @@
   margin: 3% auto;
   align-items: center;
   justify-content: space-evenly;
-  width: 60%;
+  width: 80%;
 }
 
 .picture-category-container {
   color: white;
   display: flex;
+  width: 5%;
 }
 
 .picture-category-subtitle {
@@ -20,35 +21,17 @@
 
 .picture-category-title {
   font-family: 'Philosopher', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   text-transform: uppercase;
   writing-mode: vertical-lr;
   text-orientation: upright;
-}
-
-.content-box-outer {
-  border: 1px solid white;
-  padding: 5px;
-}
-
-.content-box-inner {
-  border: 1px solid white;
-}
-
-.picture-title {
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Philosopher', sans-serif;
-  padding: 20px;
-  width: 100%;
 }
 
 .picture-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 70%;
 }
 
 .picture-outer {
@@ -66,4 +49,19 @@
   height: 100%;
   backdrop-filter: blur(3px);
   padding: 50px;
+}
+
+.content-box {
+  border: 1px solid white;
+  padding: 5px;
+  width: 20%;
+}
+
+.picture-title {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Philosopher', sans-serif;
+  padding: 20px;
+  width: 100%;
 }
