@@ -219,7 +219,7 @@ router.get('/towns-album', authCheck ,(req, res) => {
     })
 })
 
-router.get('/restaurant-album', authCheck ,(req, res) => {
+router.get('/restaurants-album', authCheck ,(req, res) => {
 
   Picture.find({category: 'Ресторанти'})
     .then((picture) => {
