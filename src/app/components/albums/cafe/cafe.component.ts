@@ -42,8 +42,6 @@ export class CafeComponent implements OnInit {
   }
 
   onDone($event) {
-    // call this function at the end of the previous animation.
-    // run it as many time as defined
     if (this.counter < this.times) {
       this.state = this.state === 'active' ? 'inactive' : 'active';
       this.counter++;
