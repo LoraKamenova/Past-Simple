@@ -37,7 +37,7 @@ export class CafeComponent implements OnInit {
   constructor(private route: ActivatedRoute, private pictureService: PictureService, private router: Router) { }
 
   ngOnInit(): void {
-    this.picture$ = this.pictureService.getCafeAlbum();
+    this.picture$ = this.pictureService.getMediaAlbum();
     console.log(this.picture$)
   }
 
