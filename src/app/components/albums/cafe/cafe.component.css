@@ -21,6 +21,8 @@
   justify-content: space-between;
   height: 100px;
   padding: 5px 0;
+  margin-left: 20px;
+  align-self: center;
 }
 
 .gallery-page-heading, .gallery-page-sub-heading {
