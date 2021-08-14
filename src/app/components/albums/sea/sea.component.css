@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 95%;
-  margin: 1% auto;
+  margin: 3% auto;
 }
 
 .galley-items-container {
@@ -18,13 +18,17 @@
   display: flex;
   width: 80%;
   margin-bottom: 100px;
-  border: 1px solid #ffb2c7;
+}
+
+.gallery-picture-container {
+  min-width: 600px;
+  height: 400px;
+  z-index: 2;
 }
 
 .gallery-picture {
-  width: 600px;
-  height: 400px;
-  z-index: 2;
+  width: 100%;
+  height: 100%;
 }
 
 .gallery-postcard {
@@ -47,15 +51,16 @@
   margin: 20px 0;
   border-left: 1px solid lightblue;
   width: 50%;
-  padding: 30px;
+  padding: 0 30px 50px 30px;
   align-items: center;
 }
 
 .postcard-text-container {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
   height: 40%;
+  align-items: center;
   background-color: #fff;
   background-size: 100% 1.2em;
   background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(lightblue .05em, transparent .05em);
@@ -79,45 +84,10 @@
 
 .postcard-album-title {
   font-family: 'Bad Script', cursive;
+  font-size: 25px;
 }
 
 .postcard-text {
   font-family: 'Bad Script', cursive;
+  font-size: 20px;
 }
-
-/*.gallery-picture.picture-wide:nth-child(odd) {*/
-/*  transform: rotate(2deg);*/
-/*}*/
-
-/*.gallery-picture.picture-wide:nth-child(even) {*/
-/*  transform: rotate(-2deg);*/
-/*}*/
-
-/*.gallery-upper-note, .gallery-bottom-note {*/
-/*  border-left: 1px solid white;*/
-/*  border-right: 1px solid white;*/
-/*  width: 70%;*/
-/*  min-height: 50px;*/
-/*}*/
-
-/*.gallery-upper-note {*/
-/*  border-top: 1px solid white;*/
-/*}*/
-
-/*.gallery-bottom-note {*/
-/*  border-bottom: 1px solid white;*/
-/*}*/
-
-/*.gallery-picture {*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*}*/
-
-/*.gallery-item-text {*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*  text-align: center;*/
-/*  color: white;*/
-/*  font-size: 25px;*/
-/*  padding: 0 7px;*/
-/*  font-style: italic;*/
-/*}*/
