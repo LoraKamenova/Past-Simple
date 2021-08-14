@@ -6,41 +6,6 @@
   margin: 1% auto;
 }
 
-
-
-.gallery-page-header {
-  display: flex;
-}
-
-.svg-image {
-  width: 100px;
-  height: 100px;
-}
-
-.gallery-page-heading-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100px;
-  padding: 5px 0;
-  margin-left: 20px;
-  align-self: center;
-}
-
-.gallery-page-heading, .gallery-page-sub-heading {
-  font-family: 'Philosopher', sans-serif;
-  color: white;
-  text-align: left;
-}
-
-.gallery-page-heading {
-  font-size: 40px;
-}
-
-.gallery-page-sub-heading {
-  font-size: 30px;
-}
-
 .galley-items-container {
   display: flex;
   flex-direction: column;
@@ -80,7 +45,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 20px 0;
-  border-left: 1px solid cornflowerblue;
+  border-left: 1px solid lightblue;
   width: 50%;
   padding: 30px;
   align-items: center;
@@ -91,6 +56,9 @@
   flex-direction: column;
   width: 60%;
   height: 40%;
+  background-color: #fff;
+  background-size: 100% 1.2em;
+  background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(lightblue .05em, transparent .05em);
 }
 
 .postcard-stamp-container {
@@ -98,9 +66,23 @@
   width: 100%;
   justify-content: flex-end;
 }
+
+.postcard-stamp-wrapper {
+  width: 80px;
+  height: 80px;
+  border: 1px solid lightblue;
+}
 .postcard-stamp {
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
+}
+
+.postcard-album-title {
+  font-family: 'Bad Script', cursive;
+}
+
+.postcard-text {
+  font-family: 'Bad Script', cursive;
 }
 
 /*.gallery-picture.picture-wide:nth-child(odd) {*/
