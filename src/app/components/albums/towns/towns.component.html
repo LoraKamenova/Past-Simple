@@ -1,30 +1,30 @@
 <div class="gallery-page-wrapper">
 
-
-  <div class="gallery-page-header">
-
-    <svg class="svg-image" x="0" y="0" viewBox="0 0 64 64" xml:space="preserve"  [@fade]="state"
-         (@fade.done)="onDone($event)"><g><path xmlns="http://www.w3.org/2000/svg" d="m62.707 41.707a1 1 0 0 0 .293-.707v-36a1 1 0 0 0 -1-1h-1v-2a1 1 0 0 0 -1-1h-6a1 1 0 0 0 -1 1v2h-1a1 1 0 0 0 -1 1v13h-9v-10a1 1 0 0 0 -1-1h-20a1 1 0 0 0 -1 1v11h-6a1 1 0 0 0 -1 1v20h-6v-5h3a1 1 0 0 0 .949-1.316l-4-12a1 1 0 0 0 -1.9 0l-4 12a1 1 0 0 0 .951 1.316h3v5h-3v2h14.905l-15.682 19.371a1 1 0 0 0 .777 1.629h60a1 1 0 0 0 .777-1.629l-15.677-19.371h14.9a1 1 0 0 0 .707-.293zm-56.707-16.545 2.613 7.838h-5.226zm55 10.838h-3v-2h3zm0-16h-3v-2h3zm-8-10h3v2h-3zm0 16h3v2h-3zm-2.719-6h.719v20h-9v-20zm-28.281-11h18v31h-9v-20a1 1 0 0 0 -1-1h-8zm7 19h-14v-3h14zm0-7v2h-14v-2zm-14 9h14v10h-3v-4a4 4 0 0 0 -8 0v4h-3zm5 10v-4a2 2 0 0 1 4 0v4zm-.523 2h1.58l-13.572 19h-3.385zm11.523 15v4h-21.057l13.572-19h7.485v3h2v-3h7.485l13.572 19h-21.057v-4zm28.9 4h-3.385l-13.572-19h1.58zm-6.9-21v-10h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4v-10h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4v-2h1a1 1 0 0 0 1-1v-2h4v2a1 1 0 0 0 1 1h1v10h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h4v10h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h4v2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 22h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m48 22h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m47 26h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 26h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 30h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m48 30h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m47 34h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 34h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m30 12a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1zm-2 3h-2v-2h2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m33 17h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m33 25h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m33 33h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m31 49h2v4h-2z" fill="#fffefe" data-original="#000000" style=""/></g></svg>
-
-    <div class="gallery-page-heading-container">
-      <h3 class="gallery-page-sub-heading">албум</h3>
-      <h1 class="gallery-page-heading">Градове</h1>
-    </div>
-
-  </div>
-
   <div class="galley-items-container">
 
     <div class="gallery-item-wrapper" *ngFor="let p of picture$ | async; let i = index">
-      <div class="galley-item" style="background-image: url('{{p.imageUrl}}');">
-        <div class="gallery-item-text-container">
-          <span class="gallery-item-text">{{p.title}}</span>
+      <div class="gallery-picture-container">
+        <img class="gallery-picture picture-wide" src="{{p.imageUrl}}" alt="gallery-picture">
+      </div>
+      <div class="gallery-postcard">
+        <div class="postcard-content">
+          <div class="postcard-stamp-container">
+            <div class="postcard-stamp-wrapper">
+              <svg class="postcard-stamp" x="0" y="0" viewBox="0 0 64 64" xml:space="preserve"  [@fade]="state"
+                   (@fade.done)="onDone($event)"><g><path xmlns="http://www.w3.org/2000/svg" d="m62.707 41.707a1 1 0 0 0 .293-.707v-36a1 1 0 0 0 -1-1h-1v-2a1 1 0 0 0 -1-1h-6a1 1 0 0 0 -1 1v2h-1a1 1 0 0 0 -1 1v13h-9v-10a1 1 0 0 0 -1-1h-20a1 1 0 0 0 -1 1v11h-6a1 1 0 0 0 -1 1v20h-6v-5h3a1 1 0 0 0 .949-1.316l-4-12a1 1 0 0 0 -1.9 0l-4 12a1 1 0 0 0 .951 1.316h3v5h-3v2h14.905l-15.682 19.371a1 1 0 0 0 .777 1.629h60a1 1 0 0 0 .777-1.629l-15.677-19.371h14.9a1 1 0 0 0 .707-.293zm-56.707-16.545 2.613 7.838h-5.226zm55 10.838h-3v-2h3zm0-16h-3v-2h3zm-8-10h3v2h-3zm0 16h3v2h-3zm-2.719-6h.719v20h-9v-20zm-28.281-11h18v31h-9v-20a1 1 0 0 0 -1-1h-8zm7 19h-14v-3h14zm0-7v2h-14v-2zm-14 9h14v10h-3v-4a4 4 0 0 0 -8 0v4h-3zm5 10v-4a2 2 0 0 1 4 0v4zm-.523 2h1.58l-13.572 19h-3.385zm11.523 15v4h-21.057l13.572-19h7.485v3h2v-3h7.485l13.572 19h-21.057v-4zm28.9 4h-3.385l-13.572-19h1.58zm-6.9-21v-10h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4v-10h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4v-2h1a1 1 0 0 0 1-1v-2h4v2a1 1 0 0 0 1 1h1v10h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h4v10h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h4v2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 22h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m48 22h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m47 26h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 26h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 30h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m48 30h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m47 34h3v2h-3z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m43 34h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m30 12a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1zm-2 3h-2v-2h2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m33 17h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m33 25h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m33 33h4a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-4a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h2v2h-2z" fill="#fffefe" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m31 49h2v4h-2z" fill="black" data-original="#000000" style=""/></g></svg>
+            </div>
+          </div>
+          <div class="postcard-text-container">
+            <h3 class="postcard-album-title">албум {{p.category}}</h3>
+            <p class="postcard-text">{{p.title}}</p>
+          </div>
         </div>
       </div>
     </div>
 
   </div>
 
-
 </div>
+
+
 
