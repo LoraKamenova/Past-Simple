@@ -6,6 +6,8 @@
   margin: 1% auto;
 }
 
+
+
 .gallery-page-header {
   display: flex;
 }
@@ -44,30 +46,96 @@
   flex-direction: column;
   width: 100%;
   justify-content: center;
+  align-items: center;
 }
 
 .gallery-item-wrapper {
-  width: 60%;
-  height: 400px;
-  margin: 20px 5px;
-}
-
-.gallery-upper-note, .gallery-upper-note {
-  border: 1px solid white;
-  width: 40%;
-  min-height: 50px;
+  display: flex;
+  width: 80%;
+  margin-bottom: 100px;
+  border: 1px solid #ffb2c7;
 }
 
 .gallery-picture {
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: 400px;
+  z-index: 2;
 }
 
-.gallery-item-text {
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  padding: 0 7px;
-  font-style: italic;
+.gallery-postcard {
+  min-width: 600px;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  bottom:-80px;
+  left: -250px;
+  transform: rotate(3deg);
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.postcard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-left: 1px solid cornflowerblue;
+  width: 50%;
+  padding: 30px;
+  align-items: center;
+}
+
+.postcard-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 40%;
+}
+
+.postcard-stamp-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.postcard-stamp {
+  width: 70px;
+  height: 70px;
+}
+
+/*.gallery-picture.picture-wide:nth-child(odd) {*/
+/*  transform: rotate(2deg);*/
+/*}*/
+
+/*.gallery-picture.picture-wide:nth-child(even) {*/
+/*  transform: rotate(-2deg);*/
+/*}*/
+
+/*.gallery-upper-note, .gallery-bottom-note {*/
+/*  border-left: 1px solid white;*/
+/*  border-right: 1px solid white;*/
+/*  width: 70%;*/
+/*  min-height: 50px;*/
+/*}*/
+
+/*.gallery-upper-note {*/
+/*  border-top: 1px solid white;*/
+/*}*/
+
+/*.gallery-bottom-note {*/
+/*  border-bottom: 1px solid white;*/
+/*}*/
+
+/*.gallery-picture {*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*}*/
+
+/*.gallery-item-text {*/
+/*  font-family: 'Philosopher', sans-serif;*/
+/*  text-align: center;*/
+/*  color: white;*/
+/*  font-size: 25px;*/
+/*  padding: 0 7px;*/
+/*  font-style: italic;*/
+/*}*/
