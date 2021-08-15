@@ -76,11 +76,22 @@
   background-color: orange;
 }
 
-.quiz-button.new-entry-button {
+.quiz-button.try-again-button {
   background-color: rebeccapurple;
 }
 
 .quiz-button.try-again-button:hover {
   cursor: pointer;
   background-color: blueviolet;
+}
+
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.result-svg {
+  width: 100px;
+  height: 100px;
 }
