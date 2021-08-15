@@ -88,3 +88,8 @@
 .input-select {
   color: black;
 }
+
+.choose-legend {
+  color: lightseagreen;
+  font-weight: bold;
+}

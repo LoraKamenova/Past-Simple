@@ -22,7 +22,7 @@
 
     <!--This div renders if quizOver is true-->
     <div class="result-wrapper border" *ngIf="quizOver">
-      <div class="result-score">Вашият резултат е: {{score}} / {{totalQuestions}}</div>
+      <div class="result-score">Резултат: {{score}} / {{totalQuestions}}</div>
 
       <div class="result-nomination" *ngIf="score <= 1">
         <div class="result-picture">

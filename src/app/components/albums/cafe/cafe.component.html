@@ -3,9 +3,14 @@
   <div class="galley-items-container">
 
     <div class="gallery-item-wrapper" *ngFor="let p of picture$ | async; let i = index">
-      <div class="gallery-picture-container">
-        <img class="gallery-picture picture-wide" src="{{p.imageUrl}}" alt="gallery-picture">
+
+      <div *ngIf="p.format.includes('широк')" class="gallery-picture-container picture-wide">
+        <img class="gallery-picture" src="{{p.imageUrl}}" alt="gallery-picture">
       </div>
+      <div *ngIf="p.format.includes('висок')" class="gallery-picture-container picture-high">
+        <img class="gallery-picture" src="{{p.imageUrl}}" alt="gallery-picture">
+      </div>
+
       <div class="gallery-postcard">
         <div class="postcard-content">
           <div class="postcard-stamp-container">

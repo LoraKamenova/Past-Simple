@@ -4,7 +4,6 @@ import {HomeComponent} from './components/home/home.component';
 import {IndexComponent} from "./components/index/index.component";
 import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
 import {QuizComponent} from "./components/quiz/quiz/quiz.component";
-import {QuizResultComponent} from "./components/quiz/quiz-result/quiz-result.component";
 import {AboutComponent} from "./components/about/about.component";
 import {SigninComponent} from "./components/authentication/signin/signin.component";
 import {SignupComponent} from "./components/authentication/signup/signup.component";
@@ -19,6 +18,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'my-profile', component: MyProfileComponent},
   {path: 'admin-panel', component: AdminPanelComponent},
+  {path: 'quiz', component: QuizComponent},
 
   {path: 'memory', loadChildren: './components/memory/memory.module#MemoryModule', canActivate: [AuthGuard]},
   {path: 'slogan', loadChildren: './components/slogan/slogan.module#SloganModule', canActivate: [AuthGuard]},
@@ -28,9 +28,6 @@ const routes: Routes = [
   {path: 'categories', loadChildren: './components/categories/categories.module#CategoriesModule', canActivate: [AuthGuard]},
   {path: 'albums', loadChildren: './components/albums/albums.module#AlbumsModule', canActivate: [AuthGuard]},
   {path: 'picture', loadChildren: './components/picture/picture.module#PictureModule', canActivate: [AuthGuard]},
-
-  {path: 'quiz', component: QuizComponent},
-  {path: 'quiz-result', component: QuizResultComponent},
 ];
 
 @NgModule({

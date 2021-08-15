@@ -20,10 +20,18 @@
   margin-bottom: 130px;
 }
 
-.gallery-picture-container {
+.gallery-picture-container.picture-wide {
   min-width: 600px;
   height: 400px;
   z-index: 2;
+  margin-left: 50px;
+}
+
+.gallery-picture-container.picture-high {
+  min-width: 450px;
+  height: 550px;
+  z-index: 2;
+  margin-left: 120px;
 }
 
 .gallery-picture {

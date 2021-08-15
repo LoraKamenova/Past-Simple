@@ -25,7 +25,7 @@
       <div class="form-group">
         <label for="category" class="label">Категория</label>
         <select class="input" formControlName="category" (change)="changeCategory($event)"  name="category" id="category" required>
-          <option class="input-select" value="">---------------изберете Категория---------------</option>
+          <option class="input-select choose-legend" value="">---ИЗБЕРЕТЕ КАТЕГОРИЯ---</option>
           <option class="input-select" *ngFor="let category of Categories">
             {{category}}
           </option>
@@ -40,7 +40,7 @@
       <div class="form-group">
         <label for="format" class="label">Формат</label>
         <select class="input" formControlName="format" (change)="changeFormat($event)"  name="format" id="format" required>
-          <option class="input-select" value="">---------------Изберете Формат---------------</option>
+          <option class="input-select choose-legend" value="">---ИЗБЕРЕТЕ ФОРМАТ---</option>
           <option class="input-select" *ngFor="let format of Formats">
             {{format}}
           </option>

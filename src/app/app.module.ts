@@ -60,7 +60,6 @@ import {PictureModule} from "./components/picture/picture.module";
     CategoriesModule,
     AlbumsModule,
     PictureModule,
-
     QuizModule,
   ],
   providers: [

@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Slogan} from "../../../models/slogan";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {ActivatedRoute, Router} from "@angular/router";
-import {SloganService} from "../../../services/slogan.service";
 import {Picture} from "../../../models/picture";
 import {PictureService} from "../../../services/picture.service";
 
@@ -26,13 +24,12 @@ export class EditPictureComponent implements OnInit {
     'Ханчета',
     'Кино',
     'Медии',
-    'Други развлечения',
+    'Други забавления',
   ]
 
   Formats: any = [
     'широк',
-    'висок',
-    'квадрат'
+    'висок'
   ]
 
   form = new FormGroup({
