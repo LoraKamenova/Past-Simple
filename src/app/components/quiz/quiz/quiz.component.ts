@@ -6,10 +6,50 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quiz.component.css']
 })
 export class QuizComponent implements OnInit {
-
-  constructor() { }
+  currentIndex = 0;
+  score = 0;
+  answers;
+  totalQuestions;
+  quizOver
 
   ngOnInit(): void {
   }
 
+  goNext() {
+    this.currentIndex++;
+    this.updateScore();
+
+    if (this.currentIndex === this.totalQuestions){
+      this.endQuiz();
+    }
+  }
+
+  goPrevious() {
+    this.currentIndex--;
+  }
+
+  receiveAnswers(receivedAnswers) {
+    this.answers = receivedAnswers;
+  }
+
+  updateScore(){
+    if (this.answers.user_answer === this.answers.correct_answer) {
+      this.score++;
+    }
+  }
+
+  getTotalQuestions(totalQuestions: number) {
+    this.totalQuestions = totalQuestions;
+  }
+
+  endQuiz(){
+    this.quizOver = true;
+    alert('Quiz Over! Score is ' + this.score + '/ ' + this.totalQuestions);
+  }
+
+  restartQuiz() {
+    this.quizOver = false;
+    this.score = 0;
+    this.currentIndex = 0;
+  }
 }
