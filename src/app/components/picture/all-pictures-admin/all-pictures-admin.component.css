@@ -94,16 +94,28 @@
   text-align: center;
 }
 
-.pictures-table-image {
+.pictures-table-image.wide {
   width: 120px;
   height: 70px;
 }
 
+.pictures-table-image.high {
+  width: 60px;
+  height: 70px;
+}
 
-.pictures-table-image:hover {
+.pictures-table-image.wide:hover {
   transform: scale(1.8);
   -webkit-box-shadow: 0px 0px 7px 0px #000000;
   box-shadow: 0px 0px 7px 0px #000000;
+  border: 3px solid white;
+}
+
+.pictures-table-image.high:hover {
+  transform: scale(2.5);
+  -webkit-box-shadow: 0px 0px 7px 0px #000000;
+  box-shadow: 0px 0px 7px 0px #000000;
+  border: 3px solid white;
 }
 
 .fas.fa-edit, .far.fa-trash-alt, .fas.fa-search-plus {

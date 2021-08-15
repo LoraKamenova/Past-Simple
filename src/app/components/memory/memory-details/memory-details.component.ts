@@ -10,10 +10,12 @@ import {MemoryService} from "../../../services/memory.service";
 })
 export class MemoryDetailsComponent implements OnInit {
   memory: Memory;
+  username : string;
 
   constructor(private route: ActivatedRoute, private memoryService: MemoryService, private router: Router) { }
 
   ngOnInit(): void {
+    this.username = localStorage.getItem('name');
     this.route.params.subscribe(data => {
       let id = data['id'];
       this.memoryService.getMemory(id).subscribe((data) => {

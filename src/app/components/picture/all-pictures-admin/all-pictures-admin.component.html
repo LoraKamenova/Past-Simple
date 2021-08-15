@@ -13,7 +13,10 @@
     </tr>
     <tr *ngFor="let p of picture$ | async; let i = index">
       <td class="table-data picture-numbering">{{i + 1}}</td>
-      <td class="table-data picture-image"><img class="pictures-table-image" src="{{p.imageUrl}}" alt="pic"></td>
+      <td class="table-data picture-image">
+        <img *ngIf="p.format.includes('широк')" class="pictures-table-image wide" src="{{p.imageUrl}}" alt="pic">
+        <img *ngIf="p.format.includes('висок')" class="pictures-table-image high" src="{{p.imageUrl}}" alt="pic">
+      </td>
       <td class="table-data picture-category">{{p.category}}</td>
       <td class="table-data picture-title">{{p.title}}</td>
       <td class="table-data picture-buttons">
