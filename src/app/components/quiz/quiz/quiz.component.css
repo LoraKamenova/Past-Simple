@@ -1,9 +1,10 @@
 .quiz-wrapper {
   display: flex;
-  margin: 1% auto;
-  width: 80%;
-  height: 80vh;
-  justify-content: center;
+  margin: 2% auto;
+  width: 65%;
+  height: 75vh;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .quiz-image-container {
@@ -13,19 +14,18 @@
 
 .quiz-image {
   width: 350px;
-  height: 500px;
-  position: fixed;
+  height: 450px;
 }
 
 .questions-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  height: 80%;
+  width: 50%;
+  height: 85%;
   font-family: 'Philosopher', sans-serif;
-  padding: 40px;
+  padding: 20px 40px 35px 40px;
   background-color: snow;
-  align-self: center;
+  align-items: center;
 }
 
 .quiz-title {
@@ -34,10 +34,16 @@
   font-size: 40px;
 }
 
+.question-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
 .quiz-button-holder {
   display: flex;
-  margin-top: 30px;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .quiz-button {
@@ -56,7 +62,7 @@
   background-color: #008A4D;
 }
 
-.quiz-button.next-button:hover, .quiz-button.new-entry-button:hover {
+.quiz-button.next-button:hover, .quiz-button.try-again-button:hover {
   cursor: pointer;
   background-color: #00B565;
 }
@@ -68,4 +74,13 @@
 .quiz-button.previous-button:hover {
   cursor: pointer;
   background-color: orange;
+}
+
+.quiz-button.new-entry-button {
+  background-color: rebeccapurple;
+}
+
+.quiz-button.try-again-button:hover {
+  cursor: pointer;
+  background-color: blueviolet;
 }
