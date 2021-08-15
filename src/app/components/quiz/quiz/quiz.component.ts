@@ -10,7 +10,7 @@ export class QuizComponent implements OnInit {
   score = 0;
   answers;
   totalQuestions;
-  quizOver
+  quizOver;
 
   ngOnInit(): void {
   }
@@ -44,7 +44,7 @@ export class QuizComponent implements OnInit {
 
   endQuiz(){
     this.quizOver = true;
-    alert('Quiz Over! Score is ' + this.score + '/ ' + this.totalQuestions);
+    // alert('Quiz Over! Score is ' + this.score + '/ ' + this.totalQuestions);
   }
 
   restartQuiz() {

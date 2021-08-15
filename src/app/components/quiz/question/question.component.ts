@@ -22,14 +22,14 @@ export class QuestionComponent implements OnInit, DoCheck {
   ngOnInit(): void {
     this.questions = [
       {
-        question: 'What is your name?',
-        options: ['Kindson', 'Saffron', 'Othniel', 'Osondu'],
-        answer: 'Kindson'
+        question: 'Кой днешен курорт е носил името "Мичурин"?',
+        options: ['Созопол', 'Равда', 'Царево', 'Лозенец'],
+        answer: 'Царево'
       },
       {
-        question: 'Where do you Live?',
-        options: ['India', 'Hungary', 'USA', 'Nigeria'],
-        answer: 'Hungary'
+        question: 'В кой курорт започва да се провежда "Златният Орфей"?',
+        options: ['Несебър', 'Созопол', 'Албена', 'Слънчев бряг'],
+        answer: 'Слънчев бряг'
       },
       {
         question: 'Who is PM of India?',
