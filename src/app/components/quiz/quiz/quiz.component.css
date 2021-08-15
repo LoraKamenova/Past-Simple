@@ -20,7 +20,7 @@
 .questions-container {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 40%;
   height: 80%;
   font-family: 'Philosopher', sans-serif;
   padding: 40px;
@@ -37,7 +37,7 @@
 .quiz-button-holder {
   display: flex;
   margin-top: 30px;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .quiz-button {
