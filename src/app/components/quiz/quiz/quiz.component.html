@@ -7,60 +7,64 @@
 
   <div class="questions-container">
 
-        <h1 class="quiz-title">ТЕСТ</h1>
+    <h1 class="quiz-title">ТЕСТ</h1>
 
     <!--This div renders if quizOver is false-->
     <div *ngIf="!quizOver">
       <app-question [questionIndex]="currentIndex"
-                    (answers) ="receiveAnswers($event)"
-                    (totalQuestions)="getTotalQuestions($event)" >
+                    (answers)="receiveAnswers($event)"
+                    (totalQuestions)="getTotalQuestions($event)">
       </app-question>
-      <br>
-      <button class="btn btn-outline-primary" (click)="goPrevious()">Следващ</button> |
-      <button class="btn btn-outline-success" (click)="goNext()">Предишен</button>
+      <div class="quiz-button-holder">
+        <button class="quiz-button next-button" (click)="goNext()">Следващ</button>
+        <button class="quiz-button previous-button" (click)="goPrevious()">Предишен</button>
+
+      </div>
     </div>
 
     <!--This div renders if quizOver is true-->
     <div *ngIf="quizOver" class="border">
-      <h4>Quiz is Over!</h4>
+      <h4>Край на теста!</h4>
       Вашият резултат е: {{score}} / {{totalQuestions}}
       <br>
-      <button (click)="restartQuiz()">Нов опит</button>
+      <div class="quiz-button-holder">
+        <button class="quiz-button try-again-button" (click)="restartQuiz()">Нов опит</button>
+      </div>
+
     </div>
 
 
+    <!--    <div class="question-wrapper">-->
+    <!--      <div class="question">-->
+    <!--        <div class="question-title">Въпрос 1:</div>-->
+    <!--        <div class="question-content">Кой днешен курорт е носил името "Мичурин"?</div>-->
+    <!--      </div>-->
+    <!--      <div class="question-options">-->
+    <!--        <div class="radio-button">-->
+    <!--          <input type="radio" id="1a" name="question-one" value="созопол">-->
+    <!--          <label for="1a">Созопол</label>-->
+    <!--        </div>-->
 
-<!--    <div class="question-wrapper">-->
-<!--      <div class="question">-->
-<!--        <div class="question-title">Въпрос 1:</div>-->
-<!--        <div class="question-content">Кой днешен курорт е носил името "Мичурин"?</div>-->
-<!--      </div>-->
-<!--      <div class="question-options">-->
-<!--        <div class="radio-button">-->
-<!--          <input type="radio" id="1a" name="question-one" value="созопол">-->
-<!--          <label for="1a">Созопол</label>-->
-<!--        </div>-->
+    <!--        <div class="radio-button">-->
+    <!--          <input type="radio" id="1b" name="question-one" value="равда">-->
+    <!--          <label for="1b">Равда</label>-->
+    <!--        </div>-->
 
-<!--        <div class="radio-button">-->
-<!--          <input type="radio" id="1b" name="question-one" value="равда">-->
-<!--          <label for="1b">Равда</label>-->
-<!--        </div>-->
+    <!--        <div class="radio-button">-->
+    <!--          <input type="radio" id="1c" name="question-one" value="царево">-->
+    <!--          <label for="1c">Царево</label>-->
+    <!--        </div>-->
 
-<!--        <div class="radio-button">-->
-<!--          <input type="radio" id="1c" name="question-one" value="царево">-->
-<!--          <label for="1c">Царево</label>-->
-<!--        </div>-->
+    <!--        <div class="radio-button">-->
+    <!--          <input type="radio" id="1d" name="question-one" value="лозенец">-->
+    <!--          <label for="1d">Лозенец</label>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
 
-<!--        <div class="radio-button">-->
-<!--          <input type="radio" id="1d" name="question-one" value="лозенец">-->
-<!--          <label for="1d">Лозенец</label>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-
-<!--    <div class="quiz-button-holder">-->
-<!--      <input type="submit" class="quiz-button" value="Изпрати">-->
-<!--    </div>-->
+    <!--    <div class="quiz-button-holder">-->
+    <!--      <input type="submit" class="quiz-button" value="Изпрати">-->
+    <!--    </div>-->
 
   </div>
 </div>

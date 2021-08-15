@@ -1,10 +1,14 @@
-Question {{questionIndex+1}} of {{questions.length}}
-<br>
-<h5>{{currentQuestion}}</h5>
-<p *ngFor="let option of currentOptions">
-  <input
-    (click)="setUserAnswer(option)"
-    type="radio"
-    value={{option}}
-    name="answer"> {{option}}
-</p>
+<div class="question-wrapper">
+  <div class="question-title">Въпрос {{questionIndex + 1}} от {{questions.length}}:</div>
+  <div class="question-content">
+    <div class="question">{{currentQuestion}}</div>
+    <div class="question-options" *ngFor="let option of currentOptions">
+      <input
+        (click)="setUserAnswer(option)"
+        class="radio-button"
+        type="radio"
+        value={{option}}
+        name="answer"> {{option}}
+    </div>
+  </div>
+</div>
