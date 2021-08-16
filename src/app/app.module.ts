@@ -33,7 +33,6 @@ import {AlbumsModule} from "./components/albums/albums.module";
 import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
 import {PictureModule} from "./components/picture/picture.module";
 
-
 @NgModule({
   declarations: [
     AppComponent,
