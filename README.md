@@ -4,14 +4,14 @@ Angular November 2020 / Retake Angular July 2021
 # Техническа информация:
 ### Структура на проекта:
 
-* клиентската част, изпълнена с Angular, се намира в директория: Past_simple/client/ 
-* сървърна част, изпълнена като Rest API с Node.js, се намира в директория: Past_simple/client/server/
+* клиентската част, изпълнена с Angular, се намира в директория: [Past_simple/client/](https://github.com/LoraKamenova/Past-Simple)
+* сървърна част, изпълнена като Rest API с Node.js, се намира в директория: [Past_simple/client/server/](https://github.com/LoraKamenova/Past-Simple/tree/master/server)
 
 ### База данни:
 
 Използвана е локална база данни MongoDb в комбинация с Mongoose
 
-*Примерни данни в .json формат за попълване на таблиците в базата се намират в: Past_simple/client/src/jsons
+*Примерни данни в .json формат за попълване на таблиците в базата се намират в: [Past_simple/client/src/jsons]()
 
 ### Стартиране на проекта:
 
