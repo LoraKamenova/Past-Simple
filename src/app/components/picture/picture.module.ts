@@ -12,6 +12,7 @@ import { AllPicturesMountainAdminComponent } from './all-pictures-mountain-admin
 import { AllPicturesSpaAdminComponent } from './all-pictures-spa-admin/all-pictures-spa-admin.component';
 import { AllPicturesCampingComponent } from './all-pictures-camping/all-pictures-camping.component';
 import { AllPicturesHotelsAdminComponent } from './all-pictures-hotels-admin/all-pictures-hotels-admin.component';
+import { AllPicturesTownsAdminComponent } from './all-pictures-towns-admin/all-pictures-towns-admin.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { AllPicturesHotelsAdminComponent } from './all-pictures-hotels-admin/all
     AllPicturesSpaAdminComponent,
     AllPicturesCampingComponent,
     AllPicturesHotelsAdminComponent,
+    AllPicturesTownsAdminComponent,
   ],
 
   imports: [
@@ -38,8 +40,8 @@ import { AllPicturesHotelsAdminComponent } from './all-pictures-hotels-admin/all
       {path: 'all/mountain/admin', component: AllPicturesMountainAdminComponent},
       {path: 'all/spa/admin', component: AllPicturesSpaAdminComponent},
       {path: 'all/camping/admin', component: AllPicturesCampingComponent},
-      {path: 'all/hotels/admin', component: AllPicturesAdminComponent},
-      {path: 'all/towns/admin', component: AllPicturesAdminComponent},
+      {path: 'all/hotels/admin', component: AllPicturesHotelsAdminComponent},
+      {path: 'all/towns/admin', component: AllPicturesTownsAdminComponent},
       {path: 'all/restaurants/admin', component: AllPicturesAdminComponent},
       {path: 'all/cafe/admin', component: AllPicturesAdminComponent},
       {path: 'all/pubs/admin', component: AllPicturesAdminComponent},
