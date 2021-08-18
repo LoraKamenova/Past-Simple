@@ -8,13 +8,33 @@
   color: white;
 }
 
+.admin-panel-heading {
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: 20px;
+}
+
+.admin-fieldset-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .admin-fieldset {
   display: flex;
   margin: 20px;
-  width: 40%;
   padding: 20px 20px 20px 30px;
   backdrop-filter: blur(15px);
   font-size: 18px;
+}
+
+.admin-fieldset.pictures {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.admin-fieldset.common {
+  width: 30%;
 }
 
 .admin-fieldset-legend {
@@ -32,6 +52,10 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
+}
+
+.admin-fieldset-list.pictures {
+  width: 30%;
 }
 
 .admin-fieldset-list-item {

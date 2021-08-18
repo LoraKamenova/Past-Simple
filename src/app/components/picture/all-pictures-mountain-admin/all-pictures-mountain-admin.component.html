@@ -1,0 +1,31 @@
+<div class="all-pictures-admin-wrapper">
+  <div class="all-pictures-header">
+    <span class="all-pictures-heading">Всички снимки, категория Планина</span><a class="new-entry-button" [routerLink]="['/picture/create']">Нов запис</a>
+  </div>
+
+  <table class="all-pictures-table">
+    <tr class="table-header">
+      <th class="table-heading picture-numbering">#</th>
+      <th class="table-heading picture-image">Снимка</th>
+      <th class="table-heading picture-category">Категория</th>
+      <th class="table-heading picture-title">Заглавие</th>
+      <th class="table-heading picture-buttons">Действия</th>
+    </tr>
+    <tr *ngFor="let p of picture$ | async; let i = index">
+      <td class="table-data picture-numbering">{{i + 1}}</td>
+      <td class="table-data picture-image">
+        <img *ngIf="p.format.includes('широк')" class="pictures-table-image wide" src="{{p.imageUrl}}" alt="pic">
+        <img *ngIf="p.format.includes('висок')" class="pictures-table-image high" src="{{p.imageUrl}}" alt="pic">
+      </td>
+      <td class="table-data picture-category">{{p.category}}</td>
+      <td class="table-data picture-title">{{p.title}}</td>
+      <td class="table-data picture-buttons">
+        <a class="details-button" [routerLink]="['/picture/details/', p?._id]"><i class="fas fa-search-plus" title="Преглед"></i></a>
+        <a class="edit-button" [routerLink]="['/picture/edit/', p?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>
+        <a class="delete-button" (click)="deletePicture(p._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>
+      </td>
+    </tr>
+
+  </table>
+</div>
+

@@ -1,9 +1,34 @@
 <div class="admin-panel-wrapper">
 
-    <fieldset class="admin-fieldset">
-      <legend class="admin-fieldset-legend">Админ панел</legend>
+  <h1 class="admin-panel-heading">Админ панел</h1>
+
+<div class="admin-fieldset-container">
+
+  <fieldset class="admin-fieldset pictures">
+    <legend class="admin-fieldset-legend">СНИМКИ</legend>
+    <ul class="admin-fieldset-list pictures">
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/sea/admin']"><i class="far fa-images font-icon"></i>Море</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/camping/admin']"><i class="far fa-images font-icon"></i>Къмпинг</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/restaurants/admin']"><i class="far fa-images font-icon"></i>Ресторанти</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/cinema/admin']"><i class="far fa-images font-icon"></i>Кино</a></li>
+    </ul>
+    <ul class="admin-fieldset-list pictures">
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/mountain/admin']"><i class="far fa-images font-icon"></i>Планина</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/hotels/admin']"><i class="far fa-images font-icon"></i>Хотели</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/cafe/admin']"><i class="far fa-images font-icon"></i>Сладкарници</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/media/admin']"><i class="far fa-images font-icon"></i>Медии</a></li>
+    </ul>
+    <ul class="admin-fieldset-list pictures">
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/spa/admin']"><i class="far fa-images font-icon"></i>Мин. бани</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/towns/admin']"><i class="far fa-images font-icon"></i>Градове</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/pubs/admin']"><i class="far fa-images font-icon"></i>Ханчета</a></li>
+      <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/other-entertainment/admin']"><i class="far fa-images font-icon"></i>Др. забавления</a></li>
+    </ul>
+  </fieldset>
+
+    <fieldset class="admin-fieldset common">
+      <legend class="admin-fieldset-legend">ДРУГИ</legend>
       <ul class="admin-fieldset-list">
-        <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/picture/all/admin']"><i class="far fa-images font-icon"></i>Снимки</a></li>
         <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/comparison/all/admin']"><i class="fas fa-hourglass-half font-icon"></i>Преди и сега</a></li>
         <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/slogan/all/admin']"><i class="fas fa-quote-right font-icon"></i>Лозунги</a></li>
         <li class="admin-fieldset-list-item"><a class="admin-panel-link" [routerLink]="['/post/all/admin']"><i class="fab fa-blogger font-icon"></i>Блог статии</a></li>
@@ -12,4 +37,5 @@
       </ul>
     </fieldset>
 
+</div>
 </div>
