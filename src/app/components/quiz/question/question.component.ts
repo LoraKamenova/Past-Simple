@@ -52,9 +52,9 @@ export class QuestionComponent implements OnInit, DoCheck {
         answer: '1954'
       },
       {
-        question: 'Кой днешен софийски бул е носил името "В. И. Ленин“"?',
-        options: ['Цариградско шосе', 'Цар Освободител', 'България', 'Сливница'],
-        answer: 'Цариградско шосе'
+        question: 'Кой днешен софийски булевард е носил името "В. И. Ленин“"?',
+        options: ['бул. Цариградско шосе', 'бул. Цар Освободител', 'бул. България', 'бул. Сливница'],
+        answer: 'бул. Цариградско шосе'
       },
       {
         question: 'Какво означава съкръщанието ММЦ Приморско?',
@@ -91,7 +91,7 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Сталин', 'Сталинград', 'Ленин', 'Ленинград'],
         answer: 'Сталин'
       },
-    ];
+    ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
 
