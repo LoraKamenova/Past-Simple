@@ -1,4 +1,5 @@
-# Angular project for SoftUni course - Angular November 2020 (Retake Angular July 2021)
+# Angular project for SoftUni course 
+Angular November 2020 / Retake Angular July 2021
 
 #Техническа информация:
 ###Структура на проекта:
