@@ -11,7 +11,7 @@ Angular November 2020 / Retake Angular July 2021
 
 Използвана е локална база данни MongoDb в комбинация с Mongoose
 
-*Примерни данни в .json формат за попълване на таблиците в базата се намират в: [Past_simple/client/src/jsons](https://github.com/LoraKamenova/Past-Simple/tree/master/src/assets/jsons)
+*Примерни данни в .json формат за попълване на таблиците в базата се намират в: [Past_simple/client/src/assets/jsons](https://github.com/LoraKamenova/Past-Simple/tree/master/src/assets/jsons)
 
 ### Стартиране на проекта:
 
