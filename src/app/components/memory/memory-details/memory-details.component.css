@@ -13,7 +13,7 @@
 }
 
 .memory-image-container {
-  width: 60%;
+  width: 50%;
 }
 .memory-image {
   width: 100%;
@@ -49,7 +49,7 @@
 }
 
 .memory-content-wrapper {
-  width: 35%;
+  width: 45%;
   padding: 10px;
   background-color: white;
   border: 2px dashed gray;

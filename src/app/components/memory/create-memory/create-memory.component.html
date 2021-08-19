@@ -21,7 +21,7 @@
       <div class="form-group">
         <label for="description" class="label">Текст</label>
         <textarea class="input" rows="5" name="description" formControlName="description" id="description"
-                  required maxlength="630"></textarea>
+                  required></textarea>
       </div>
       <div class="standard-form-notification-container">
         <div class="standard-form-notification" *ngIf="f.description.touched && f.description.errors?.required">
@@ -29,6 +29,9 @@
         </div>
         <div class="standard-form-notification" *ngIf="f.description.errors?.minlength">Дължината трябва да е
           най-малко {{f.description.errors.minlength.requiredLength}} символа
+        </div>
+        <div class="standard-form-notification" *ngIf="f.description.errors?.maxlength">Дължината трябва да е
+          най-много {{f.description.errors.maxlength.requiredLength}} символа
         </div>
       </div>
 

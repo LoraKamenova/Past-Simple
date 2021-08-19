@@ -13,7 +13,7 @@ export class EditMemoryComponent implements OnInit {
   memory: Memory;
   form = new FormGroup({
     title: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(25)]),
-    description: new FormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(630)]),
+    description: new FormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(700)]),
     imageUrl: new FormControl('', [Validators.required])
   });
 

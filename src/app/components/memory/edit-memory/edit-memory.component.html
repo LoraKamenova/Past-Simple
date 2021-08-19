@@ -30,6 +30,9 @@
         <div class="standard-form-notification" *ngIf="f.description.errors?.minlength">Дължината трябва да е
           най-малко {{f.description.errors.minlength.requiredLength}} символа
         </div>
+        <div class="standard-form-notification" *ngIf="f.description.errors?.maxlength">Дължината трябва да е
+          най-много {{f.description.errors.maxlength.requiredLength}} символа
+        </div>
       </div>
 
       <div class="form-group">
