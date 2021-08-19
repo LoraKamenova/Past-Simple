@@ -17,6 +17,8 @@ import { AllPicturesRestaurantsAdminComponent } from './all-pictures-restaurants
 import { AllPicturesCafeAdminComponent } from './all-pictures-cafe-admin/all-pictures-cafe-admin.component';
 import { AllPicturesPubsAdminComponent } from './all-pictures-pubs-admin/all-pictures-pubs-admin.component';
 import { AllPicturesCinemaAdminComponent } from './all-pictures-cinema-admin/all-pictures-cinema-admin.component';
+import { AllPicturesMediaAdminComponent } from './all-pictures-media-admin/all-pictures-media-admin.component';
+import { AllPicturesOtherEntertainmentAdminComponent } from './all-pictures-other-entertainment-admin/all-pictures-other-entertainment-admin.component';
 
 
 @NgModule({
@@ -35,6 +37,8 @@ import { AllPicturesCinemaAdminComponent } from './all-pictures-cinema-admin/all
     AllPicturesCafeAdminComponent,
     AllPicturesPubsAdminComponent,
     AllPicturesCinemaAdminComponent,
+    AllPicturesMediaAdminComponent,
+    AllPicturesOtherEntertainmentAdminComponent,
   ],
 
   imports: [
@@ -50,12 +54,12 @@ import { AllPicturesCinemaAdminComponent } from './all-pictures-cinema-admin/all
       {path: 'all/camping/admin', component: AllPicturesCampingComponentAdmin},
       {path: 'all/hotels/admin', component: AllPicturesHotelsAdminComponent},
       {path: 'all/towns/admin', component: AllPicturesTownsAdminComponent},
-      {path: 'all/restaurants/admin', component: AllPicturesAdminComponent},
-      {path: 'all/cafe/admin', component: AllPicturesAdminComponent},
-      {path: 'all/pubs/admin', component: AllPicturesAdminComponent},
-      {path: 'all/cinema/admin', component: AllPicturesAdminComponent},
-      {path: 'all/media/admin', component: AllPicturesAdminComponent},
-      {path: 'all/other-entertainment/admin', component: AllPicturesAdminComponent},
+      {path: 'all/restaurants/admin', component: AllPicturesRestaurantsAdminComponent},
+      {path: 'all/cafe/admin', component: AllPicturesCafeAdminComponent},
+      {path: 'all/pubs/admin', component: AllPicturesPubsAdminComponent},
+      {path: 'all/cinema/admin', component: AllPicturesCinemaAdminComponent},
+      {path: 'all/media/admin', component: AllPicturesMediaAdminComponent},
+      {path: 'all/other-entertainment/admin', component: AllPicturesOtherEntertainmentAdminComponent},
       {path: 'details/:id', component: PictureDetailsComponent},
       {path: 'edit/:id', component: EditPictureComponent},
     ]),
