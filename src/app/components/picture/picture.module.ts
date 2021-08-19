@@ -15,6 +15,8 @@ import { AllPicturesHotelsAdminComponent } from './all-pictures-hotels-admin/all
 import { AllPicturesTownsAdminComponent } from './all-pictures-towns-admin/all-pictures-towns-admin.component';
 import { AllPicturesRestaurantsAdminComponent } from './all-pictures-restaurants-admin/all-pictures-restaurants-admin.component';
 import { AllPicturesCafeAdminComponent } from './all-pictures-cafe-admin/all-pictures-cafe-admin.component';
+import { AllPicturesPubsAdminComponent } from './all-pictures-pubs-admin/all-pictures-pubs-admin.component';
+import { AllPicturesCinemaAdminComponent } from './all-pictures-cinema-admin/all-pictures-cinema-admin.component';
 
 
 @NgModule({
@@ -31,6 +33,8 @@ import { AllPicturesCafeAdminComponent } from './all-pictures-cafe-admin/all-pic
     AllPicturesTownsAdminComponent,
     AllPicturesRestaurantsAdminComponent,
     AllPicturesCafeAdminComponent,
+    AllPicturesPubsAdminComponent,
+    AllPicturesCinemaAdminComponent,
   ],
 
   imports: [
