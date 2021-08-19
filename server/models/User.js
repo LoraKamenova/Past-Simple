@@ -15,10 +15,10 @@ const userSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.String,
     required: false,
   },
-  points: {
-    type: mongoose.Schema.Types.Number,
-    default: 0,
-  },
+  // points: {
+  //   type: mongoose.Schema.Types.Number,
+  //   default: 0,
+  // },
   hashedPass: {
     type: mongoose.Schema.Types.String,
     required: true
