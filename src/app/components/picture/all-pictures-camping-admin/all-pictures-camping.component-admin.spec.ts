@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AllPicturesCampingComponent } from './all-pictures-camping.component';
+import { AllPicturesCampingComponentAdmin } from './all-pictures-camping.component-admin';
 
 describe('AllPicturesCampingComponent', () => {
-  let component: AllPicturesCampingComponent;
-  let fixture: ComponentFixture<AllPicturesCampingComponent>;
+  let component: AllPicturesCampingComponentAdmin;
+  let fixture: ComponentFixture<AllPicturesCampingComponentAdmin>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AllPicturesCampingComponent ]
+      declarations: [ AllPicturesCampingComponentAdmin ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AllPicturesCampingComponent);
+    fixture = TestBed.createComponent(AllPicturesCampingComponentAdmin);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

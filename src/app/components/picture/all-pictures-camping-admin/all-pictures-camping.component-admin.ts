@@ -6,10 +6,10 @@ import {PictureService} from "../../../services/picture.service";
 
 @Component({
   selector: 'app-all-pictures-camping',
-  templateUrl: './all-pictures-camping.component.html',
-  styleUrls: ['./all-pictures-camping.component.css']
+  templateUrl: './all-pictures-camping.component-admin.html',
+  styleUrls: ['./all-pictures-camping.component-admin.css']
 })
-export class AllPicturesCampingComponent implements OnInit {
+export class AllPicturesCampingComponentAdmin implements OnInit {
   picture$: Observable<Array<Picture>>;
 
   constructor(private route: ActivatedRoute, private pictureService: PictureService, private router: Router) { }

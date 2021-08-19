@@ -10,9 +10,11 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { AllPicturesSeaAdminComponent } from './all-pictures-sea-admin/all-pictures-sea-admin.component';
 import { AllPicturesMountainAdminComponent } from './all-pictures-mountain-admin/all-pictures-mountain-admin.component';
 import { AllPicturesSpaAdminComponent } from './all-pictures-spa-admin/all-pictures-spa-admin.component';
-import { AllPicturesCampingComponent } from './all-pictures-camping/all-pictures-camping.component';
+import { AllPicturesCampingComponentAdmin } from './all-pictures-camping-admin/all-pictures-camping.component-admin';
 import { AllPicturesHotelsAdminComponent } from './all-pictures-hotels-admin/all-pictures-hotels-admin.component';
 import { AllPicturesTownsAdminComponent } from './all-pictures-towns-admin/all-pictures-towns-admin.component';
+import { AllPicturesRestaurantsAdminComponent } from './all-pictures-restaurants-admin/all-pictures-restaurants-admin.component';
+import { AllPicturesCafeAdminComponent } from './all-pictures-cafe-admin/all-pictures-cafe-admin.component';
 
 
 @NgModule({
@@ -24,9 +26,11 @@ import { AllPicturesTownsAdminComponent } from './all-pictures-towns-admin/all-p
     AllPicturesSeaAdminComponent,
     AllPicturesMountainAdminComponent,
     AllPicturesSpaAdminComponent,
-    AllPicturesCampingComponent,
+    AllPicturesCampingComponentAdmin,
     AllPicturesHotelsAdminComponent,
     AllPicturesTownsAdminComponent,
+    AllPicturesRestaurantsAdminComponent,
+    AllPicturesCafeAdminComponent,
   ],
 
   imports: [
@@ -39,7 +43,7 @@ import { AllPicturesTownsAdminComponent } from './all-pictures-towns-admin/all-p
       {path: 'all/sea/admin', component: AllPicturesSeaAdminComponent},
       {path: 'all/mountain/admin', component: AllPicturesMountainAdminComponent},
       {path: 'all/spa/admin', component: AllPicturesSpaAdminComponent},
-      {path: 'all/camping/admin', component: AllPicturesCampingComponent},
+      {path: 'all/camping/admin', component: AllPicturesCampingComponentAdmin},
       {path: 'all/hotels/admin', component: AllPicturesHotelsAdminComponent},
       {path: 'all/towns/admin', component: AllPicturesTownsAdminComponent},
       {path: 'all/restaurants/admin', component: AllPicturesAdminComponent},
