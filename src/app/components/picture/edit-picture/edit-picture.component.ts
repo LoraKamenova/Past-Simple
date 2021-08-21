@@ -84,7 +84,7 @@ export class EditPictureComponent implements OnInit {
       this.picture.category = this.form.value.category;
       this.picture.format = this.form.value.format;
       this.pictureService.editPicture(id, this.picture).subscribe(data => {
-        this.router.navigate(['picture/all/admin']);
+        this.router.navigate(['admin-panel']);
       });
     });
 

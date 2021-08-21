@@ -64,7 +64,7 @@ export class CreatePictureComponent implements OnInit {
 
   createPicture() {
     this.pictureService.createPicture(this.form.value).subscribe((data) => {
-      this.router.navigate(['picture/all/admin'])
+      this.router.navigate(['admin-panel'])
     })
   }
 
