@@ -14,7 +14,7 @@ function validateMemoryForm (payload) {
     errors.title = 'Title must be between 3 and 25 symbols.'
   }
 
-  if (!payload || typeof payload.description !== 'string' || payload.description.length < 10 ||  payload.title.length > 630) {
+  if (!payload || typeof payload.description !== 'string' || payload.description.length < 10 ||  payload.title.length > 800) {
     isFormValid = false
     errors.description = 'Description must be between 10 and 800 symbols.'
   }
