@@ -2,13 +2,15 @@
   <div class="question-title">Въпрос {{questionIndex + 1}} от {{questions.length}}:</div>
   <div class="question-content">
     <div class="question">{{currentQuestion}}</div>
-    <div class="question-options" *ngFor="let option of currentOptions">
-      <input
-        (click)="setUserAnswer(option)"
-        class="radio-button"
-        type="radio"
-        value={{option}}
-        name="answer"> {{option}}
+    <div class="question-options" *ngFor="let option of currentOptions let i = index">
+      <label class="quiz-options">
+        <input
+          (click)="setUserAnswer(option)"
+          class="radio-button"
+          type="radio"
+          value={{option}}
+          name="answer">{{option}}
+      </label>
     </div>
   </div>
 </div>

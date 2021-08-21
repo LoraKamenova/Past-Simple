@@ -16,5 +16,15 @@
 }
 
 .radio-button {
-  margin: 5px 0;
+  margin: 5px 5px 10px 5px;
 }
+
+.radio-button:hover {
+  cursor: pointer;
+}
+
+.quiz-options:hover {
+  cursor: pointer;
+  color: #006B3C;
+}
+
