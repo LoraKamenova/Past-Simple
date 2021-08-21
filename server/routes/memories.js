@@ -16,7 +16,7 @@ function validateMemoryForm (payload) {
 
   if (!payload || typeof payload.description !== 'string' || payload.description.length < 10 ||  payload.title.length > 630) {
     isFormValid = false
-    errors.description = 'Description must be between 10 and 700 symbols.'
+    errors.description = 'Description must be between 10 and 800 symbols.'
   }
 
 
