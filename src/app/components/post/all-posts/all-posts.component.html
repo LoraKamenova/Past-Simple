@@ -7,11 +7,8 @@
            src="{{p.imageUrl1}}">
       <div class="blog-card-content">
         <h1 class="blog-card-heading">{{p.title}}</h1>
-        <p class="blog-card-short-text">{{p.content | slice:0:60}}...</p>
+        <p class="blog-card-short-text">{{p.content | slice:0:50}}...</p>
         <div class="blog-card-continue-reading">Продължете да четете &#8594;</div>
-        <div class="blog-card-date-wrapper">
-          <p class="blog-card-author">Автор: <span>{{p.creator[0].name}}</span></p>
-        </div>
       </div>
     </a>
 

@@ -8,7 +8,6 @@
   <div class="questions-container">
     <div class="quiz-title">ТЕСТ</div>
 
-    <!--This div renders if quizOver is false-->
     <div class="question-wrapper" *ngIf="!quizOver">
       <app-question [questionIndex]="currentIndex"
                     (answers)="receiveAnswers($event)"
@@ -20,7 +19,6 @@
       </div>
     </div>
 
-    <!--This div renders if quizOver is true-->
     <div class="result-wrapper border" *ngIf="quizOver">
       <div class="result-score">Резултат: {{score}} / {{totalQuestions}}</div>
 

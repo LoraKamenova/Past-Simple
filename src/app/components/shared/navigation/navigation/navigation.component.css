@@ -16,6 +16,10 @@
   font-family: 'Philosopher', sans-serif;
 }
 
+.navigation-list-item:hover {
+  cursor: pointer;
+}
+
 .navigation-list-link {
   padding: 15px;
   color: white;

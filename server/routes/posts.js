@@ -78,7 +78,6 @@ router.get('/all', authCheck ,(req, res) => {
   const search = req.query.search
 
   Post.find({})
-    .populate('creator')
     .then((post) => {
       return res.status(200).json(post)
     })
@@ -87,7 +86,6 @@ router.get('/all', authCheck ,(req, res) => {
 router.get('/details/:id', authCheck, (req, res) => {
   const id = req.params.id
   Post.findById(id)
-    .populate('creator')
     .then((post) => {
       if (!post) {
         return res.status(404).json({
@@ -104,7 +102,6 @@ router.get('/details/:id', authCheck, (req, res) => {
         imageUrl1: post.imageUrl1,
         imageUrl2: post.imageUrl2,
         imageUrl3: post.imageUrl3,
-        creator: post.creator.name,
       }
 
       res.status(200).json(response)
