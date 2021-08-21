@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "611e9acd9f257b3b48fdda1c"
+  },
+  "roles": [
+    "Admin"
+  ],
+  "name": "Admin",
+  "email": "admin@admin.com",
+  "profileImageUrl": "https://i.pinimg.com/originals/d6/a0/96/d6a0965b7ddc8a5c40edcfd38e2bc859.jpg",
+  "salt": "fPtBj73TiGgazpJjZs8bS35Gh6v7tI9tnUkKaxtoiL0VvfPamkLt6xMED28rDnZfx2J164HO2ixd0t0sOOMrKaIRCTO4WOWztX472e2JFwJoolZ1odoII0WWPLpp+OmsKyhDHsEuOLm/4jgIgPbz9VucbMsxh7A16QivEXkl3u4=",
+  "hashedPass": "896cc149b0afdfc8cb43e4c4006790ab6d03af61e61df4eb184fb076642ac80d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120a5591799ba2f24539b71"
+  },
+  "roles": [],
+  "email": "pesho@abv.bg",
+  "profileImageUrl": "",
+  "hashedPass": "08e39d322df6a932159a9de16fe147eb4d701acf8766f57de3abcfb175288a59",
+  "salt": "IrIBDD9WylBJ4+63TaNIpDDKVe1modsnQ3yW0jme1PvXPPe2m8y2FYMWjQQFd19DYXHYHm1PLHZtFuZ7ProRcrCsS42KCJOH5U20eRVaDMintT03JS6KUWwO9nTmejMPBzWDwExCZudh2sKMXCY6Hg9G+FOWF30xPLUQnQxAJpA=",
+  "name": "pesho",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120bcf0d88c8d33e4cd8a96"
+  },
+  "roles": [],
+  "email": "gosho@abv.bg",
+  "profileImageUrl": "",
+  "hashedPass": "cc0079daba57bf073c3d2d99401a43c07b300f3ea886dc7591afebe89c225ff3",
+  "salt": "EGEnoLHz1WaXksxO2zkw9jiurY7fD4p013AtT6TQFWTxHzuJy5C4CH9Iq7YcLthsTYzGRcIMmn81mZkY5HVPJsblGlxy8g1Zg3ZM1tZuleeeuUmfyeFDTsMUvWRfVIrp+NNGFxyMriyP1M+eeXSz8rzzCAodcRiBXCWq2auvG24=",
+  "name": "gosho",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ccedd88c8d33e4cd8ab7"
+  },
+  "roles": [],
+  "email": "stamat@abv.bg",
+  "profileImageUrl": "",
+  "hashedPass": "eef58d07a044b7da770d9c620a185887ce975de1ab636699a3307010b786ef33",
+  "salt": "TRaJ1cVn2m0pf9Jq7XvpBR1QaPkjH5r2HAVUqVGZ0uvW5IwTMh0tq/a0O28fVwV+yozySyi0sAGjQ77Deiwk6sXCmnbIdtmpiTyy1pTjaLgCHxY9Nulq+ylHQt+B8z4tyWWj4kuu+OQEGMO4PpEPfIx3oUokWIyw895S+VWfGqQ=",
+  "name": "stamat",
+  "__v": 0
+}]

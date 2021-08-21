@@ -1,0 +1,5069 @@
+[{
+  "_id": {
+    "$oid": "610f8881b53ad6420cb4d2a5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405793/Angular%20Project/5_kqbga8.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f8892b53ad6420cb4d2aa"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Поморие",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405793/Angular%20Project/6_t7rmkd.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f88a4b53ad6420cb4d2af"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Поморие",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405794/Angular%20Project/7_zbipir.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f88c9b53ad6420cb4d2b9"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Поморие",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405795/Angular%20Project/9_tacdub.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f88ecb53ad6420cb4d2c3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405796/Angular%20Project/11_jovkip.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f88fcb53ad6420cb4d2c8"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405794/Angular%20Project/12_q7jjjp.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f8910b53ad6420cb4d2cd"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405795/Angular%20Project/13_n0xysl.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f8937b53ad6420cb4d2d7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628405796/Angular%20Project/15_ynssn7.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f8945b53ad6420cb4d2dc"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628407320/Angular%20Project/16_wincns.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f895bb53ad6420cb4d2e1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628407327/Angular%20Project/17_lxorms.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f896fb53ad6420cb4d2e6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628407339/Angular%20Project/18_baf3m6.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f8980b53ad6420cb4d2eb"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Видин, сладкарница \"Дунавски вълни\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628407358/Angular%20Project/19_ezeh62.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f8995b53ad6420cb4d2f0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Видин, сладкарница \"Дунавски вълни\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628407375/Angular%20Project/20_tuzge9.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "610f89bbb53ad6420cb4d2fa"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Софийският цирк",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1628407397/Angular%20Project/22_sfzzcu.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611901fc9839f22fd0bb8934"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг Романтика, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629028839/Angular%20Project/23_osrjci.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611902609839f22fd0bb8939"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Благоевград",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629028902/Angular%20Project/25_ilznp7.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611902a59839f22fd0bb893e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сладкарница \"Пролет\", Лом, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629028990/Angular%20Project/26_n319aa.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611902e59839f22fd0bb8943"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629550169/Angular%20Project/394_g86jfz.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119036f9839f22fd0bb8948"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, ресторант \"Орфей\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029174/Angular%20Project/28_itutxc.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611903979839f22fd0bb894d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029244/Angular%20Project/29_h84zbr.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611903f89839f22fd0bb8957"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, ресторант Палмс",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029330/Angular%20Project/31_pdoegb.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611904519839f22fd0bb8961"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, ресторант Дюни",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029445/Angular%20Project/33_ldjyfu.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119047f9839f22fd0bb8966"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029474/Angular%20Project/34_cayacj.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611904b19839f22fd0bb896b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Правец, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029522/Angular%20Project/35_zeqxdg.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119052c9839f22fd0bb897a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Крънското Ханче",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029665/Angular%20Project/38_lajjth.jpg",
+  "category": "Ханчета",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119056d9839f22fd0bb897f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ханче \"Шумака\", Симеоново",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029705/Angular%20Project/39_pgdeh1.jpg",
+  "category": "Ханчета",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119058a9839f22fd0bb8984"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сливен, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029760/Angular%20Project/40_s23wdw.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611905be9839f22fd0bb8989"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ресторант \"Загорка\", Стара Загора, 70-те ",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029784/Angular%20Project/41_gk62pd.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611905f89839f22fd0bb898e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Несебър, пристанището, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029852/Angular%20Project/42_vjaepn.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119061d9839f22fd0bb8993"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ботевград, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029896/Angular%20Project/45_dmbfh5.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611906549839f22fd0bb8998"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Плевен, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629029944/Angular%20Project/46_cc6rhc.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611906a49839f22fd0bb899d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030020/Angular%20Project/47_kocetm.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611906d69839f22fd0bb89a2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Старозагорски минерални бани, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030077/Angular%20Project/50_gxs9ga.jpg",
+  "category": "Минерални бани",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611907189839f22fd0bb89a7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Кюстендил, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030143/Angular%20Project/52_aczaeq.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611907649839f22fd0bb89ac"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Бургас, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030223/Angular%20Project/54_yjday2.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611907889839f22fd0bb89b1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Несебър",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030261/Angular%20Project/55_msgm2c.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611907bd9839f22fd0bb89b6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант \"Копитото\", 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030308/Angular%20Project/56_oltbo8.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611907cf9839f22fd0bb89bb"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант \"Копитото\", 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030309/Angular%20Project/57_gymsel.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611908179839f22fd0bb89c0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030397/Angular%20Project/58_t5wc3q.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119082e9839f22fd0bb89c5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030397/Angular%20Project/59_zuhiw5.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611908499839f22fd0bb89ca"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030397/Angular%20Project/60_cg2rgg.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611908619839f22fd0bb89cf"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030397/Angular%20Project/62_u3ddil.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611908759839f22fd0bb89d4"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030398/Angular%20Project/61_vqksej.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611908b99839f22fd0bb89d9"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Перник, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030552/Angular%20Project/63_rggac6.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611908dc9839f22fd0bb89de"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Перник, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030552/Angular%20Project/64_a1oo3p.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611908f79839f22fd0bb89e3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030552/Angular%20Project/65_yylciw.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119093e9839f22fd0bb89ed"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Несебър",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030708/Angular%20Project/67_f7xzs5.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119097f9839f22fd0bb89f2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "къмпинг Перла, ресторант Даляна, 1962",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030759/Angular%20Project/68_odkbax.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611909ba9839f22fd0bb89f7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030804/Angular%20Project/69_c4bxlz.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611909cd9839f22fd0bb89fc"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030804/Angular%20Project/70_bpsuj0.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611909fb9839f22fd0bb8a01"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Китен",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030887/Angular%20Project/71_zqsje7.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190a209839f22fd0bb8a06"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, кино \"Сердика\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030920/Angular%20Project/72_w6yogs.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190a4d9839f22fd0bb8a0b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629030964/Angular%20Project/73_bbbswk.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190a919839f22fd0bb8a10"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031034/Angular%20Project/74_pisgnv.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190aa79839f22fd0bb8a15"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031034/Angular%20Project/75_sfotey.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190abe9839f22fd0bb8a1a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031035/Angular%20Project/76_wchpey.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190af39839f22fd0bb8a1f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031126/Angular%20Project/78_vgdawf.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190b099839f22fd0bb8a24"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031126/Angular%20Project/77_w9lrh7.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190b1b9839f22fd0bb8a29"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031127/Angular%20Project/79_clrqtp.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190b609839f22fd0bb8a2e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031238/Angular%20Project/80_dljrqd.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190b859839f22fd0bb8a33"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, ресторант Дюни, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031237/Angular%20Project/81_y7nshb.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190bb89839f22fd0bb8a3d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031237/Angular%20Project/83_fazi5f.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190bfe9839f22fd0bb8a42"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг \"Луна\", Бяла",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031394/Angular%20Project/85_wjg5uk.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190c2c9839f22fd0bb8a47"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, край НДК, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031445/Angular%20Project/86_sysgbl.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190c4f9839f22fd0bb8a4c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Свищов, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031484/Angular%20Project/87_zsqxmy.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190c829839f22fd0bb8a51"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Русалка",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031537/Angular%20Project/90_sk84ay.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190ca09839f22fd0bb8a56"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Русалка",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031537/Angular%20Project/91_wva6ue.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190cd49839f22fd0bb8a5b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Балчик, 1965",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031614/Angular%20Project/92_ey2vng.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190cfe9839f22fd0bb8a60"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант Фрегатата, Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031614/Angular%20Project/93_ontcf0.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190d169839f22fd0bb8a65"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031615/Angular%20Project/94_xxcdy5.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190d5e9839f22fd0bb8a6a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Балчик, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031738/Angular%20Project/95_kxwyta.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190d7f9839f22fd0bb8a6f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "къмпинг Правец, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031738/Angular%20Project/96_kxfpdk.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190da39839f22fd0bb8a74"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Петрич, кино “Антон Попов”, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031738/Angular%20Project/97_nt0sw7.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190dc59839f22fd0bb8a79"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Лагера в Мичурин, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031739/Angular%20Project/98_gnv9bp.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190dde9839f22fd0bb8a7e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031739/Angular%20Project/99_bpwwxt.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190df59839f22fd0bb8a83"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Черноморец",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031739/Angular%20Project/100_qlonsg.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190e3f9839f22fd0bb8a88"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, култовото заведение \"Рубин\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031956/Angular%20Project/101_nh70hc.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190e5c9839f22fd0bb8a8d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, култовото заведение \"Рубин\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031956/Angular%20Project/102_hczr0q.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190e7f9839f22fd0bb8a92"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Созопол",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031956/Angular%20Project/103_quuct5.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190e999839f22fd0bb8a97"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Созопол",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031955/Angular%20Project/104_rqy0ku.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190eb79839f22fd0bb8a9c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Созопол",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629031956/Angular%20Project/105_ccyg74.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190f059839f22fd0bb8aa1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Созопол",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032175/Angular%20Project/106_c9tm2e.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190f2f9839f22fd0bb8aa6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Созопол",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032174/Angular%20Project/107_ystuzt.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190f919839f22fd0bb8aab"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Китен",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032257/Angular%20Project/108_fbgfrf.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190fa39839f22fd0bb8ab0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Китен",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032257/Angular%20Project/109_i40exs.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190fbb9839f22fd0bb8ab5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Китен",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032258/Angular%20Project/110_x3mjm5.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190fc99839f22fd0bb8aba"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Китен",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032258/Angular%20Project/111_nlcpdy.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190fd79839f22fd0bb8abf"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Китен",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032258/Angular%20Project/112_b5wukw.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61190fe39839f22fd0bb8ac4"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Китен",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032258/Angular%20Project/113_xbqoer.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611910189839f22fd0bb8ac9"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Рибен ресторант \"Рибарска колиба\" край Русе, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032435/Angular%20Project/114_yhr95z.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611910319839f22fd0bb8ace"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Рибен ресторант \"Рибарска колиба\" край Русе, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032436/Angular%20Project/115_bzdavd.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611910759839f22fd0bb8ad3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сладкарницата  в пловдивското село Куклен, 1969 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032520/Angular%20Project/116_q1tdf5.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611910929839f22fd0bb8ad8"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Предела, почивната станция на АПК „Пирин“, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032520/Angular%20Project/117_qxighr.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611910ad9839f22fd0bb8add"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032520/Angular%20Project/118_xqcbla.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611911159839f22fd0bb8ae2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Летният театър в Толбухин, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032649/Angular%20Project/119_aexuyu.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611911409839f22fd0bb8ae7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант Фрегатата, Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032649/Angular%20Project/120_dwbay3.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611911739839f22fd0bb8aec"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг Правец, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032650/Angular%20Project/121_v7pt6c.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611911909839f22fd0bb8af1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Драматичен театър \"Димитър Димов \", Кърджали, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032650/Angular%20Project/122_yyzhfb.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611911c19839f22fd0bb8af6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Щастливеца, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032650/Angular%20Project/123_b58teo.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611911d89839f22fd0bb8afb"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Щастливеца, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032877/Angular%20Project/124_givlew.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119123a9839f22fd0bb8b00"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032975/Angular%20Project/125_mmiv3u.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611912539839f22fd0bb8b05"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032976/Angular%20Project/127_okkhr8.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611912a59839f22fd0bb8b10"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Софийския държавен цирк, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032976/Angular%20Project/128_riklks.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611912be9839f22fd0bb8b15"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Крайморие, 1989",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032976/Angular%20Project/129_mx3jns.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611912de9839f22fd0bb8b1a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Албена",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032976/Angular%20Project/130_oi0a8c.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611913309839f22fd0bb8b1f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Несебър, 1980",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629032977/Angular%20Project/131_ailgjz.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611915e89839f22fd0bb8b26"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пловдив, хотел Тримонциум, 1960 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629033307/Angular%20Project/132_m07m98.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611916499839f22fd0bb8b2b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Мичурин, къмпинг \"Оазис\", 1979 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629033307/Angular%20Project/133_u1kivw.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611916829839f22fd0bb8b30"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "бр. 1 на списание \"Дъга - разкази в картинки\" от 1979 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629033308/Angular%20Project/134_dkymsd.jpg",
+  "category": "Медии",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611916ab9839f22fd0bb8b35"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пловдив, 1963",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629033308/Angular%20Project/135_t7rki7.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611916b99839f22fd0bb8b3a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Габрово, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629033308/Angular%20Project/136_jwgkoi.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611916e29839f22fd0bb8b3f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Габрово, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629033308/Angular%20Project/137_bvn9m9.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611917279839f22fd0bb8b44"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034255/Angular%20Project/138_tplzff.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611917479839f22fd0bb8b49"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Хотел „Простор“ на Витоша, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034255/Angular%20Project/139_h6fb1a.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611917689839f22fd0bb8b4e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ахтопол, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034255/Angular%20Project/140_xt8boz.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611917969839f22fd0bb8b53"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Стара планина, хижа Леденика, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034255/Angular%20Project/141_nakpqz.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611917b29839f22fd0bb8b58"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ханче Мирково, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034256/Angular%20Project/142_kbm6ac.jpg",
+  "category": "Ханчета",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611917d19839f22fd0bb8b5d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пловдив",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034255/Angular%20Project/143_vkcv0j.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611918049839f22fd0bb8b62"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034256/Angular%20Project/144_lcxuw5.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611918729839f22fd0bb8b67"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, 1984",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034537/Angular%20Project/145_twismr.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119188b9839f22fd0bb8b6c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Добрич (Толбухин), 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034537/Angular%20Project/146_xadlc0.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611918a39839f22fd0bb8b71"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Добрич (Толбухин), 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034537/Angular%20Project/147_n4ezko.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611918c99839f22fd0bb8b76"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034538/Angular%20Project/149_mvffcj.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611918ed9839f22fd0bb8b7b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг КООП край Бургас, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034538/Angular%20Project/150_umwqou.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119196f9839f22fd0bb8b80"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Култовото заведение \"Шатра\" край Правец",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034810/Angular%20Project/152_snvnnc.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611919889839f22fd0bb8b85"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Хисаря, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034810/Angular%20Project/153_aqvxwh.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611919aa9839f22fd0bb8b8a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Хисаря, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034810/Angular%20Project/154_lchphj.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611919c59839f22fd0bb8b8f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Приморско, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034810/Angular%20Project/155_bjjgqx.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611919dc9839f22fd0bb8b94"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг 1964, от терасата на хотел \"Глобус\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629034810/Angular%20Project/156_zkio2l.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191a539839f22fd0bb8b99"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Кино \"Комсомол\" в Пловдив,70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035064/Angular%20Project/157_ksevbm.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191a729839f22fd0bb8b9e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, бул. “Ленин”, 1975 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035063/Angular%20Project/158_vmxd67.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191a919839f22fd0bb8ba3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, кино “Изток”, 1979 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035063/Angular%20Project/159_cy6gaa.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191ab19839f22fd0bb8ba8"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, езерото “Ариана”, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035064/Angular%20Project/160_el48sy.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191acb9839f22fd0bb8bad"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ресторант „Странджански колиби” в Слънчев бряг ,70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035064/Angular%20Project/161_glkjgr.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191ae59839f22fd0bb8bb2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Кърджали",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035064/Angular%20Project/162_bmyr6n.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191afe9839f22fd0bb8bb7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Добрич",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035064/Angular%20Project/163_id7xuo.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191b1f9839f22fd0bb8bbc"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пловдив",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035064/Angular%20Project/164_nobq5o.jpg",
+  "category": "Кино",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191b379839f22fd0bb8bc1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Момчилград",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035064/Angular%20Project/165_mpfali.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191b9f9839f22fd0bb8bc6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Приморско",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035385/Angular%20Project/167_eltyul.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191bb59839f22fd0bb8bcb"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Стара Загора",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035385/Angular%20Project/168_reboki.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191bf39839f22fd0bb8bd0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Първомай",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035385/Angular%20Project/169_gsnddv.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191c069839f22fd0bb8bd5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сладкарница \"България\" в Кърджали ",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035385/Angular%20Project/170_xmp7o7.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191c329839f22fd0bb8bda"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Кафе-сладкарница \"Верея\" Стара Загора",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035385/Angular%20Project/171_v4sgl3.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191c6d9839f22fd0bb8bdf"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Кафе-сладкарница \"Албатрос\" в комплекс Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035385/Angular%20Project/172_uzr7k2.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191cb09839f22fd0bb8be4"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Фрегатата \"Арабела\" в Албена",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035386/Angular%20Project/174_n3yuys.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191ce49839f22fd0bb8be9"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци,ресторант \"Златна рибка\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035386/Angular%20Project/175_zlr6tv.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191d359839f22fd0bb8bee"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Бар \"Лилия\" Аркутино",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035821/Angular%20Project/176_dwtwep.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191d779839f22fd0bb8bf3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, ресторант \"Кошарата\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035821/Angular%20Project/177_t9xqo7.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191da19839f22fd0bb8bf8"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Нареченски бани,70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035821/Angular%20Project/178_vcoi8s.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191dd09839f22fd0bb8bfd"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Яворовското ханче, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035821/Angular%20Project/179_a9zovc.jpg",
+  "category": "Ханчета",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191def9839f22fd0bb8c02"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035821/Angular%20Project/180_vmvkan.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191e219839f22fd0bb8c07"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035821/Angular%20Project/181_hoejvc.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191e3a9839f22fd0bb8c0c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629035822/Angular%20Project/182_makptv.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191ea29839f22fd0bb8c11"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Операта в Стара Загора, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036147/Angular%20Project/183_cqgrqz.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191ec39839f22fd0bb8c16"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036147/Angular%20Project/184_udjoo6.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191edd9839f22fd0bb8c1b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036147/Angular%20Project/185_f0tkyf.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191ef39839f22fd0bb8c20"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, 1982",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036147/Angular%20Project/186_fezqjr.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191f129839f22fd0bb8c25"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг Крайморие, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036148/Angular%20Project/187_wxm93m.png",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191f539839f22fd0bb8c2a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Боровец, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036148/Angular%20Project/188_mu1l54.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191f709839f22fd0bb8c2f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Балчик, 1965",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036147/Angular%20Project/189_qrjo46.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191f879839f22fd0bb8c34"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Русалка, 1975",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036148/Angular%20Project/190_giugmd.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191f9f9839f22fd0bb8c39"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, 1972",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036148/Angular%20Project/191_zbxltf.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61191fc69839f22fd0bb8c3e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Хасковски минерални бани-Плажа,70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036148/Angular%20Project/192_n4c7km.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611920159839f22fd0bb8c43"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Созопол, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036535/Angular%20Project/193_nzvh1x.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119202d9839f22fd0bb8c48"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036535/Angular%20Project/194_pfcwet.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611920589839f22fd0bb8c4d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг-\"Китенски залив\" край Приморско,80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036535/Angular%20Project/195_goxnl6.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119206e9839f22fd0bb8c52"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036535/Angular%20Project/196_efercs.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611920989839f22fd0bb8c57"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Бургаско-Къмпинг \"Черноморец\"80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036535/Angular%20Project/197_o9ruu8.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611920b69839f22fd0bb8c5c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Русалка, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036535/Angular%20Project/198_odx3ck.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611920cf9839f22fd0bb8c61"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пазарджик, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036536/Angular%20Project/199_dks5lm.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611920ef9839f22fd0bb8c66"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Плевен, 1975",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036536/Angular%20Project/200_npyu0p.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611921949839f22fd0bb8c6b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, Лъвов мост, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036881/Angular%20Project/202_fdylxd.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611921b39839f22fd0bb8c70"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Кенана, Хасково, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036882/Angular%20Project/203_wyu3um.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611921d39839f22fd0bb8c75"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Черноморец, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036882/Angular%20Project/204_vpwgnl.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611921f89839f22fd0bb8c7a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036881/Angular%20Project/205_rkua3g.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119221a9839f22fd0bb8c7f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Гранд-хотел \"София\",1969 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036881/Angular%20Project/206_wklt8f.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611922359839f22fd0bb8c84"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ахтопол, 1983",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036881/Angular%20Project/207_cl8hno.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611922479839f22fd0bb8c89"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, 1963",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036882/Angular%20Project/208_fzfwtr.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611922609839f22fd0bb8c8e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Бургас-центъра през 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036882/Angular%20Project/209_fwirrj.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119228d9839f22fd0bb8c93"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Стара Загора, ресторант \"Загорка\", 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036882/Angular%20Project/210_eaxwoo.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611922a39839f22fd0bb8c98"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036882/Angular%20Project/211_fnhube.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611922c99839f22fd0bb8c9d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Кафе-сладкарница „Феята“, София, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629036883/Angular%20Project/212_mjuw1m.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119231d9839f22fd0bb8ca2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант Кенана, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/213_t1yf99.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611923409839f22fd0bb8ca7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/214_rsiyi1.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119235c9839f22fd0bb8cac"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/215_dgawqv.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611923739839f22fd0bb8cb1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/216_ul4r8m.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119237f9839f22fd0bb8cb6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/217_kx1lgp.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611923aa9839f22fd0bb8cbb"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград - Клептуза,1975 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/218_h4kfrr.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611923ce9839f22fd0bb8cc0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, Хотел \"Славия\", 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/219_aoavk9.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611923ed9839f22fd0bb8cc5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Плевен, Червеният площад, 1965 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037318/Angular%20Project/220_udpgka.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119241c9839f22fd0bb8cca"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ккурорт Дружба, сладкарница Албатрос, 1960 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037319/Angular%20Project/221_hzf734.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119243b9839f22fd0bb8ccf"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Видин, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037319/Angular%20Project/222_zyemtq.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119245e9839f22fd0bb8cd4"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Плевен, булевард \"В. И. Ленин\", 1974 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037319/Angular%20Project/223_ir8wbv.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611924829839f22fd0bb8cd9"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сандански, кът от парка,80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037319/Angular%20Project/224_mtkln2.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611924ea9839f22fd0bb8cde"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сандански, кът от парка, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037758/Angular%20Project/225_dedkhx.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611925199839f22fd0bb8ce3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сандански, плувният интернат, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037758/Angular%20Project/226_o1yood.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611925409839f22fd0bb8ce8"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Парк \"Кайлъка\", 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037758/Angular%20Project/227_rea3wn.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611925689839f22fd0bb8ced"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Фарът в Ахтопол, 1975 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037758/Angular%20Project/228_fvvh50.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611925b99839f22fd0bb8cf2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "кино \"Чехов\", Червен бряг, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037759/Angular%20Project/229_wvhe18.png",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611925da9839f22fd0bb8cf7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, хотел \"Плиска\", 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037759/Angular%20Project/230_vw3qt7.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611925fe9839f22fd0bb8cfc"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ямбол - Безистена, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037759/Angular%20Project/231_cigxvl.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119261f9839f22fd0bb8d01"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ропотамо, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037759/Angular%20Project/232_ucldw0.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119264a9839f22fd0bb8d06"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пампорово, битово заведение \"Малина\",70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037759/Angular%20Project/233_ywqyzo.jpg",
+  "category": "Планина",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611926779839f22fd0bb8d0b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "киното в Чирпан, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037759/Angular%20Project/234_zzrx10.jpg",
+  "category": "Кино",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611926999839f22fd0bb8d10"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Зала Фестивална, София, 1969 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037759/Angular%20Project/235_yespgj.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611926c99839f22fd0bb8d15"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Изглед от Русе, 1960 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037760/Angular%20Project/236_ynlwoc.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611926e99839f22fd0bb8d1a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант \"Бор\" Велинград, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037760/Angular%20Project/237_tjtx5z.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611927109839f22fd0bb8d1f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, хотел \"Родина\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037760/Angular%20Project/238_kdcimb.png",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611927319839f22fd0bb8d24"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Несебър, 1959 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037760/Angular%20Project/239_q0rojc.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611927509839f22fd0bb8d29"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба, хотел \"Рубин\", 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629037760/Angular%20Project/240_ayxufn.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119279e9839f22fd0bb8d2e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, хотел \"Астория\", 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/241_blw2n6.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611927c99839f22fd0bb8d33"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, бар \"Колибите\", 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/242_rqoryl.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611928059839f22fd0bb8d38"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "казиното в Златни пясъци, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/243_h5bqp5.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119286a9839f22fd0bb8d4a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "площад \"9 септември\", Варна, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/245_aacim4.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119288a9839f22fd0bb8d4f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пазарджик, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/246_qtied5.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611928b59839f22fd0bb8d54"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пазарджик, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/247_rvjagg.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611929269839f22fd0bb8d64"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Поморие, 1970 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/248_ug1njx.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611929549839f22fd0bb8d69"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ханче \"Калугерово\", 1980 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038459/Angular%20Project/249_n3spma.jpg",
+  "category": "Ханчета",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611929769839f22fd0bb8d6e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "кът от Хайдушки поляни,70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/250_iirzoc.jpg",
+  "category": "Планина",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611929939839f22fd0bb8d73"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Минерална баня, Пазарджик, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629038458/Angular%20Project/251_zti5na.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611929e69839f22fd0bb8d78"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Минерална баня, Пазарджик, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039042/Angular%20Project/252_p0uezq.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192a119839f22fd0bb8d7d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Несебър, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039043/Angular%20Project/253_hpemdi.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192a339839f22fd0bb8d82"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Стара Загора, Ресторант \"Хижата\", 1972",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039042/Angular%20Project/254_ykro8o.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192a549839f22fd0bb8d87"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Стара Загора, Кукленият театър, 1979",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039042/Angular%20Project/255_sk0hpd.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192aa79839f22fd0bb8d8c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "къмпинг \"Лозенец\", 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039042/Angular%20Project/256_y05dfm.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192ac69839f22fd0bb8d91"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг \"Делфин\", Ахтопол, 1977 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039042/Angular%20Project/257_ghl1wy.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192ae59839f22fd0bb8d96"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "плажът в Ахтопол, 1980 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039043/Angular%20Project/258_fxo9jd.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192b099839f22fd0bb8d9b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант \"Лилия\", Аркутино, 1974 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039043/Angular%20Project/259_huvvw2.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192b399839f22fd0bb8da0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Старозагорски минерални бани-плажа, 1961 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039043/Angular%20Project/260_gmdjc9.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192b639839f22fd0bb8da5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Каваците, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039043/Angular%20Project/261_aqsgeq.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192b849839f22fd0bb8daa"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "парк – хотел \"Москва\", София, 1985 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039043/Angular%20Project/262_pk1rbm.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192bfb9839f22fd0bb8daf"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Курорт \"Васил Коларов\" ( Пампорово), 1960 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039563/Angular%20Project/263_o9wvxl.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192c1c9839f22fd0bb8db4"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба, плажа през 1960 година",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039563/Angular%20Project/264_pajykj.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192c589839f22fd0bb8db9"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Приморско, 1970 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039563/Angular%20Project/265_gcj2bv.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192c839839f22fd0bb8dbe"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ваканционно селище \"Дюни\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039563/Angular%20Project/266_aoa0nh.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192ca29839f22fd0bb8dc3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сапарева баня, балнеосанаториум на ЦС на БПС, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039563/Angular%20Project/267_lldclc.jpg",
+  "category": "Минерални бани",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192ce09839f22fd0bb8dc8"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Казанлък, розариумът,1962 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039563/Angular%20Project/268_yoggwj.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192d029839f22fd0bb8dcd"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ропотамо – плаващият бар, 1970 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039563/Angular%20Project/269_pmmdep.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192d2b9839f22fd0bb8dd2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград –\"Клептуза\", 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/270_xyum2b.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192d4b9839f22fd0bb8dd7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Хисаря, 1970 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/271_h5zgf2.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192d6d9839f22fd0bb8ddc"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, 1980 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/272_ek2cdb.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192d989839f22fd0bb8de1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант \"Езерото\"Панчарево, 1980 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/273_wmxepz.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192db39839f22fd0bb8de6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Изглед от курорт \"В. Коларов\" (Пампорово), 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/274_ejtkus.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192dd99839f22fd0bb8deb"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Комплекс \"Дружба\", 1965 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/275_ezng1q.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192dfd9839f22fd0bb8df0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Албена, 1969 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/276_cqfdao.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192e269839f22fd0bb8df5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "хотел Рила, София, 1962 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/277_ms6twk.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192e4b9839f22fd0bb8e00"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Сливен, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039564/Angular%20Project/278_c29ble.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192e699839f22fd0bb8e05"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ресторант \"Полски Боровец\", Пазарджик, 70-те.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039565/Angular%20Project/279_rjfwxt.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192e8d9839f22fd0bb8e0a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пловдив, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629039565/Angular%20Project/280_qs922j.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192f229839f22fd0bb8e0f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "плажът в Несебър, 1962 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040368/Angular%20Project/281_snohwc.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192f5f9839f22fd0bb8e19"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "бар Фрегатата, Бургас, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/283_jq9qlh.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192f829839f22fd0bb8e1e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "бар Фрегатата, Слънчев бряг, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/284_fb4wbo.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192fa29839f22fd0bb8e23"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "плажът в Слънчев бряг, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/285_ghj0fa.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61192fe39839f22fd0bb8e28"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/286_b9botz.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119300c9839f22fd0bb8e2d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Парк на свободата в София, 1975 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/287_mzetej.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119304b9839f22fd0bb8e32"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "летният плаж в Парка на свободата, София, 1960 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/288_knqegr.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611930839839f22fd0bb8e37"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "хижа \"Комсомолска\", парк \"Родопи\", 70-те.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/289_axi8kk.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611930b39839f22fd0bb8e3c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/290_fvbnzt.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611930e19839f22fd0bb8e41"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пловдив, 1968 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/291_smsomv.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611930fd9839f22fd0bb8e46"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Русалка",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040369/Angular%20Project/292_ob7p0f.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611931259839f22fd0bb8e4b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "кино \"Дружба\", Видин",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/293_spb2km.jpg",
+  "category": "Кино",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611931449839f22fd0bb8e50"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "хотел \"Витоша-Ню Отани\", София, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/294_qi9pe7.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119315d9839f22fd0bb8e55"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Зала \"Универсиада\", 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/295_uvihli.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611931769839f22fd0bb8e5a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/296_vc05jq.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611931b19839f22fd0bb8e65"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Къмпинг Арапя, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/297_yq07o9.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611931c79839f22fd0bb8e6a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Видин, 1968 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/298_q2yz79.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611931f99839f22fd0bb8e6f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "къмпинг \"Каваците\", Созопол, 1981 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040370/Angular%20Project/299_qrmlnl.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611932489839f22fd0bb8e74"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, плувен комплекс „Червено знаме“, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629040371/Angular%20Project/300_ji1hge.jpg",
+  "category": "Други забавления",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611932a49839f22fd0bb8e79"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, 1975 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041274/Angular%20Project/301_puiadp.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611932d29839f22fd0bb8e7e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "ресторант \"Приказките\", Харманли, 1979 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041274/Angular%20Project/302_lych58.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611933009839f22fd0bb8e83"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "бар Вариете, Слънчев бряг, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041274/Angular%20Project/303_yqdt50.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119331c9839f22fd0bb8e88"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "София, хотел \"Витоша- New Otani\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041274/Angular%20Project/304_ncyako.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119334a9839f22fd0bb8e8d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Хотел \"Щастливеца\", Витоша, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041274/Angular%20Project/305_mfiy9l.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119337b9839f22fd0bb8e92"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Хотел \"Рига\", Русе, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041274/Angular%20Project/306_ccvzr1.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611933a29839f22fd0bb8e97"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Новотел Пловдив, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041275/Angular%20Project/307_tcslos.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611933d39839f22fd0bb8e9c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пампорово, хотел \"Мургавец\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041275/Angular%20Project/308_oko8kg.jpg",
+  "category": "Планина",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611933f19839f22fd0bb8ea1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пампорово, хотел \"Перелик\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041275/Angular%20Project/309_wcxgj7.jpg",
+  "category": "Планина",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119341f9839f22fd0bb8ea6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Мичурин, 1976 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041275/Angular%20Project/310_vnduw2.png",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119343d9839f22fd0bb8eab"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Мичурин, 1976 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041276/Angular%20Project/311_rqnefl.png",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119346c9839f22fd0bb8eb0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "къмпинг \"Панорама\", Смолян, 1980 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041275/Angular%20Project/312_gvawhu.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611934949839f22fd0bb8eb5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "бирария \"Шуменско пиво\", Шумен, 1978 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041276/Angular%20Project/313_ncthrg.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611934b19839f22fd0bb8eba"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Созопол",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041276/Angular%20Project/314_g5quy2.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611934f09839f22fd0bb8ebf"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, ресторант \"Бъчвата\", 1976 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041276/Angular%20Project/316_fklown.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611935119839f22fd0bb8ec4"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Смолян, хотел \"Соколица\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041276/Angular%20Project/317_oumnry.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611935419839f22fd0bb8ec9"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Плевен, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041276/Angular%20Project/318_y7qtdg.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611935829839f22fd0bb8ece"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Езерото в Сандански, 1981 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041277/Angular%20Project/319_or8u5d.png",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611935a09839f22fd0bb8ed3"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "хотел \"Тримонциум\", Пловдив, 1974 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629041277/Angular%20Project/320_rlrqit.png",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611936529839f22fd0bb8ed8"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград, Клептуза, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/321_y5tec7.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119367b9839f22fd0bb8edd"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "кино \"Комсомол\", Стара Загора, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042218/Angular%20Project/323_y6g6kc.jpg",
+  "category": "Кино",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611936a99839f22fd0bb8ee2"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "плаж на Старозагорските минерални бани, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/324_vtjdyb.jpg",
+  "category": "Минерални бани",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611936d69839f22fd0bb8ee7"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Несебър, 1971 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/325_rnx6je.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611937029839f22fd0bb8eec"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "хотел \" Хемус\", София, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/327_yec6b9.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611937219839f22fd0bb8ef1"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "лунапаркът в Парка на свободата, София, 1987 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/328_rltdda.jpg",
+  "category": "Други забавления",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119375a9839f22fd0bb8ef6"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "езерото в Парка на свободата, София",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/329_moddpr.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611937859839f22fd0bb8efb"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Фрегата \"Арабела\" - Албена,80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/334_f1ce5t.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611937ee9839f22fd0bb8f00"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Русе, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/330_ko9gbs.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611938189839f22fd0bb8f05"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "басейнът в с.Баня, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/333_rnjstp.jpg",
+  "category": "Минерални бани",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611938319839f22fd0bb8f0a"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Албена, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/335_ngqpw7.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611938509839f22fd0bb8f0f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Варна, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042219/Angular%20Project/336_arjjb7.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119387c9839f22fd0bb8f14"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Балчик, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/337_lw98yb.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119389e9839f22fd0bb8f19"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Пловдив, 1960 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/338_z5mygw.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611938b99839f22fd0bb8f1e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "изглед към хотел \"България\", 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/339_tjbie1.jpg",
+  "category": "Хотели",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611938d79839f22fd0bb8f23"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "изглед към стария Несебър, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/340_odmat9.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611938f29839f22fd0bb8f28"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Плевен, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/341_siik9n.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611939529839f22fd0bb8f2d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "хотел \"Орфей\", 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/342_zoloum.jpg",
+  "category": "Планина",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611939819839f22fd0bb8f32"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Ропотамо, 70-те.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/343_jgw1lg.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6119399d9839f22fd0bb8f37"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград, 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/344_jjqsva.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611939c39839f22fd0bb8f3c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Велинград, 1981 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042222/Angular%20Project/345_unmzfm.jpg",
+  "category": "Градове",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611939d69839f22fd0bb8f41"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629042220/Angular%20Project/346_gw85jt.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c1895a5e6f3285403285f"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Списание \"Млад конструктор\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230676/Angular%20Project/347_rwo6bm.jpg",
+  "category": "Медии",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c18b3a5e6f32854032864"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "\"Жената днес\" - излиза без прекъсване от 1945 г. до днес",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230676/Angular%20Project/348_r78qu7.jpg",
+  "category": "Медии",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c18caa5e6f32854032869"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "\"Минута е много\", излъчени 756 броя от 22 февруари 1980 до 2011",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230676/Angular%20Project/349_hgllfw.jpg",
+  "category": "Медии",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c18e0a5e6f3285403286e"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "\"Милион и едно желания\", излъчено за първи път през 1986 г. ",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230676/Angular%20Project/350_caur5e.jpg",
+  "category": "Медии",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c18f7a5e6f32854032873"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Слънчев бряг, ресторант \"Бъчвата\"",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230676/Angular%20Project/351_qjpmrb.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c190ca5e6f32854032878"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Албена",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230676/Angular%20Project/352_kedfm6.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c191ea5e6f3285403287d"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Албена",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/353_b0kj57.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c1933a5e6f32854032882"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Албена",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/354_xlncw1.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c19d5a5e6f32854032887"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Златни пясъци, 1961 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/355_q6udab.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c19eaa5e6f3285403288c"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Списание Космос, започва да излиза през 1962 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/356_uiwtca.jpg",
+  "category": "Медии",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c19fda5e6f32854032891"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Списание Паралели, стартира през 1965 г",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/357_jzi2gx.jpg",
+  "category": "Медии",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c1a11a5e6f32854032896"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Списание Лада, започва да излиза през 1959 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/358_jwsc0p.jpg",
+  "category": "Медии",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c1a26a5e6f3285403289b"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Атлас, започва да се излъчва през 1968 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/359_vqlvaj.jpg",
+  "category": "Медии",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c1a36a5e6f328540328a0"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Бързи смели сръчни, започва да се излъчва от 1969",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/360_jblviu.jpg",
+  "category": "Медии",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611c1a48a5e6f328540328a5"
+  },
+  "creator": [
+    {
+      "$oid": "610309eb02650a4e180e381a"
+    }
+  ],
+  "title": "Всяка неделя, започва да се излъчва от 1979",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629230677/Angular%20Project/361_agsocn.jpg",
+  "category": "Медии",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120eb11d88c8d33e4cd8aee"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Морският санаториум „Д-р Парашкев Стоянов” в с. Влас, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547205/Angular%20Project/392_x3fhip.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120eb55d88c8d33e4cd8af3"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Слънчев бряг през 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547205/Angular%20Project/393_m63yma.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120eb95d88c8d33e4cd8af8"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Созопол, началото на 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/386_tizuk6.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ebc8d88c8d33e4cd8afd"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Несебър, изглед към стария град в края на 1960-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/391_tqiykb.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ebfcd88c8d33e4cd8b02"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Мотел-ресторантът на Балкантурист край пещерата Магура",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/389_of1sz1.jpg",
+  "category": "Ресторанти",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ec1cd88c8d33e4cd8b07"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Изглед от к. к. „Златни пясъци“, 1968 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/390_ucgypy.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ec4bd88c8d33e4cd8b0c"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Крайпътната механа Рациария",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/388_nvvq1a.jpg",
+  "category": "Ханчета",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ec6ed88c8d33e4cd8b11"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Мичурин",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/384_nz676l.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ec91d88c8d33e4cd8b16"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Казанлък, Бар-ресторант „Тюлбето“ през 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/387_y65jz5.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ecbad88c8d33e4cd8b1b"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Мичурин",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/385_wosdod.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ecedd88c8d33e4cd8b26"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "ресторант Нестинарка в Мичурин",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/380_mdnyy5.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ed0ad88c8d33e4cd8b2b"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Видин, 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547204/Angular%20Project/382_xx3uam.jpg",
+  "category": "Градове",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ed2cd88c8d33e4cd8b30"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Черноморец",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/383_nzfpl4.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ed45d88c8d33e4cd8b35"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Бар-ресторант „Нептун“ в ММЦ „Георги Димитров“ през 70-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/381_v9lfpl.jpg",
+  "category": "Ресторанти",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ed65d88c8d33e4cd8b3a"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Созопол",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/379_tdrlsk.jpg",
+  "category": "Море",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ed80d88c8d33e4cd8b3f"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "сладкарница Солни пазар в София",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/377_cvxzpp.jpg",
+  "category": "Сладкарници",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120edaad88c8d33e4cd8b44"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Перла",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/370_y3jeuq.jpg",
+  "category": "Къмпинг",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120edc0d88c8d33e4cd8b49"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Юг край Мичурин",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547202/Angular%20Project/372_vfjfxo.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ede2d88c8d33e4cd8b4e"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "сладкарница Ялта в София",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/378_ws85a7.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120edffd88c8d33e4cd8b53"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Албена, хотел „Добруджа“,  80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547202/Angular%20Project/373_lzkiv8.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ee19d88c8d33e4cd8b58"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Хотел Ровно във Видин, 80-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/374_kyqi2d.jpg",
+  "category": "Хотели",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ee30d88c8d33e4cd8b5d"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "сладкарницата в подлеза на ЦУМ",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/376_mepsze.jpg",
+  "category": "Сладкарници",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ee48d88c8d33e4cd8b62"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Ханчето при къмпинг Мадона",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547203/Angular%20Project/375_wuni0v.jpg",
+  "category": "Ханчета",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ee67d88c8d33e4cd8b67"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Арапя",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547202/Angular%20Project/371_akp3iv.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ee83d88c8d33e4cd8b6c"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Арапя",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547202/Angular%20Project/363_jfikf8.jpg",
+  "category": "Къмпинг",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120eea3d88c8d33e4cd8b71"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Златна рибка",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547202/Angular%20Project/366_fr28pi.jpg",
+  "category": "Къмпинг",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120eebad88c8d33e4cd8b76"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Каваци",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547202/Angular%20Project/364_zcyshe.jpg",
+  "category": "Къмпинг",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120eed5d88c8d33e4cd8b7b"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Перла, 1971 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547201/Angular%20Project/369_akygfd.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ef04d88c8d33e4cd8b80"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Европа",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547202/Angular%20Project/368_gzbfhb.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ef20d88c8d33e4cd8b85"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Алепу",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547201/Angular%20Project/362_ftq3np.jpg",
+  "category": "Къмпинг",
+  "format": "висок",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ef4bd88c8d33e4cd8b8a"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Лозенец",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547200/Angular%20Project/365_b1yr9m.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120ef66d88c8d33e4cd8b8f"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг Веселие",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629547200/Angular%20Project/367_hntnmm.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120f6acd88c8d33e4cd8bfb"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Слънчев бряг",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629550168/Angular%20Project/395_hocoqe.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120f6ccd88c8d33e4cd8c00"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "изглед към Слънчев бряг през 60-те",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629550169/Angular%20Project/396_hawdlf.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120f8e7d88c8d33e4cd8c1d"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Слънчев бряг 1979 г.",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629550801/Angular%20Project/397_suhdbc.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61210a27d88c8d33e4cd8c34"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Балчик",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629555016/Angular%20Project/398_dgloqx.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61210a4cd88c8d33e4cd8c39"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "къмпинг \"Луна\", край Бяла",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629555016/Angular%20Project/399_zreif1.jpg",
+  "category": "Къмпинг",
+  "format": "широк",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61210a76d88c8d33e4cd8c3e"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Дружба",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629555016/Angular%20Project/400_u6weex.jpg",
+  "category": "Море",
+  "format": "широк",
+  "__v": 0
+}]
