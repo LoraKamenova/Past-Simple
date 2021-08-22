@@ -102,3 +102,30 @@
   font-size: 20px;
   text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+
+  .gallery-item-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-postcard {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    transform: none;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+  }
+
+  .gallery-picture-container.picture-wide {
+    margin-left: 0;
+  }
+
+  .gallery-picture-container.picture-high {
+    margin-left: 0;
+  }
+}

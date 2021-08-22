@@ -2,7 +2,7 @@
   display: flex;
   margin: 1% auto;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 80%;
 }
 
@@ -10,7 +10,7 @@
   color: white;
   display: flex;
   padding: 10px;
-  width: 10%;
+  width: 110px;
   justify-content: center;
   border-left: 1px solid white;
   border-right: 1px solid white;
@@ -37,14 +37,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 50px;
 }
 
 .picture-container.wide {
-  width: 60%;
+  width: 660px;
 }
 
 .picture-container.high {
-  width: 40%;
+  width: 440px;
 }
 
 .picture-outer {
@@ -61,7 +62,7 @@
 }
 
 .picture-outer.high {
-  height: 500px;;
+  height: 500px;
 }
 
 .picture-inner {
@@ -79,7 +80,7 @@
 
 .content-box {
   padding: 5px;
-  width: 15%;
+  width: 200px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
@@ -91,4 +92,33 @@
   font-family: 'Philosopher', sans-serif;
   padding: 20px;
   width: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .picture-details-wrapper, .picture-category-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picture-category-subtitle, .picture-category-title {
+    writing-mode: horizontal-tb;
+    text-orientation: sideways;
+  }
+
+  .picture-category-container, .content-box {
+    width: 440px;
+  }
+
+  .picture-category-container {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .picture-container {
+    margin: 20px 0;
+  }
 }

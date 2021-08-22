@@ -80,3 +80,20 @@
   margin-right: 10px;
   font-size: 22px;
 }
+
+@media only screen and (max-width: 1200px) {
+
+  .admin-fieldset-container, .admin-fieldset.pictures {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .admin-fieldset.pictures {
+    width: 30%;
+  }
+
+  .admin-fieldset-list.pictures {
+    width: 100%;
+  }
+}
