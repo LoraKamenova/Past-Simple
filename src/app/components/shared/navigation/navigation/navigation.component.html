@@ -19,7 +19,7 @@
       <a class="navigation-list-link" routerLink="/my-profile">Профил</a>
     </li>
     <li class="navigation-list-item">
-      <a *ngIf="role.includes('true') && authService.isAuthenticated()" class="navigation-list-link" [routerLink]="['/admin-panel']">Админ</a>
+      <a *ngIf="authService.isAuthenticated() && authService.isAdmin()" class="navigation-list-link" [routerLink]="['/admin-panel']">Админ</a>
     </li>
     <li *ngIf="authService.isAuthenticated()" class="navigation-list-item">
       <a class="navigation-list-link logout-link" (click)="logout()">Изход</a>

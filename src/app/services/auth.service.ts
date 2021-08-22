@@ -6,10 +6,7 @@ export class AuthService {
   private readonly loginUrl = 'http://localhost:5000/auth/login';
   private readonly registerUrl = 'http://localhost:5000/auth/register';
 
-  constructor(
-    private http: HttpClient
-  ) {
-  }
+  constructor(private http: HttpClient) { }
 
   register(body) {
     return this.http.post(this.registerUrl, body);
@@ -18,11 +15,16 @@ export class AuthService {
   login(body) {
     console.log(body);
     return this.http.post(this.loginUrl, body);
-
   }
 
   logout() {
     localStorage.clear();
+  }
+
+  isAdmin() {
+    if (localStorage.getItem('role').includes('true')) {
+      return 'true'
+    }
   }
 
   isAuthenticated() {
