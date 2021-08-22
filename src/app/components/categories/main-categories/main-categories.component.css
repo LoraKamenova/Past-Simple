@@ -1,8 +1,8 @@
-.categories.main-categories {
-  min-height: 70vh;
-  width: 60%;
-  padding: 30px 0;
-}
+/*.categories.main-categories {*/
+/*  height: 100%;*/
+/*  width: 60%;*/
+/*  padding: 30px 0;*/
+/*}*/
 
 .category-card.main-categories:nth-child(1), .category-card.main-categories:nth-child(3) {
   align-self: flex-start;

@@ -29,7 +29,7 @@ export const fade = trigger('fade', [
 export class HotelsComponent implements OnInit {
   picture$: Observable<Array<Picture>>;
 
-  times = 999;
+  times = 99999;
   counter = 0;
   state;
 

@@ -28,7 +28,7 @@ export const fade = trigger('fade', [
 export class SeaComponent implements OnInit {
   picture$: Observable<Array<Picture>>;
 
-  times = 999;
+  times = 99999;
   counter = 0;
   state;
 
@@ -42,6 +42,7 @@ export class SeaComponent implements OnInit {
   onDone($event) {
     if (this.counter < this.times) {
       this.state = this.state === 'active' ? 'inactive' : 'active';
+      console.log(this.counter)
       this.counter++;
     }
   }
