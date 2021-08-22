@@ -16,9 +16,9 @@ const routes: Routes = [
   {path: 'signup', component: SignupComponent},
   {path: 'signin', component: SigninComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'my-profile', component: MyProfileComponent},
-  {path: 'admin-panel', component: AdminPanelComponent},
-  {path: 'quiz', component: QuizComponent},
+  {path: 'my-profile', component: MyProfileComponent, canActivate: [AuthGuard]},
+  {path: 'admin-panel', component: AdminPanelComponent, canActivate: [AuthGuard]},
+  {path: 'quiz', component: QuizComponent, canActivate: [AuthGuard]},
 
   {path: 'memory', loadChildren: './components/memory/memory.module#MemoryModule', canActivate: [AuthGuard]},
   {path: 'slogan', loadChildren: './components/slogan/slogan.module#SloganModule', canActivate: [AuthGuard]},

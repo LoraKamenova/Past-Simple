@@ -46,7 +46,7 @@ User.seedAdminUser = async () => {
     return User.create({
       name: 'Admin',
       email: 'admin@admin.com',
-      profileImageUrl: 'https://i.pinimg.com/originals/d6/a0/96/d6a0965b7ddc8a5c40edcfd38e2bc859.jpg',
+      profileImageUrl: 'https://res.cloudinary.com/dyhmxus4n/image/upload/v1629624031/Angular%20Project/admin_icon_pit4lz.jpg',
       salt,
       hashedPass,
       roles: ['Admin']
