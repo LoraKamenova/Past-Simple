@@ -5,7 +5,7 @@
       <img class="memory-image" src="{{memory?.imageUrl}}"
            alt="memory">
     </div>
-    <div class="memory-buttons-container">
+    <div class="memory-buttons-container" *ngIf="memory.creator">
       <a *ngIf="username === memory?.creator[0].name" class="edit-button" [routerLink]="['/memory/edit/', memory?._id]"><i class="fas fa-edit" title="Редактирай"></i></a>
       <a *ngIf="username === memory?.creator[0].name" class="delete-button" (click)="deleteMemory(memory?._id)"><i class="far fa-trash-alt" title="Изтрий"></i></a>
     </div>
@@ -14,9 +14,8 @@
         <p class="memory-sub-heading">Спомен за...</p>
         <h3 class="memory-heading">{{memory?.title}}</h3>
         <p class="memory-text">{{memory?.description}}</p>
-        <p class="memory-legend">Споделено от: {{memory?.creator[0].name}}</p>
+        <p class="memory-legend" *ngIf="memory.creator">Споделено от: {{memory?.creator[0].name}}</p>
       </div>
-
     </div>
   </div>
 </div>

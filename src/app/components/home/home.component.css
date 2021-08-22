@@ -31,7 +31,7 @@
   flex-direction: column;
   justify-content: flex-end;
   background-size: 100% 100%;
-  width: 300px;
+  min-width: 200px;
   height: 350px;
   margin: 7px;
   text-decoration: none;
@@ -103,4 +103,10 @@
 
 .home-card:nth-child(6):hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dyhmxus4n/image/upload/v1625429327/Angular%20Project/bulb_wmrkjt.jpg);
+}
+
+@media only screen and (max-width: 1300px) {
+  .home-card-container {
+    flex-wrap: wrap;
+  }
 }

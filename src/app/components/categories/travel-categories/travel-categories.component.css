@@ -69,3 +69,25 @@
   font-style: italic;
   font-size: 19px;
 }
+
+@media only screen and (max-width: 1300px) {
+  .categories {
+    flex-wrap: wrap;
+  }
+
+  .category-card {
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .places-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notebook, .categories {
+    width: 50%
+  }
+}

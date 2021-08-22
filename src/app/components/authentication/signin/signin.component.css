@@ -75,11 +75,14 @@
 }
 
 .registration-link-paragraph {
+  display: flex;
+  justify-content: center;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Philosopher', sans-serif;
   padding: 15px;
+  border: 1px solid transparent;
 }
 
 .registration-link-paragraph:hover {
