@@ -91,3 +91,21 @@
   position: relative;
   bottom: -30px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .post-middle-section, .post-small-image-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .post-title-container {
+    width: 70%;
+    padding: 40px 10px 40px 10px;
+  }
+
+  .post-sub-title-container {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+}

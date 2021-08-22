@@ -27,7 +27,7 @@
 .blog-card {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 240px;
   justify-content: center;
   align-items: center;
   margin: 20px;
@@ -76,4 +76,10 @@
   font-family: 'Philosopher', sans-serif;
   border-top: 2px solid black;
   padding-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blog-posts-container {
+    flex-wrap: wrap;
+  }
 }

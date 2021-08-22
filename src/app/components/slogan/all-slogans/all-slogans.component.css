@@ -22,7 +22,7 @@
   border-radius: 7px;
   background-color: white;
   padding: 5px;
-  width: 40%;
+  width: 460px;
   margin: 20px;
 }
 
@@ -99,5 +99,12 @@
 .slogan-outer-wrapper:nth-child(5n+5) > .slogan-inner-wrapper {
   background-color: #33004D;
   color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .slogans-container {
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 

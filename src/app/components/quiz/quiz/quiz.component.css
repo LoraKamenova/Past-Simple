@@ -114,3 +114,17 @@
   flex-direction: column;
   justify-content: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .quiz-image-container {
+   display: none;
+  }
+
+  .quiz-wrapper {
+    justify-content: center;
+  }
+
+  .questions-container {
+    width: 60%;
+  }
+}
