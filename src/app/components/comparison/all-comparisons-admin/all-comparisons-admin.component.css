@@ -1,72 +1,58 @@
-.all-comparisons-admin-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
-  margin: 3% auto;
+.admin-table-wrapper.all-comparisons-admin-wrapper {
+  width: 70%;
 }
 
-.all-comparisons-header {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  width: 100%;
-}
+/*.all-comparisons-heading-container {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  margin-bottom: 20px;*/
+/*  width: 100%;*/
+/*}*/
 
-.all-comparisons-heading {
-  display: flex;
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  flex-grow: 1;
-  justify-content: center;
-}
+/*.all-comparisons-heading {*/
+/*  display: flex;*/
+/*  font-family: 'Philosopher', sans-serif;*/
+/*  text-align: center;*/
+/*  font-size: 30px;*/
+/*  color: white;*/
+/*  flex-grow: 1;*/
+/*  justify-content: center;*/
+/*}*/
 
-.new-entry-button {
+.new-entry-button.comparison-entry-button {
   width: 17%;
-  padding: 10px 20px;
-  border: 2px solid teal;
-  color: white;
-  outline: none;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  align-self: flex-end;
 }
 
-.new-entry-button:hover {
-  cursor: pointer;
-  background-color: teal;
-}
+/*.new-entry-button:hover {*/
+/*  cursor: pointer;*/
+/*  background-color: teal;*/
+/*}*/
 
-.all-comparisons-table {
-  border-collapse: collapse;
-  width: 100%;
-  background-color: white;
-  font-family: 'Philosopher', sans-serif;
-}
+/*.all-comparisons-table {*/
+/*  border-collapse: collapse;*/
+/*  width: 100%;*/
+/*  background-color: white;*/
+/*  font-family: 'Philosopher', sans-serif;*/
+/*}*/
 
-.all-comparisons-table tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+/*.all-comparisons-table tr:nth-child(even) {*/
+/*  background-color: #f2f2f2;*/
+/*}*/
 
-.table-heading {
-  border: 1px solid teal;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  background-color: teal;
-  color: white;
-  font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
-}
+/*.table-heading {*/
+/*  border: 1px solid teal;*/
+/*  padding-top: 12px;*/
+/*  padding-bottom: 12px;*/
+/*  text-align: center;*/
+/*  background-color: teal;*/
+/*  color: white;*/
+/*  font-family: 'Philosopher', sans-serif;*/
+/*  text-transform: uppercase;*/
+/*}*/
 
-.table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {
-  border-right: 1px solid white;
-}
+/*.table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {*/
+/*  border-right: 1px solid white;*/
+/*}*/
 
 .table-heading.comparison-numbering{
   width: 3%;
@@ -84,11 +70,11 @@
   width: 17%;
 }
 
-.table-data {
-  border: 1px solid #ddd;
-  padding: 6px;
-  text-align: center;
-}
+/*.table-data {*/
+/*  border: 1px solid #ddd;*/
+/*  padding: 6px;*/
+/*  text-align: center;*/
+/*}*/
 
 .comparison-table-image {
   width: 150px;
@@ -102,20 +88,20 @@
   border: 3px solid white;
 }
 
-.fas.fa-edit, .far.fa-trash-alt {
-  font-size: 30px;
-  color: darkslategrey;
-  margin: 5px 10px;
-}
+/*.fas.fa-edit, .far.fa-trash-alt {*/
+/*  font-size: 30px;*/
+/*  color: darkslategrey;*/
+/*  margin: 5px 10px;*/
+/*}*/
 
-.fas.fa-edit:hover{
-  cursor: pointer;
-  color: darkorange;
-  transform: scale(1.4);
-}
+/*.fas.fa-edit:hover{*/
+/*  cursor: pointer;*/
+/*  color: darkorange;*/
+/*  transform: scale(1.4);*/
+/*}*/
 
-.far.fa-trash-alt:hover {
-  cursor: pointer;
-  color: red;
-  transform: scale(1.4);
-}
+/*.far.fa-trash-alt:hover {*/
+/*  cursor: pointer;*/
+/*  color: red;*/
+/*  transform: scale(1.4);*/
+/*}*/

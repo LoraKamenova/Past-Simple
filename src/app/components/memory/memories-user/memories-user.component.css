@@ -1,83 +1,83 @@
-.my-memories-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-  align-items: center;
-  margin: 2% auto;
-}
+/*.all-memories-wrapper.user-memories {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  width: 90%;*/
+/*  align-items: center;*/
+/*  margin: 2% auto;*/
+/*}*/
 
-.my-memories-header {
+.memories-header.user-memories {
   margin: 10px 0 20px 0;
 }
 
-.my-memories-heading {
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-}
+/*.my-memories-heading {*/
+/*  font-family: 'Philosopher', sans-serif;*/
+/*  text-align: center;*/
+/*  font-size: 30px;*/
+/*  color: white;*/
+/*}*/
 
-.memory-cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
-}
+/*.memory-cards-container {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  justify-content: center;*/
+/*  margin: 0 auto;*/
+/*}*/
 
-.memory-card {
-  width: 320px;
-  height: 400px;
-  background-color: white;
-  margin: 10px;
-  padding: 20px 20px 40px 20px;
-  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.73);
-  text-decoration: none;
-  color: black;
-}
+/*.memory-card {*/
+/*  width: 320px;*/
+/*  height: 400px;*/
+/*  background-color: white;*/
+/*  margin: 10px;*/
+/*  padding: 20px 20px 40px 20px;*/
+/*  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.73);*/
+/*  text-decoration: none;*/
+/*  color: black;*/
+/*}*/
 
-.memory-card-image {
-  width: 280px;
-  height: 260px;
-  margin: 0 auto;
-}
+/*.memory-card-image {*/
+/*  width: 280px;*/
+/*  height: 260px;*/
+/*  margin: 0 auto;*/
+/*}*/
 
-.memory-card-title-wrapper {
-  display: flex;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: center;
-}
+/*.memory-card-title-wrapper {*/
+/*  display: flex;*/
+/*  flex-grow: 1;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
 
-.memory-card-title {
-  font-family: 'Bad Script', cursive;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 10px;
-}
+/*.memory-card-title {*/
+/*  font-family: 'Bad Script', cursive;*/
+/*  text-align: center;*/
+/*  font-size: 25px;*/
+/*  margin-top: 10px;*/
+/*}*/
 
-.add-memory-button {
-  margin-left: 20px;
-  padding: 10px 20px;
-  background-color: #006B3C;
-  color: white;
-  border-radius: 5px;
-  outline: none;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-}
+/*.add-memory-button {*/
+/*  margin-left: 20px;*/
+/*  padding: 10px 20px;*/
+/*  background-color: #006B3C;*/
+/*  color: white;*/
+/*  border-radius: 5px;*/
+/*  outline: none;*/
+/*  text-decoration: none;*/
+/*  text-transform: uppercase;*/
+/*  font-family: 'Philosopher', sans-serif;*/
+/*  text-align: center;*/
+/*}*/
 
-.add-memory-button:hover {
-  cursor: pointer;
-  background-color: #008A4D;
-}
+/*.add-memory-button:hover {*/
+/*  cursor: pointer;*/
+/*  background-color: #008A4D;*/
+/*}*/
 
-.memory-cards-container > a:nth-child(even) {
-  transform: rotate(1deg);
-}
+/*.memory-cards-container > a:nth-child(even) {*/
+/*  transform: rotate(1deg);*/
+/*}*/
 
-.memory-cards-container > a:nth-child(odd) {
-  transform: rotate(-1deg);
-}
+/*.memory-cards-container > a:nth-child(odd) {*/
+/*  transform: rotate(-1deg);*/
+/*}*/

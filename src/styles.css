@@ -1,6 +1,6 @@
 @import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
 
-/*category fonts + nav*/
+/*general app font*/
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 /*notebook heading, quiz questions heading*/
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
@@ -39,4 +39,651 @@
 ::selection {
   color: white;
   background: darkred;
+}
+/*----------------------------------------------*/
+/*css for album pages*/
+
+.gallery-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin: 3% auto;
+}
+
+.galley-items-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item-wrapper {
+  display: flex;
+  width: 80%;
+  margin-bottom: 130px;
+}
+
+.gallery-picture-container.picture-wide {
+  min-width: 600px;
+  height: 400px;
+  z-index: 2;
+  margin-left: 50px;
+}
+
+.gallery-picture-container.picture-high {
+  min-width: 450px;
+  height: 550px;
+  z-index: 2;
+  margin-left: 120px;
+}
+
+.gallery-picture {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 7px 0px #000000;
+}
+
+.gallery-postcard {
+  min-width: 600px;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  bottom: -80px;
+  left: -250px;
+  transform: rotate(3deg);
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.postcard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-left: 1px solid lightblue;
+  width: 50%;
+  padding: 0 30px 15px 30px;
+  align-items: center;
+}
+
+.postcard-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 50%;
+  align-items: center;
+  background-color: #fff;
+  background-size: 100% 1.2em;
+  background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(lightblue .05em, transparent .05em);
+}
+
+.postcard-stamp-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.postcard-stamp-wrapper {
+  width: 80px;
+  height: 80px;
+  border: 1px solid lightblue;
+}
+
+.postcard-stamp {
+  width: 100%;
+  height: 100%;
+}
+
+.postcard-album-title {
+  font-family: 'Bad Script', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.postcard-text {
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .gallery-item-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-postcard {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    transform: none;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+  }
+
+  .gallery-picture-container.picture-wide {
+    margin-left: 0;
+  }
+
+  .gallery-picture-container.picture-high {
+    margin-left: 0;
+  }
+}
+/*--------------------------------------------*/
+/*css categories pages*/
+.places-wrapper {
+  display: flex;
+  width: 90%;
+  margin: 3% auto;
+  justify-content: space-between;
+}
+
+.notebook {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  background-color: #fff;
+  background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.7em;
+}
+
+.notebook-heading {
+  margin: 40px 0 20px 0;
+  font-family: 'Pattaya', sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+}
+
+.notebook-content {
+  margin: 0 20px 0 100px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px;
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 30px 15px;
+  width: 230px;
+  height: 230px;
+}
+
+.category-card-image-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-card-image {
+  width: 100px;
+  height: 100px;
+}
+
+.category-card-title {
+  text-align: center;
+  color: black;
+  font-family: 'Philosopher', sans-serif;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 1300px) {
+  .categories {
+    flex-wrap: wrap;
+  }
+
+  .category-card {
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .places-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notebook, .categories {
+    width: 50%
+  }
+}
+
+/*------------------------------------------------------*/
+/*css for all/user memories*/
+
+.memories-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 2% auto;
+  align-items: center;
+}
+
+.memories-header {
+  margin-bottom: 20px;
+}
+
+.memories-heading {
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.memory-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.memory-card {
+  width: 320px;
+  height: 400px;
+  background-color: white;
+  margin: 10px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.73);
+  text-decoration: none;
+  color: black;
+}
+
+.memory-card-image {
+  width: 280px;
+  height: 260px;
+  margin: 0 auto;
+}
+
+.memory-card-title-wrapper {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-card-title {
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.memory-cards-container > a:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+.memory-cards-container > a:nth-child(odd) {
+  transform: rotate(-1deg);
+}
+
+.memory-cards-container > a {
+  text-decoration: none;
+  color: black;
+}
+
+.add-memory-button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #006B3C;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+}
+
+.add-memory-button:hover {
+  cursor: pointer;
+  background-color: #008A4D;
+}
+
+/*-------------------------------------------*/
+/*css for all admin picture tables*/
+.all-pictures-admin-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: 3% auto;
+}
+
+.all-pictures-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.all-pictures-heading {
+  display: flex;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.new-entry-button {
+  width: 20%;
+  padding: 10px 20px;
+  border: 2px solid teal;
+  color: white;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.new-entry-button:hover {
+  cursor: pointer;
+  background-color: teal;
+}
+
+.all-pictures-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.all-pictures-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-heading {
+  border: 1px solid teal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+}
+
+.table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3), .table-heading:nth-child(4)  {
+  border-right: 1px solid white;
+}
+
+.table-heading.pictures-numbering{
+  width: 5%;
+}
+
+.table-heading.picture-category{
+  width: 15%;
+}
+
+.table-heading.picture-image {
+  width: 20%;
+}
+
+.table-heading.picture-title {
+  width: 40%;
+}
+
+.table-heading.picture-buttons {
+  width: 20%;
+}
+
+.table-data {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: center;
+}
+
+.pictures-table-image.wide {
+  width: 120px;
+  height: 70px;
+}
+
+.pictures-table-image.high {
+  width: 60px;
+  height: 70px;
+}
+
+.pictures-table-image.wide:hover {
+  transform: scale(1.8);
+  -webkit-box-shadow: 0px 0px 7px 0px #000000;
+  box-shadow: 0px 0px 7px 0px #000000;
+  border: 3px solid white;
+}
+
+.pictures-table-image.high:hover {
+  transform: scale(2.5);
+  -webkit-box-shadow: 0px 0px 7px 0px #000000;
+  box-shadow: 0px 0px 7px 0px #000000;
+  border: 3px solid white;
+}
+
+.fas.fa-edit, .far.fa-trash-alt, .fas.fa-search-plus {
+  font-size: 25px;
+  color: darkslategrey;
+  margin: 5px 10px;
+}
+
+.fas.fa-edit:hover{
+  cursor: pointer;
+  color: darkorange;
+  transform: scale(1.4);
+}
+
+.far.fa-trash-alt:hover {
+  cursor: pointer;
+  color: red;
+  transform: scale(1.4);
+}
+
+.fas.fa-search-plus:hover {
+  cursor: pointer;
+  color: forestgreen;
+  transform: scale(1.4);
+}
+/*----------------------------------------------------------------------*/
+/*css for forms*/
+
+.standard-form-wrapper {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+}
+
+.standard-form-set{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  backdrop-filter: blur(15px);
+}
+
+.legend {
+  font-weight: bold;
+  text-decoration: underline solid #006B3C;
+  text-underline-offset: 10px;
+  color: lightgrey;
+  text-transform: uppercase;
+  font-size: 26px;
+  padding: 0 10px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  color: lightgrey;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.input {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .1);
+  margin-top: 5px;
+  font-size: 16px;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.button {
+  background: #006B3C;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: lightgrey;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  background: #008A4D;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.standard-form-notification-container {
+  min-height: 16px;
+  text-align: center;
+}
+
+.standard-form-notification {
+  color: #dd4545;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+/*------------------------*/
+/*css for admin tables*/
+
+.admin-table-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3% auto;
+}
+
+.admin-table-heading-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.admin-table-heading {
+  display: flex;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.new-entry-button {
+  padding: 10px 20px;
+  border: 2px solid teal;
+  color: white;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.new-entry-button:hover {
+  cursor: pointer;
+  background-color: teal;
+}
+
+.admin-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-heading {
+  border: 1px solid teal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+}
+
+.table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {
+  border-right: 1px solid white;
+}
+
+.table-data {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: center;
+}
+
+.fas.fa-edit, .far.fa-trash-alt {
+  font-size: 30px;
+  color: darkslategrey;
+  margin: 5px 10px;
+}
+
+.fas.fa-edit:hover{
+  cursor: pointer;
+  color: darkorange;
+  transform: scale(1.4);
+}
+
+.far.fa-trash-alt:hover {
+  cursor: pointer;
+  color: red;
+  transform: scale(1.4);
 }

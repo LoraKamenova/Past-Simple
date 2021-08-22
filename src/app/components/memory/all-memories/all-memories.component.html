@@ -1,7 +1,7 @@
-<div class="all-memories-wrapper">
+<div class="memories-wrapper all-memories">
 
-  <div class="all-memories-header">
-    <span class="all-memories-heading">Всички спомени</span><a class="add-memory-button" [routerLink]="['/memory/create']">Нов спомен</a>
+  <div class="memories-header all-memories">
+    <span class="memories-heading all-memories">Всички спомени</span><a class="add-memory-button" [routerLink]="['/memory/create']">Нов спомен</a>
   </div>
 
 <div class="memory-cards-container">
@@ -9,7 +9,7 @@
     <div class="memory-card-image-wrapper">
       <img class="memory-card-image" src="{{m.imageUrl}}" alt="memory"/>
     </div>
-    <p class="memory-card-subtitle" *ngIf="m.creator">Споделено от: {{m.creator[0].name}}</p>
+    <p class="memory-card-subtitle all-memories" *ngIf="m.creator">Споделено от: {{m.creator[0].name}}</p>
     <div class="memory-card-title-wrapper">
       <h3 class="memory-card-title">{{m.title}}</h3>
     </div>
