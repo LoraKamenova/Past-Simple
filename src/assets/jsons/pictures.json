@@ -5066,4 +5066,18 @@
   "category": "Море",
   "format": "широк",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "6121eb6a7636244448712f60"
+  },
+  "creator": [
+    {
+      "$oid": "611e9acd9f257b3b48fdda1c"
+    }
+  ],
+  "title": "Списание Бурда",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629612648/Angular%20Project/401_c3uc9p.jpg",
+  "category": "Медии",
+  "format": "висок",
+  "__v": 0
 }]

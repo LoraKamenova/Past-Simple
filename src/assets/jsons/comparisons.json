@@ -2,8 +2,8 @@
   "_id": {
     "$oid": "61056c8650da870a9c562b04"
   },
-  "title": "София, сладкарница „Феята“ преди 40 години и днес",
-  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1627738955/Angular%20Project/1_wppqh4.jpg",
+  "title": "Златни пясъци",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1629571270/Angular%20Project/zlantni_ve8ahy.jpg",
   "creator": {
     "$oid": "610309eb02650a4e180e381a"
   },
@@ -12,8 +12,8 @@
   "_id": {
     "$oid": "610573a650da870a9c562b33"
   },
-  "title": "Ресторант „Дружба“ на ММЦ-Приморско през 1980 и 2013",
-  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1627738960/Angular%20Project/2_gnnjic.jpg",
+  "title": "София, сладкарница „Феята“ преди 40 години и днес",
+  "imageUrl": "https://res.cloudinary.com/dyhmxus4n/image/upload/v1627738955/Angular%20Project/1_wppqh4.jpg",
   "creator": {
     "$oid": "610309eb02650a4e180e381a"
   },

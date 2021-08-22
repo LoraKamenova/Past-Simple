@@ -82,3 +82,5 @@ Angular November 2020 / Retake Angular July 2021
 * използване на Angular Animations
 
 * използване на SVG
+
+* responsive design
