@@ -9,28 +9,28 @@
 }
 
 .admin-panel-heading {
-  font-family: 'Philosopher', sans-serif;
   margin-bottom: 20px;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .admin-fieldset-container {
   display: flex;
-  width: 100%;
   justify-content: center;
+  width: 100%;
 }
 
 .admin-fieldset {
   display: flex;
   margin: 20px;
   padding: 20px 20px 20px 30px;
-  backdrop-filter: blur(15px);
   font-size: 18px;
+  backdrop-filter: blur(15px);
 }
 
 .admin-fieldset.pictures {
   display: flex;
-  width: 60%;
   justify-content: space-around;
+  width: 60%;
 }
 
 .admin-fieldset.common {
@@ -38,14 +38,14 @@
 }
 
 .admin-fieldset-legend {
-  font-weight: bold;
-  text-decoration: underline solid teal;
-  text-underline-offset: 10px;
-  color: lightgrey;
-  text-transform: uppercase;
-  font-size: 26px;
   padding: 0 10px;
   font-family: 'Philosopher', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: lightgrey;
+  text-transform: uppercase;
+  text-decoration: underline solid teal;
+  text-underline-offset: 10px;
 }
 
 .admin-fieldset-list {
@@ -70,10 +70,10 @@
 
 .admin-panel-link:hover {
   cursor: pointer;
-  text-decoration: none;
   color: teal;
-  text-transform: uppercase;
   font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .font-icon {
