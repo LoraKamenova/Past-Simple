@@ -1,103 +1,32 @@
 .standard-form-wrapper.login-wrapper {
-  margin: 5% auto;
   flex-direction: column;
+  margin: 5% auto;
 }
 
 .standard-form-set.login-set{
   width: 40%;
 }
 
-/*.legend {*/
-/*  font-weight: bold;*/
-/*  text-decoration: underline solid #006B3C;*/
-/*  text-underline-offset: 10px;*/
-/*  color: lightgrey;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*  text-transform: uppercase;*/
-/*  font-size: 26px;*/
-/*  padding: 0 10px;*/
-/*}*/
-
-/*.form-group {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  margin: 10px;*/
-/*  color: lightgrey;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*  text-transform: uppercase;*/
-/*  font-size: 14px;*/
-/*}*/
-
-/*.input {*/
-/*  border: none;*/
-/*  padding: 10px 20px;*/
-/*  border-radius: 5px;*/
-/*  background: rgba(255, 255, 255, .1);*/
-/*  margin-top: 5px;*/
-/*  font-size: 16px;*/
-/*  color: white;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*}*/
-
-/*.button {*/
-/*  background: #006B3C;*/
-/*  padding: 10px;*/
-/*  margin-top: 10px;*/
-/*  border-radius: 5px;*/
-/*  color: lightgrey;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*  text-transform: uppercase;*/
-/*  font-size: 16px;*/
-/*  font-weight: bold;*/
-/*  outline: none;*/
-/*  border: none;*/
-/*}*/
-
-/*.button:hover {*/
-/*  background: #008A4D;*/
-/*  color: white;*/
-/*  font-weight: bold;*/
-/*  cursor: pointer;*/
-/*}*/
-
 .registration-link {
-  margin-top: 30px;
   width: 20%;
-  text-align: center;
+  margin-top: 30px;
   font-size: 18px;
+  text-align: center;
 }
 
 .registration-link-paragraph {
   display: flex;
   justify-content: center;
+  font-family: 'Philosopher', sans-serif;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Philosopher', sans-serif;
   padding: 15px;
   border: 1px solid transparent;
 }
 
 .registration-link-paragraph:hover {
   color: white;
-  border: 1px solid #008A4D;
   padding: 15px;
+  border: 1px solid #008A4D;
 }
-
-/*.standard-form-notification-container {*/
-/*  min-height: 16px;*/
-/*  text-align: center;*/
-/*}*/
-
-/*.standard-form-notification {*/
-/*  color: #dd4545;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*  font-size: 14px;*/
-/*  text-transform: uppercase;*/
-/*  font-weight: bold;*/
-/*  margin-top: 5px;*/
-/*}*/
-
-/*.button:disabled {*/
-/*  cursor: not-allowed;*/
-/*}*/
