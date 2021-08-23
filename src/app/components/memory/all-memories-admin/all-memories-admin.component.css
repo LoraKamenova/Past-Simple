@@ -2,57 +2,9 @@
   width: 60%;
 }
 
-/*.all-memories-header {*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  margin-bottom: 20px;*/
-/*  width: 100%;*/
-/*}*/
-
-/*.all-memories-heading {*/
-/*  display: flex;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*  text-align: center;*/
-/*  font-size: 30px;*/
-/*  color: white;*/
-/*  flex-grow: 1;*/
-/*  justify-content: center;*/
-/*}*/
-
 .memory-entry-button.new-entry-button {
   width: 25%;
 }
-
-/*.new-entry-button:hover {*/
-/*  cursor: pointer;*/
-/*  background-color: teal;*/
-/*}*/
-
-/*.all-memories-table {*/
-/*  border-collapse: collapse;*/
-/*  width: 100%;*/
-/*  background-color: white;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*}*/
-
-/*.all-memories-table tr:nth-child(even) {*/
-/*  background-color: #f2f2f2;*/
-/*}*/
-
-/*.table-heading {*/
-/*  border: 1px solid teal;*/
-/*  padding-top: 12px;*/
-/*  padding-bottom: 12px;*/
-/*  text-align: center;*/
-/*  background-color: teal;*/
-/*  color: white;*/
-/*  font-family: 'Philosopher', sans-serif;*/
-/*  text-transform: uppercase;*/
-/*}*/
-
-/*.table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {*/
-/*  border-right: 1px solid white;*/
-/*}*/
 
 .table-heading.memory-numbering{
   width: 5%;
@@ -70,12 +22,6 @@
   width: 25%;
 }
 
-/*.table-data {*/
-/*  border: 1px solid #ddd;*/
-/*  padding: 6px;*/
-/*  text-align: center;*/
-/*}*/
-
 .memory-table-image {
   width: 150px;
   height: 70px;
@@ -87,27 +33,3 @@
   box-shadow: 0px 0px 7px 0px #000000;
   border: 3px solid white;
 }
-
-/*.fas.fa-edit, .far.fa-trash-alt, .fas.fa-search-plus {*/
-/*  font-size: 30px;*/
-/*  color: darkslategrey;*/
-/*  margin: 5px 10px;*/
-/*}*/
-
-/*.fas.fa-edit:hover{*/
-/*  cursor: pointer;*/
-/*  color: darkorange;*/
-/*  transform: scale(1.4);*/
-/*}*/
-
-/*.far.fa-trash-alt:hover {*/
-/*  cursor: pointer;*/
-/*  color: red;*/
-/*  transform: scale(1.4);*/
-/*}*/
-
-/*.fas.fa-search-plus:hover {*/
-/*  cursor: pointer;*/
-/*  color: forestgreen;*/
-/*  transform: scale(1.4);*/
-/*}*/

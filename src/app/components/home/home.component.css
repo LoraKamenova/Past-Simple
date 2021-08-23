@@ -10,9 +10,9 @@
 
 .home-title {
   text-align: center;
+  font-family: 'Philosopher', sans-serif;
   color: white;
   font-style: oblique;
-  font-family: 'Philosopher', sans-serif;
 }
 
 .home-title {
@@ -30,11 +30,11 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-size: 100% 100%;
   min-width: 200px;
   height: 350px;
-  margin: 7px;
+  background-size: 100% 100%;
   text-decoration: none;
+  margin: 7px;
 }
 
 .home-card:hover {
@@ -44,8 +44,8 @@
 .home-card-title-container {
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
-  margin-bottom: 10px;
   font-family: 'Philosopher', sans-serif;
+  margin-bottom: 10px;
 }
 
 .home-card:hover .home-card-title-container {
