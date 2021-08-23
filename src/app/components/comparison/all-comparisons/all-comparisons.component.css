@@ -1,38 +1,38 @@
 .comparison-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 1% auto;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin: 1% auto;
 }
 
 .comparison-heading {
+  font-family: 'Philosopher', sans-serif;
   color: white;
   font-style: italic;
-  font-family: 'Philosopher', sans-serif;
 }
 
 .comparison-title {
   text-align: center;
-  color: black;
   font-family: 'Philosopher', sans-serif;
-  margin: 10px 0;
+  color: black;
   font-size: 20px;
   font-style: italic;
+  margin: 10px 0;
 }
 
 .comparison-container {
   display: flex;
   flex-direction: column;
-  width: 80%;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 .comparison-item {
   width: 100%;
-  margin: 25px;
   background-color: white;
+  margin: 25px;
 }
 
 .comparison-picture-container {
