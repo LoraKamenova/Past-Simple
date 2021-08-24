@@ -12,41 +12,41 @@
 
 .slogans-container {
   display: flex;
-  width: 90%;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
   margin: 0 auto;
 }
 
 .slogan-outer-wrapper {
-  border-radius: 7px;
-  background-color: white;
-  padding: 5px;
   width: 460px;
+  background-color: white;
   margin: 20px;
+  padding: 5px;
+  border-radius: 7px;
 }
 
 .slogan-inner-wrapper {
   display: flex;
   flex-direction: column;
-  border-radius: 7px;
-  padding: 5px;
   height: 100%;
+  padding: 5px;
+  border-radius: 7px;
 }
 
 .slogan-content {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .slogan-main-text {
   display: flex;
-  flex-grow: 1;
   align-items: center;
-  font-family: 'Cuprum', sans-serif;
+  flex-grow: 1;
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Cuprum', sans-serif;
   padding: 40px
 }
 
