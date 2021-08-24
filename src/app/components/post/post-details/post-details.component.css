@@ -1,11 +1,11 @@
 .post-wrapper {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin: 2% auto;
   justify-content: center;
   align-items: center;
   background-color: white;
+  width: 60%;
+  margin: 2% auto;
   padding-bottom: 30px;
 }
 
@@ -26,21 +26,21 @@
 
 .post-title-container {
   display: flex;
-  width: 60%;
   justify-content: space-between;
   align-items: center;
+  width: 60%;
   padding: 30px 70px;
 }
 
 .post-title {
+  width: 100%;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
-  border-bottom: 3px solid black;
-  border-top: 3px solid black;
-  width: 100%;
   font-size: 30px;
   font-weight: bolder;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
   padding: 40px 30px 40px 30px;
 }
 
@@ -52,13 +52,13 @@
 }
 
 .post-sub-title {
-  font-family: 'Philosopher', sans-serif;
   justify-content: center;
   align-items: center;
-  padding-right: 50px;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
   font-weight: bold;
   font-style: italic;
-  text-align: center;
+  padding-right: 50px;
 }
 
 .post-content-section {
@@ -67,10 +67,10 @@
 }
 
 .post-text {
-  font-size: 16px;
-  font-family: 'Philosopher', sans-serif;
-  line-height: 1.2;
   text-align: justify;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
   white-space: pre-wrap
 }
 

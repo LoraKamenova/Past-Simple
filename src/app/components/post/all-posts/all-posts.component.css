@@ -1,20 +1,20 @@
 .blog-posts-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: snow;
   width: 80%;
   margin: 1% auto;
-  background-color: snow;
   padding: 40px 60px 0 60px;
-  justify-content: center;
 }
 
 .blog-heading {
   text-align: center;
+  font-family: 'Philosopher', sans-serif;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   margin-bottom: 10px;
   padding: 10px 0;
-  font-family: 'Philosopher', sans-serif;
 }
 
 .blog-posts-container {
@@ -27,13 +27,12 @@
 .blog-card {
   display: flex;
   flex-direction: column;
-  width: 240px;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  width: 240px;
   text-decoration: none;
   color: black;
-
+  margin: 20px;
 }
 
 .blog-card-image {
@@ -46,20 +45,19 @@
 .blog-card-content {
   display: flex;
   flex-direction: column;
+  background-color: white;
   position: relative;
   top: -40px;
-  background-color: white;
   width: 95%;
+  height: 200px;
   padding: 15px;
   border: 3px solid black;
-  height: 200px;
-
 }
 
 .blog-card-heading {
-  margin-bottom: 10px;
   text-align: center;
   font-family: 'Philosopher', sans-serif;
+  margin-bottom: 10px;
 }
 
 .blog-card-short-text {
@@ -71,11 +69,11 @@
 }
 
 .blog-card-continue-reading {
+  font-family: 'Philosopher', sans-serif;
   font-weight: bold;
   margin: 15px 0;
-  font-family: 'Philosopher', sans-serif;
-  border-top: 2px solid black;
   padding-top: 10px;
+  border-top: 2px solid black;
 }
 
 @media only screen and (max-width: 1000px) {
