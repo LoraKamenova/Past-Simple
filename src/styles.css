@@ -54,9 +54,9 @@
 .galley-items-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .gallery-item-wrapper {
@@ -68,15 +68,15 @@
 .gallery-picture-container.picture-wide {
   min-width: 600px;
   height: 400px;
-  z-index: 2;
   margin-left: 50px;
+  z-index: 2;
 }
 
 .gallery-picture-container.picture-high {
   min-width: 450px;
   height: 550px;
-  z-index: 2;
   margin-left: 120px;
+  z-index: 2;
 }
 
 .gallery-picture {
@@ -86,27 +86,27 @@
 }
 
 .gallery-postcard {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
   min-width: 600px;
   height: 400px;
-  background-color: white;
   position: relative;
   bottom: -80px;
   left: -250px;
   transform: rotate(3deg);
   z-index: 1;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .postcard-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px 0;
-  border-left: 1px solid lightblue;
-  width: 50%;
-  padding: 0 30px 15px 30px;
   align-items: center;
+  width: 50%;
+  margin: 20px 0;
+  padding: 0 30px 15px 30px;
+  border-left: 1px solid lightblue;
 }
 
 .postcard-text-container {
@@ -122,8 +122,8 @@
 
 .postcard-stamp-container {
   display: flex;
-  width: 100%;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .postcard-stamp-wrapper {
@@ -138,15 +138,15 @@
 }
 
 .postcard-album-title {
+  text-align: center;
   font-family: 'Bad Script', cursive;
   font-size: 25px;
-  text-align: center;
 }
 
 .postcard-text {
+  text-align: center;
   font-family: 'Bad Script', cursive;
   font-size: 20px;
-  text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -158,12 +158,12 @@
   }
 
   .gallery-postcard {
-    position: relative;
-    z-index: 1;
     display: flex;
     transform: none;
+    position: relative;
     bottom: 0;
     left: 0;
+    z-index: 1;
     margin-top: 10px;
   }
 
@@ -179,10 +179,10 @@
 /*css categories pages*/
 .places-wrapper {
   display: flex;
-  width: 90%;
-  margin: 1% auto;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: 1% auto;
 }
 
 .notebook {
@@ -197,45 +197,45 @@
 }
 
 .notebook-heading {
-  margin: 40px 0 20px 0;
+  text-align: center;
   font-family: 'Pattaya', sans-serif;
   font-style: italic;
   font-size: 40px;
-  text-align: center;
+  margin: 40px 0 20px 0;
 }
 
 .notebook-content {
-  margin: 0 20px 0 100px;
   font-family: 'Philosopher', sans-serif;
   font-size: 18px;
   font-style: italic;
   line-height: 1.5;
+  margin: 0 20px 0 100px;
 }
 
 .categories {
   display: flex;
   justify-content: center;
-  min-height: 400px;
   width: 65%;
+  min-height: 400px;
 }
 
 .category-card {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  margin: 10px;
-  text-decoration: none;
   justify-content: space-between;
-  padding: 30px 15px;
+  background-color: white;
   width: 230px;
   height: 230px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 30px 15px;
 }
 
 .category-card-image-container {
-  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .category-card-image {
@@ -279,9 +279,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 90%;
   margin: 2% auto;
-  align-items: center;
 }
 
 .memories-header {
@@ -289,16 +289,16 @@
 }
 
 .memories-heading {
-  font-family: 'Philosopher', sans-serif;
   text-align: center;
-  font-size: 30px;
   color: white;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
 }
 
 .memory-cards-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -306,11 +306,12 @@
   width: 320px;
   height: 400px;
   background-color: white;
+  color: black;
+  text-decoration: none;
   margin: 10px;
   padding: 20px 20px 20px 20px;
   box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.73);
-  text-decoration: none;
-  color: black;
+
 }
 
 .memory-card-image {
@@ -321,14 +322,14 @@
 
 .memory-card-title-wrapper {
   display: flex;
-  flex-grow: 1;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
 }
 
 .memory-card-title {
-  font-family: 'Bad Script', cursive;
   text-align: center;
+  font-family: 'Bad Script', cursive;
   font-size: 25px;
   margin-top: 10px;
 }
@@ -347,16 +348,16 @@
 }
 
 .add-memory-button {
-  margin-left: 20px;
-  padding: 10px 20px;
   background-color: #006B3C;
-  color: white;
-  border-radius: 5px;
-  outline: none;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  color: white;
   font-family: 'Philosopher', sans-serif;
-  text-align: center;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
 }
 
 .add-memory-button:hover {
@@ -369,40 +370,40 @@
 .all-pictures-admin-wrapper {
   display: flex;
   flex-direction: column;
-  width: 70%;
   justify-content: center;
   align-items: center;
+  width: 70%;
   margin: 3% auto;
 }
 
 .all-pictures-header {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .all-pictures-heading {
   display: flex;
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  flex-grow: 1;
   justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
 }
 
 .new-entry-button {
+  align-self: flex-end;
   width: 20%;
-  padding: 10px 20px;
-  border: 2px solid teal;
-  color: white;
-  outline: none;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  color: white;
   font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  align-self: flex-end;
+  padding: 10px 20px;
+  border: 2px solid teal;
+  outline: none;
 }
 
 .new-entry-button:hover {
@@ -411,10 +412,10 @@
 }
 
 .all-pictures-table {
-  border-collapse: collapse;
-  width: 100%;
   background-color: white;
+  width: 100%;
   font-family: 'Philosopher', sans-serif;
+  border-collapse: collapse;
 }
 
 .all-pictures-table tr:nth-child(even) {
@@ -422,14 +423,14 @@
 }
 
 .table-heading {
-  border: 1px solid teal;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
   background-color: teal;
+  text-align: center;
+  text-transform: uppercase;
   color: white;
   font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid teal;
 }
 
 .table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3), .table-heading:nth-child(4)  {
@@ -457,9 +458,9 @@
 }
 
 .table-data {
-  border: 1px solid #ddd;
-  padding: 6px;
   text-align: center;
+  padding: 6px;
+  border: 1px solid #ddd;
 }
 
 .pictures-table-image.wide {
@@ -528,49 +529,49 @@
 }
 
 .legend {
-  font-weight: bold;
   text-decoration: underline solid #006B3C;
   text-underline-offset: 10px;
-  color: lightgrey;
   text-transform: uppercase;
-  font-size: 26px;
-  padding: 0 10px;
+  color: lightgrey;
   font-family: 'Philosopher', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 0 10px;
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  text-transform: uppercase;
   color: lightgrey;
   font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
   font-size: 14px;
+  margin: 10px;
 }
 
 .input {
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
   background: rgba(255, 255, 255, .1);
-  margin-top: 5px;
-  font-size: 16px;
   color: white;
   font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px 20px;
 }
 
 .button {
   background: #006B3C;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 5px;
+  text-transform: uppercase;
   color: lightgrey;
   font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
-  outline: none;
+  margin-top: 10px;
+  padding: 10px;
   border: none;
+  border-radius: 5px;
+  outline: none;
 }
 
 .button:hover {
@@ -586,10 +587,10 @@
 }
 
 .standard-form-notification {
+  text-transform: uppercase;
   color: #dd4545;
   font-family: 'Philosopher', sans-serif;
   font-size: 14px;
-  text-transform: uppercase;
   font-weight: bold;
   margin-top: 5px;
 }
@@ -611,30 +612,30 @@
 .admin-table-heading-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .admin-table-heading {
   display: flex;
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  flex-grow: 1;
   justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
 }
 
 .new-entry-button {
-  padding: 10px 20px;
-  border: 2px solid teal;
-  color: white;
-  outline: none;
+  align-self: flex-end;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  color: white;
   font-family: 'Philosopher', sans-serif;
-  text-align: center;
-  align-self: flex-end;
+  padding: 10px 20px;
+  border: 2px solid teal;
+  outline: none;
 }
 
 .new-entry-button:hover {
@@ -643,10 +644,10 @@
 }
 
 .admin-table {
-  border-collapse: collapse;
-  width: 100%;
   background-color: white;
+  width: 100%;
   font-family: 'Philosopher', sans-serif;
+  border-collapse: collapse;
 }
 
 .admin-table tr:nth-child(even) {
@@ -654,14 +655,14 @@
 }
 
 .table-heading {
-  border: 1px solid teal;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
   background-color: teal;
+  text-align: center;
+  text-transform: uppercase;
   color: white;
   font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid teal;
 }
 
 .table-heading:nth-child(1), .table-heading:nth-child(2), .table-heading:nth-child(3)  {
@@ -669,14 +670,14 @@
 }
 
 .table-data {
-  border: 1px solid #ddd;
-  padding: 6px;
   text-align: center;
+  padding: 6px;
+  border: 1px solid #ddd;
 }
 
 .fas.fa-edit, .far.fa-trash-alt {
-  font-size: 30px;
   color: darkslategrey;
+  font-size: 30px;
   margin: 5px 10px;
 }
 
