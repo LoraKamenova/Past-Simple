@@ -23,15 +23,14 @@ import {MemoryModule} from "./components/memory/memory.module";
 import {SloganModule} from "./components/slogan/slogan.module";
 import {ComparisonModule} from "./components/comparison/comparison.module";
 import {PostModule} from "./components/post/post.module";
-
-import {QuizModule} from "./components/quiz/quiz.module";
-
-
-import {AuthService} from "./services/auth.service";
 import {CategoriesModule} from "./components/categories/categories.module";
 import {AlbumsModule} from "./components/albums/albums.module";
-import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
 import {PictureModule} from "./components/picture/picture.module";
+import {MyProfileComponent} from "./components/profile/my-profile/my-profile.component";
+import {QuizModule} from "./components/quiz/quiz.module";
+
+import {AuthService} from "./services/auth.service";
+
 
 @NgModule({
   declarations: [
