@@ -126,6 +126,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Албена', 'Св. св. Константин и Елена', 'Златни пясъци', 'Слънчев бряг'],
         answer: 'Св. св. Константин и Елена'
       },
+      {
+        question: 'В близост до кой курорт се намира резерватът "Балтата"?',
+        options: ['Албена', 'Св. св. Константин и Елена', 'Златни пясъци', 'Слънчев бряг'],
+        answer: 'Албена'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
