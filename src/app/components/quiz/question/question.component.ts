@@ -121,6 +121,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Шкода', 'Волга', 'Чайка', 'Лада'],
         answer: 'Чайка'
       },
+      {
+        question: 'Кой е най-старият курорт в България?',
+        options: ['Албена', 'Св. св. Константин и Елена', 'Златни пясъци', 'Слънчев бряг'],
+        answer: 'Св. св. Константин и Елена'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
