@@ -1,7 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {AppRoutingModule} from './app-routing.module';
-import {ToastrModule} from 'ngx-toastr';
 import {FormsModule} from "@angular/forms";
 
 import {NgModule} from '@angular/core';
@@ -48,7 +47,6 @@ import {AuthService} from "./services/auth.service";
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    ToastrModule.forRoot(),
     AppRoutingModule,
     HttpClientModule,
     MemoryModule,
