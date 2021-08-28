@@ -692,3 +692,60 @@
   color: red;
   transform: scale(1.4);
 }
+
+/*---------------------------------------*/
+/*error 404 */
+
+.page-not-found-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% auto;
+  min-height: 60vh;
+}
+
+.page-not-found-outer-wrapper {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.page-not-found-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.page-not-found-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.page-not-found-main-text, .page-not-found-sub-text {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Cuprum', sans-serif;
+  padding: 5px
+}
+
+.page-not-found-outer-wrapper {
+  background-color: white;
+  border: 5px solid red;
+}
+
+.page-not-found-outer-wrapper > .page-not-found-inner-wrapper {
+  background-color: red;
+  color: white;
+}
