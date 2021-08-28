@@ -41,7 +41,7 @@ export class EditMemoryComponent implements OnInit {
       this.memory.description = this.form.value.description;
       this.memory.imageUrl = this.form.value.imageUrl;
       this.memoryService.editMemory(id, this.memory).subscribe(data => {
-        this.router.navigate(['memory/all/admin']);
+        this.router.navigate(['memory/all']);
       });
     });
 
