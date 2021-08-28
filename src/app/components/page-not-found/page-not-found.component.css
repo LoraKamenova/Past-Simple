@@ -36,11 +36,10 @@
 .page-not-found-main-text, .page-not-found-sub-text {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   text-transform: uppercase;
   text-align: center;
   font-family: 'Cuprum', sans-serif;
-  /*padding: 30px*/
+  padding: 5px
 }
 
 .page-not-found-outer-wrapper {
