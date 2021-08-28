@@ -2,6 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {AppRoutingModule} from './app-routing.module';
 import {FormsModule} from "@angular/forms";
+import {ToastrModule} from 'ngx-toastr';
 
 import {NgModule} from '@angular/core';
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
@@ -29,6 +30,7 @@ import {MyProfileComponent} from "./components/profile/my-profile/my-profile.com
 import {QuizModule} from "./components/quiz/quiz.module";
 
 import {AuthService} from "./services/auth.service";
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -42,11 +44,13 @@ import {AuthService} from "./services/auth.service";
     SigninComponent,
     AdminPanelComponent,
     MyProfileComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    ToastrModule.forRoot(),
     AppRoutingModule,
     HttpClientModule,
     MemoryModule,

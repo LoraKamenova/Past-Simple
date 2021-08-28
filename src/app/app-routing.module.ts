@@ -9,6 +9,7 @@ import {SigninComponent} from "./components/authentication/signin/signin.compone
 import {SignupComponent} from "./components/authentication/signup/signup.component";
 import {AuthGuard} from "./components/authentication/guards/auth.guard";
 import {AdminPanelComponent} from "./components/admin-panel/admin-panel.component";
+import {PageNotFoundComponent} from "./components/page-not-found/page-not-found.component";
 
 const routes: Routes = [
   {path: '', component: IndexComponent},
@@ -28,6 +29,8 @@ const routes: Routes = [
   {path: 'categories', loadChildren: './components/categories/categories.module#CategoriesModule', canActivate: [AuthGuard]},
   {path: 'albums', loadChildren: './components/albums/albums.module#AlbumsModule', canActivate: [AuthGuard]},
   {path: 'picture', loadChildren: './components/picture/picture.module#PictureModule', canActivate: [AuthGuard]},
+  { path: '**', component: PageNotFoundComponent}
+
 ];
 
 @NgModule({

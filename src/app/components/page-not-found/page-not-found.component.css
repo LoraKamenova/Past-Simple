@@ -1,0 +1,104 @@
+.page-not-found-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1% auto;
+}
+
+.page-not-found-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page-not-found-outer-wrapper {
+  width: 460px;
+  background-color: white;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.page-not-found-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.page-not-found-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page-not-found-main-text {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Cuprum', sans-serif;
+  padding: 40px
+}
+
+.page-not-found-sub-text {
+  text-align: right;
+  font-style: italic;
+}
+
+.page-not-found-outer-wrapper {
+  background-color: white;
+  border: 5px solid red;
+}
+
+.page-not-found-outer-wrapper > .page-not-found-inner-wrapper {
+  background-color: red;
+  color: white;
+}
+
+/*.slogan-outer-wrapper:nth-child(5n+2) {*/
+/*  border: 5px solid #006B3C;*/
+/*}*/
+
+/*.slogan-outer-wrapper:nth-child(5n+2) > .slogan-inner-wrapper {*/
+/*  background-color: #006B3C;*/
+/*  color: white;*/
+/*}*/
+
+/*.slogan-outer-wrapper:nth-child(5n+3) {*/
+/*  border: 5px solid #FFEF00;*/
+/*}*/
+
+/*.slogan-outer-wrapper:nth-child(5n+3) > .slogan-inner-wrapper {*/
+/*  background-color: #FFEF00;*/
+/*  color: black;*/
+/*}*/
+
+/*.slogan-outer-wrapper:nth-child(5n+1) {*/
+/*  border: 5px solid #00308F;*/
+/*}*/
+
+/*.slogan-outer-wrapper:nth-child(5n+1) > .slogan-inner-wrapper {*/
+/*  background-color: #00308F;*/
+/*  color: white;*/
+/*}*/
+
+/*.slogan-outer-wrapper:nth-child(5n+5) {*/
+/*  border: 5px solid #33004D;*/
+/*}*/
+
+/*.slogan-outer-wrapper:nth-child(5n+5) > .slogan-inner-wrapper {*/
+/*  background-color: #33004D;*/
+/*  color: white;*/
+/*}*/
+
+/*@media only screen and (max-width: 1000px) {*/
+/*  .slogans-container {*/
+/*    flex-wrap: wrap;*/
+/*    align-items: center;*/
+/*  }*/
+/*}*/
+
