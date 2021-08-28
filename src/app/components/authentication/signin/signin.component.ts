@@ -3,9 +3,9 @@ import {
   OnInit,
   ViewChild
 } from '@angular/core';
-import { NgForm } from '@angular/forms';
-import { AuthService } from '../../../services/auth.service';
-import { Router } from '@angular/router';
+import {NgForm} from '@angular/forms';
+import {AuthService} from '../../../services/auth.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-signin',
@@ -14,11 +14,13 @@ import { Router } from '@angular/router';
 })
 export class SigninComponent implements OnInit {
   @ViewChild('loginForm') loginForm: NgForm;
+  public error: any;
 
   constructor(
-    private authService : AuthService,
+    private authService: AuthService,
     private router: Router
-  ) { }
+  ) {
+  }
 
   ngOnInit() {
   }
@@ -27,14 +29,18 @@ export class SigninComponent implements OnInit {
     this.authService
       .login(this.loginForm.value)
       .subscribe((data) => {
-        console.log(data)
-        localStorage.setItem('token', data['token']);
-        localStorage.setItem('name', data['user']['name']);
-        localStorage.setItem('role', data['user']['isAdmin']);
-        localStorage.setItem('email', data['user']['email']);
-        localStorage.setItem('profileImageUrl', data['user']['profileImageUrl']);
-        this.router.navigate([ '/home' ])
-      });
+          console.log(data)
+          localStorage.setItem('token', data['token']);
+          localStorage.setItem('name', data['user']['name']);
+          localStorage.setItem('role', data['user']['isAdmin']);
+          localStorage.setItem('email', data['user']['email']);
+          localStorage.setItem('profileImageUrl', data['user']['profileImageUrl']);
+          this.router.navigate(['/home'])
+        },
+        (error => {
+          console.log(error)
+          this.error = error;
+        }));
   }
 
 }

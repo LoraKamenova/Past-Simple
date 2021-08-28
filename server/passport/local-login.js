@@ -16,7 +16,8 @@ module.exports = new PassportLocalStrategy({
 
   User.findOne({email: user.email}).then((savedUser) => {
     if (!savedUser) {
-      const error = new Error('Incorrect email or password')
+      // const error = new Error('Incorrect email or password')
+      const error = new Error('Невалиден имейл или парола')
       error.name = 'IncorrectCredentialsError'
 
       return done(error)
@@ -25,7 +26,8 @@ module.exports = new PassportLocalStrategy({
     const isMatch = savedUser.hashedPass === encryption.generateHashedPassword(savedUser.salt, password);
 
     if (!isMatch) {
-      const error = new Error('Incorrect email or password')
+      // const error = new Error('Incorrect email or password')
+      const error = new Error('Невалиден имейл или парола')
       error.name = 'IncorrectCredentialsError'
 
       return done(error)
