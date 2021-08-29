@@ -131,6 +131,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Албена', 'Св. св. Константин и Елена', 'Златни пясъци', 'Слънчев бряг'],
         answer: 'Албена'
       },
+      {
+        question: 'През коя година е открит Надорния дворец на културата?',
+        options: ['1971', '1975', '1981', '1985'],
+        answer: '1981'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
