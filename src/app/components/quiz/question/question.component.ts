@@ -136,11 +136,6 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1971', '1975', '1981', '1985'],
         answer: '1981'
       },
-      // {
-      //   question: 'Как се нарича най-големият годишен национален телевизионен конкурс за български поппесни, провеждан от 1968 до 1995 г.?',
-      //   options: ['Златният орфей', 'Пирин фолк ', 'Бургас и морето', 'Мелодия на годината'],
-      //   answer: 'Мелодия на годината'
-      // },
 
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
