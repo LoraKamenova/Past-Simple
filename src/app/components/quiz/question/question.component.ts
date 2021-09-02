@@ -136,6 +136,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1971', '1975', '1981', '1985'],
         answer: '1981'
       },
+      {
+        question: 'Как се казва първият български комютър?',
+        options: ['Правец', 'Витоша', 'София', 'Елка'],
+        answer: 'Витоша'
+      },
 
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
