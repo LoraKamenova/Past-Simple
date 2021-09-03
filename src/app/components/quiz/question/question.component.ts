@@ -141,6 +141,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Правец', 'Витоша', 'София', 'Елка'],
         answer: 'Витоша'
       },
+      {
+        question: 'Къде са сглобявани автомобилите „Булгаррено“?',
+        options: ['Правец', 'Ловеч', 'Пловдив', 'Варна'],
+        answer: 'Пловдив'
+      },
 
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
