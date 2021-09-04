@@ -146,7 +146,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Правец', 'Ловеч', 'Пловдив', 'Варна'],
         answer: 'Пловдив'
       },
-
+      {
+        question: 'Колко лъва има на герба на НР България през периода 1948-1990 г.?',
+        options: ['един', 'два', 'три', 'четири'],
+        answer: 'един'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
