@@ -156,6 +156,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Милион и едно желания', 'Лека нощ, деца', 'Всяка неделя', 'Бързи смели сръчни'],
         answer: 'Всяка неделя'
       },
+      {
+        question: 'Какво означава съкращението ФСБ?',
+        options: ['Фолклорно Студио Балкантон', 'Формация Студио Балкантон', 'Формация Студио Балкантурист', 'Фондация Студио Балкантон'],
+        answer: 'Формация Студио Балкантон'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
