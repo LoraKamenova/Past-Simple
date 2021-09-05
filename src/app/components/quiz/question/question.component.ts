@@ -161,6 +161,12 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Фолклорно Студио Балкантон', 'Формация Студио Балкантон', 'Формация Студио Балкантурист', 'Фондация Студио Балкантон'],
         answer: 'Формация Студио Балкантон'
       },
+
+      {
+        question: 'За какъв вид песни е бил фестивалът "Ален мак"?',
+        options: ['фолкролни песни', 'рок песни', 'естрадни песни', 'политически песни'],
+        answer: 'политически песни'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
