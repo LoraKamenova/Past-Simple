@@ -151,6 +151,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['един', 'два', 'три', 'четири'],
         answer: 'един'
       },
+      {
+        question: 'В рамките на кое предаване през 80-те започва да се излъчва "Пинко Розовата пантера"?',
+        options: ['Милион и едно желания', 'Лека нощ, деца', 'Всяка неделя', 'Бързи смели сръчни'],
+        answer: 'Всяка неделя'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
