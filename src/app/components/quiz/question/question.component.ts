@@ -169,7 +169,11 @@ export class QuestionComponent implements OnInit, DoCheck {
       {
         question: 'Според идеята за присъединяване към СССР, коя поред република е трябвало да бъде България?',
         options: ['15', '16', '17', '18'],
-        answer: 'п16'
+        answer: '16'
+      },    {
+        question: 'От кой филм е репликата "Роднина – милиционер, роднина – милиционер"?',
+        options: ['Опасен чар', 'Оркестър без име', 'Дами канят', 'Вилна зона'],
+        answer: 'Опасен чар'
       },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
