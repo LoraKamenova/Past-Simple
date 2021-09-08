@@ -185,6 +185,10 @@ export class QuestionComponent implements OnInit, DoCheck {
         question: 'В кой град се провежда финалът на конкурса Мелодия на годината?',
         options: ['София', 'Пловдив', 'Варна', 'Велико Търново'],
         answer: 'Велико Търново'
+      },  {
+        question: 'Кой конкурс възниква като конкурс „Песни за българското Черноморие“?',
+        options: ['Златният Орфей', 'Бургас и морето', 'Мелодия на годината', 'Ален мак'],
+        answer: 'Златният Орфей'
       },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
