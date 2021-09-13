@@ -207,9 +207,9 @@ export class QuestionComponent implements OnInit, DoCheck {
         answer: 'Жената днес'
       },
       {
-        question: 'Кое е е най-старото българско списание, излизало без прекъсване от октомври 1945 г. до ден-днешен?',
-        options: ['Космос', 'Паралели', 'Жената днес', 'Дъга'],
-        answer: 'Жената днес'
+        question: 'Кой хотел в София е проектиран от японския архитект Кишо Курокава?',
+        options: ['Родина', 'Плиска', 'Москва', 'Витоша Ню Отани'],
+        answer: 'Витоша Ню Отани'
       },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
