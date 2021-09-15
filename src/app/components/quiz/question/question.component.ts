@@ -216,6 +216,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1954', '1955', '1956', '1957'],
         answer: '1956'
       },
+      {
+        question: 'Кой университет се е наричал ВИИ "Карл Маркс" в периода 1953 – 1990?',
+        options: ['Икономически университет – Варна', 'УНСС', 'ВИАС', 'Технически Университет - София'],
+        answer: 'УНСС'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
