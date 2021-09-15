@@ -211,6 +211,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Родина', 'Плиска', 'Москва', 'Витоша Ню Отани'],
         answer: 'Витоша Ню Отани'
       },
+      {
+        question: 'През коя година е проведен Априлският пленум на ЦК на БКП?',
+        options: ['1954', '1955', '1956', '1957'],
+        answer: '1956'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
