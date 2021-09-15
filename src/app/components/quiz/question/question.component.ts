@@ -221,6 +221,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Икономически университет – Варна', 'УНСС', 'ВИАС', 'Технически Университет - София'],
         answer: 'УНСС'
       },
+      {
+        question: 'Как продължава репликата от филма "С деца на море": "Когато ти плащат е командировка, а когато ти си плащаш, е..."?',
+        options: ['почивка', 'ваканция', 'курорт', 'отпуска'],
+        answer: 'курорт'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
