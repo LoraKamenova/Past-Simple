@@ -231,6 +231,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['театрални постановки', 'филми', 'музикални албуми', 'новогодишни тв програми'],
         answer: 'новогодишни програми'
       },
+      {
+        question: 'Какво е ТАБСО, съществувало между 1948 и 1968 г.',
+        options: ['авиокомпания', 'магазин', 'завод', 'музикална група'],
+        answer: 'авиокомпания'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
