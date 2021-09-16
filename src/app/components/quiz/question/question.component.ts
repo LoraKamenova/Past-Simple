@@ -238,7 +238,7 @@ export class QuestionComponent implements OnInit, DoCheck {
       },
       {
         question: 'Коя днешна сграда е построена на някогашния площад "Баба Неделя" в София?',
-        options: ['ЦУМ', 'НДК', 'Министерски съвет', 'Народното събрание'],
+        options: ['ЦУМ', 'НДК', 'Халите', 'Народното събрание'],
         answer: 'НДК'
       },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
