@@ -226,6 +226,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['почивка', 'ваканция', 'курорт', 'отпуска'],
         answer: 'курорт'
       },
+      {
+        question: '"Козя пътека", "Яйцето" и "Експрес Танго" са:',
+        options: ['театрални постановки', 'филми', 'музикални албуми', 'новогодишни тв програми'],
+        answer: 'новогодишни програми'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
