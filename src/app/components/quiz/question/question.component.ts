@@ -232,9 +232,14 @@ export class QuestionComponent implements OnInit, DoCheck {
         answer: 'новогодишни програми'
       },
       {
-        question: 'Какво е ТАБСО, съществувало между 1948 и 1968 г.',
+        question: 'Какво е ТАБСО, съществувало между 1948 и 1968 г.?',
         options: ['авиокомпания', 'магазин', 'завод', 'музикална група'],
         answer: 'авиокомпания'
+      },
+      {
+        question: 'Коя днешна сграда е построена на някогашния площат "Баба Неделя" в София?',
+        options: ['ЦУМ', 'НДК', 'Министерски съвет', 'Народното събрание'],
+        answer: 'НДК'
       },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
