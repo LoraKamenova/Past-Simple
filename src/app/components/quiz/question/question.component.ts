@@ -241,6 +241,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['ЦУМ', 'НДК', 'Халите', 'Народното събрание'],
         answer: 'НДК'
       },
+      {
+        question: 'През коя година е първото издание на „Лека нощ, деца“?',
+        options: ['1960', '1965', '1970', '1975'],
+        answer: '1960'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
