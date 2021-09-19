@@ -246,6 +246,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1960', '1965', '1970', '1975'],
         answer: '1960'
       },
+      {
+        question: 'Какъв вид електротехника са "София" и "Велико Търново?',
+        options: ['хладилници', 'телевизори', 'радиоприемници', 'перални'],
+        answer: 'телевизори'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
