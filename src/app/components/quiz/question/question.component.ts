@@ -251,6 +251,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['хладилници', 'телевизори', 'радиоприемници', 'перални'],
         answer: 'телевизори'
       },
+      {
+        question: 'В кой софийски квартал са построени първите едропанелни жилищни сгради в България през 1958-59 г.?',
+        options: ['Толстой', 'Люлин', 'Надежда', 'Дружба'],
+        answer: 'Толстой'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
