@@ -251,6 +251,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Толстой', 'Люлин', 'Надежда', 'Дружба'],
         answer: 'Толстой'
       },
+      {
+        question: 'Учениците от кои класове влизат в организацията “Чавдар?',
+        options: ['от 1 до 3 клас', 'от 1 до 4 клас', 'от 3 до 7 клас', 'от 4 до 7 клас'],
+        answer: 'от 1 до 3 клас'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
