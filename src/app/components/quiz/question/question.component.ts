@@ -256,6 +256,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['от 1 до 3 клас', 'от 1 до 4 клас', 'от 3 до 7 клас', 'от 4 до 7 клас'],
         answer: 'от 1 до 3 клас'
       },
+      {
+        question: 'През коя година БНТ излъчва първото цветно предаване?',
+        options: ['1970', '1971', '1972', '1973'],
+        answer: '1972'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
