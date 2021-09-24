@@ -261,6 +261,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1970', '1971', '1972', '1973'],
         answer: '1972'
       },
+      {
+        question: 'Какво е официалното име на Паметникът на Бузлуджа?',
+        options: ['Конгресен център на БКП', 'Дом паметник на БКП', 'Партиен дом на БКП', 'Мемориал на БКП'],
+        answer: 'Дом паметник на БКП'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
