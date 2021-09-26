@@ -272,9 +272,9 @@ export class QuestionComponent implements OnInit, DoCheck {
         answer: 'от 1949 до 1953 година'
       },
       {
-        question: 'Първата петилетка обхваща времето от?',
-        options: ['от 1945 до 1949 година', 'от 1946 до 1950 година', 'от 1949 до 1953 година', 'от 1950 до 1954 година'],
-        answer: 'от 1949 до 1953 година'
+        question: 'През кой месец обичайно се провеждат ленинските съботници?',
+        options: ['април', 'май', 'септември', 'октомври'],
+        answer: 'април'
       },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
