@@ -276,6 +276,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['април', 'май', 'септември', 'октомври'],
         answer: 'април'
       },
+      {
+        question: 'Какво се помещава днес в някогашния Дом № 1 на правителствената резиденция?',
+        options: ['БФС', 'НИМ', 'БНР', 'БТА'],
+        answer: 'април'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
