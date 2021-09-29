@@ -279,7 +279,7 @@ export class QuestionComponent implements OnInit, DoCheck {
       {
         question: 'Какво се помещава днес в някогашния Дом № 1 на правителствената резиденция?',
         options: ['БФС', 'НИМ', 'БНР', 'БТА'],
-        answer: 'април'
+        answer: 'НИМ'
       },
       {
         question: 'Как се казва паметника, издигнат през 1981 г. в близост до НДК?',
