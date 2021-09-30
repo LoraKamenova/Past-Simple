@@ -286,6 +286,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Велика България', '13 века България', '1300 години България', 'Съединението прави силата'],
         answer: '1300 години България'
       },
+      // {
+      //   question: 'Как се казва паметника, издигнат през 1981 г. в близост до НДК?',
+      //   options: ['Велика България', '13 века България', '1300 години България', 'Съединението прави силата'],
+      //   answer: '1300 години България'
+      // },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
