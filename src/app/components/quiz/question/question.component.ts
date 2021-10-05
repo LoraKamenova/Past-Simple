@@ -286,6 +286,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Велика България', '13 века България', '1300 години България', 'Съединението прави силата'],
         answer: '1300 години България'
       },
+      {
+        question: 'През коя година е първият брой на предаването "Бразди", което продължава да се излъчва до днес?',
+        options: ['1953', '1963', '1973', '1983'],
+        answer: '1963'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
