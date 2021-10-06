@@ -291,6 +291,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1953', '1963', '1973', '1983'],
         answer: '1963'
       },
+      {
+        question: 'Кой от следните детски филми не е български?',
+        options: ['Васко да Гама от село Рупча', 'Войната на таралежите', 'Синьо лято', 'Таралежите се раждат без бодли'],
+        answer: 'Синьо лято'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
