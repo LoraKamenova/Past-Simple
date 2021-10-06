@@ -296,6 +296,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Васко да Гама от село Рупча', 'Войната на таралежите', 'Синьо лято', 'Таралежите се раждат без бодли'],
         answer: 'Синьо лято'
       },
+      {
+        question: 'От кой филм е героят Митко – Миташки?',
+        options: ['Рицар без броня', 'Войната на таралежите', 'Куче в чекмедже', 'Таралежите се раждат без бодли'],
+        answer: 'Куче в чекмедже'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
