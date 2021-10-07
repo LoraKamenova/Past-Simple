@@ -301,6 +301,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Рицар без броня', 'Войната на таралежите', 'Куче в чекмедже', 'Таралежите се раждат без бодли'],
         answer: 'Куче в чекмедже'
       },
+      {
+        question: 'До кой град се намира архитектурния комплект „Създателите на българската държава“, открит през 1981 г.?',
+        options: ['Стара Загора', 'Велико Търново', 'Шумен', 'Русе'],
+        answer: 'Шумен'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
