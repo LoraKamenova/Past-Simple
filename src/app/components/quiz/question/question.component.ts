@@ -311,6 +311,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Алебна', 'Слънчев бряг', 'Китен', 'Приморско'],
         answer: 'Приморско'
       },
+      {
+        question: 'Кой град е носил името Толбухин в периода 1949 – 1990?',
+        options: ['Добрич', 'Шумен', 'Разград', 'Тутракан'],
+        answer: 'Добрич'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
