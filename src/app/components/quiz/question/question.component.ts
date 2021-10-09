@@ -306,6 +306,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Стара Загора', 'Велико Търново', 'Шумен', 'Русе'],
         answer: 'Шумен'
       },
+      {
+        question: 'В близост до кой курорт се е намира някогашната лятна резиденция на Тодор Живков "Перла"?',
+        options: ['Алебна', 'Слънчев бряг', 'Китен', 'Приморско'],
+        answer: 'Приморско'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
