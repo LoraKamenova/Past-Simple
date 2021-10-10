@@ -316,6 +316,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Добрич', 'Шумен', 'Разград', 'Тутракан'],
         answer: 'Добрич'
       },
+      {
+        question: 'Кое е родното място на Тодор Живков?',
+        options: ['София', 'Правец', 'Ботевград', 'Нови Искър'],
+        answer: 'Правец'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
