@@ -321,6 +321,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['София', 'Правец', 'Ботевград', 'Нови Искър'],
         answer: 'Правец'
       },
+      {
+        question: 'Кой връх е носил името "Сталин" в периода от 1949 г. до 1962 г.?',
+        options: ['Ботев', 'Мусала', 'Черни връх', 'Вихрен'],
+        answer: 'Мусала'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
