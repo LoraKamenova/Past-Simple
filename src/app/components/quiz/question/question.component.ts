@@ -327,9 +327,9 @@ export class QuestionComponent implements OnInit, DoCheck {
         answer: 'Мусала'
       },
       {
-        question: 'На колко банктноти е бил изобразен Георги Димитров?',
-        options: ['2', '3', '4', '5'],
-        answer: '2'
+        question: 'През коя година е открита АЕЦ „Козлодуй“?',
+        options: ['1972', '1973', '1974', '1975'],
+        answer: '1974'
       },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
