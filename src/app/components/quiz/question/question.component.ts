@@ -331,6 +331,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1972', '1973', '1974', '1975'],
         answer: '1974'
       },
+      {
+        question: 'През коя година започва строителството на ж.к. Люлин в София?',
+        options: ['1972', '1973', '1974', '1975'],
+        answer: '1973'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
