@@ -336,6 +336,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1972', '1973', '1974', '1975'],
         answer: '1973'
       },
+      {
+        question: 'На кой комунистически активист е кръстен Михайловград?',
+        options: ['Христо Михайлов', 'Иван Михайлов', 'Георги Михайлов', 'Стефан Михайлов'],
+        answer: 'Христо Михайлов'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
