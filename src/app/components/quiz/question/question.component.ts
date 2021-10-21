@@ -341,6 +341,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Христо Михайлов', 'Иван Михайлов', 'Георги Михайлов', 'Стефан Михайлов'],
         answer: 'Христо Михайлов'
       },
+      {
+        question: 'Как е известна конституцията от 1947 г.?',
+        options: ['Сталинска конституция', 'Димитровска конституция', 'Живкова конституция', 'Ленинска конституция'],
+        answer: 'Димитровска конституция'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
