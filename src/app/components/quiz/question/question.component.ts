@@ -346,6 +346,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Сталинска конституция', 'Димитровска конституция', 'Живкова конституция', 'Ленинска конституция'],
         answer: 'Димитровска конституция'
       },
+      {
+        question: 'През коя година е основан "Кремиковци"?',
+        options: ['1960', '1961', '1962', '1963'],
+        answer: '1963'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
