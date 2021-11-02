@@ -351,6 +351,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1960', '1961', '1962', '1963'],
         answer: '1963'
       },
+      {
+        question: 'Коя салата е измислена от Балкантурист?',
+        options: ['Цезар', 'Шопска', 'Оливие', 'Табуле'],
+        answer: 'Шопска'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
