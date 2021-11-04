@@ -356,6 +356,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['Цезар', 'Шопска', 'Оливие', 'Табуле'],
         answer: 'Шопска'
       },
+      {
+        question: 'От коя година Първа програма на Българското радио носи името „Хоризонт“?',
+        options: ['1971', '1972', '1973', '1974'],
+        answer: '1971'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
