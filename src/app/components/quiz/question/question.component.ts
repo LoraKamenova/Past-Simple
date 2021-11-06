@@ -361,6 +361,11 @@ export class QuestionComponent implements OnInit, DoCheck {
         options: ['1971', '1972', '1973', '1974'],
         answer: '1971'
       },
+      {
+        question: 'От 1972 до 1982 година Иван Славков е генерален директор на:',
+        options: ['БТА', 'БНР', 'БНТ', 'НДК'],
+        answer: 'БНТ'
+      },
     ].sort(() => Math.random() - Math.random()).slice(0, 10);
     this.totalQuestions.emit(this.questions.length);
   }
